@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
 #include "VRPlayer.generated.h"
+#include "Classes/Camera/CameraComponent.h"
 
 UCLASS()
 class VISIONRESONARE_API AVRPlayer : public APawn
@@ -23,6 +24,9 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Player")
 		bool HandleCollision(USceneComponent* OtherComp);
+
+	UFUNCTION(BlueprintCallable, Category = "Player")
+		UCameraComponent* Camera;
 
 
 protected:

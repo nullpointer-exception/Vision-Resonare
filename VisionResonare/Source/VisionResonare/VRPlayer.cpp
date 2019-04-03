@@ -18,6 +18,9 @@ AVRPlayer::AVRPlayer()
 
 	RightHand = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Right Hand"));
 	RightHand->SetupAttachment(RootComponent);
+
+	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
+	Camera->SetupAttachment(RootComponent);
 }
 
 bool AVRPlayer::HandleCollision(USceneComponent * OtherComp)
