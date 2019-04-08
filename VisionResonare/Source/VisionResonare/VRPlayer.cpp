@@ -43,6 +43,14 @@ bool AVRPlayer::HandleCollision(USceneComponent * OtherComp)
 	}
 }
 
+void AVRPlayer::OnOverlapBegin(AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
+{
+}
+
+void AVRPlayer::OnOverlapEnd(AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex)
+{
+}
+
 // Called when the game starts or when spawned
 void AVRPlayer::BeginPlay()
 {
