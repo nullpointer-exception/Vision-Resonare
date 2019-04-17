@@ -6,6 +6,7 @@
 #include "GameFramework/Pawn.h"
 #include "VRPlayer.generated.h"
 #include "Classes/Camera/CameraComponent.h"
+#include "Classes/Engine/Canvas.h"
 
 UCLASS()
 class VISIONRESONARE_API AVRPlayer : public APawn
@@ -22,11 +23,17 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Player")
 		UStaticMeshComponent* RightHand;
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Player")
+		UStaticMeshComponent* Boddy;
+
 	UFUNCTION(BlueprintCallable, Category = "Player")
 		bool HandleCollision(USceneComponent* OtherComp);
 
 	UFUNCTION(BlueprintCallable, Category = "Player")
 		UCameraComponent* Camera;
+
+	UFUNCTION(BlueprintCallable, Category = "Player")
+		UCanvas* Canvas;
 
 protected:
 	// Called when the game starts or when spawned
@@ -38,5 +45,12 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+	bool PlayerDead = false;
+
+	inline void TakeDamage(int _damage);
+
+private:
+	int m_health = 100;
 
 };

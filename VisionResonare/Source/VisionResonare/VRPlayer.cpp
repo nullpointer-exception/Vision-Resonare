@@ -19,6 +19,9 @@ AVRPlayer::AVRPlayer()
 	RightHand = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Right Hand"));
 	RightHand->SetupAttachment(RootComponent);
 
+	Boddy = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Boddy"));
+	Boddy->SetupAttachment(RootComponent);
+
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	Camera->SetupAttachment(RootComponent);
 }
@@ -48,6 +51,17 @@ void AVRPlayer::BeginPlay()
 {
 	Super::BeginPlay();
 	
+}
+
+inline void AVRPlayer::TakeDamage(int _damage)
+{
+	m_health -= _damage;
+
+	if (m_health < 0)
+		m_health = 0;
+	
+	if (m_health == 0)
+		PlayerDead = true;
 }
 
 // Called every frame
