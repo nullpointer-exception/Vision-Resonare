@@ -4,9 +4,10 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
-#include "VRPlayer.generated.h"
 #include "Classes/Camera/CameraComponent.h"
 #include "Classes/Engine/Canvas.h"
+#include "Classes/GameFramework/PlayerController.h"
+#include "VRPlayer.generated.h"
 
 UCLASS()
 class VISIONRESONARE_API AVRPlayer : public APawn
@@ -29,11 +30,27 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Player")
 		bool HandleCollision(USceneComponent* OtherComp);
 
-	UFUNCTION(BlueprintCallable, Category = "Player")
-		UCameraComponent* Camera;
 
-	UFUNCTION(BlueprintCallable, Category = "Player")
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player")
+		UCameraComponent* Camera_Normal;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player")
+		UCameraComponent* Camera_Bat;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player")
+		UCameraComponent* Camera_Blind;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Player")
 		UCanvas* Canvas;
+
+
+	void ClientPlaySoundAtLocation
+	(
+		class USoundBase * Sound,
+		FVector Location,
+		float VolumeMultiplier,
+		float PitchMultiplier
+	);
 
 protected:
 	// Called when the game starts or when spawned
