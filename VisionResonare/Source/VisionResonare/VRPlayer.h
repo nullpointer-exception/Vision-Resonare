@@ -7,6 +7,7 @@
 #include "Classes/Camera/CameraComponent.h"
 #include "Classes/Engine/Canvas.h"
 #include "Classes/GameFramework/PlayerController.h"
+#include "Classes/Components/CapsuleComponent.h"
 #include "VRPlayer.generated.h"
 
 UCLASS()
@@ -24,26 +25,21 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Player")
 		UStaticMeshComponent* RightHand;
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Player")
-		UStaticMeshComponent* Boddy;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player")
+		UCapsuleComponent* Boddy;
 
 	UFUNCTION(BlueprintCallable, Category = "Player")
 		bool HandleCollision(USceneComponent* OtherComp);
 
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player")
-		UCameraComponent* Camera_Normal;
-
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player")
-		UCameraComponent* Camera_Bat;
-
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player")
-		UCameraComponent* Camera_Blind;
+		UCameraComponent* Camera;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Player")
 		UCanvas* Canvas;
 
 
+	UFUNCTION(BlueprintCallable, Category = "Player")
 	void ClientPlaySoundAtLocation
 	(
 		class USoundBase * Sound,

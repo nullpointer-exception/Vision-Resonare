@@ -19,17 +19,11 @@ AVRPlayer::AVRPlayer()
 	RightHand = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Right Hand"));
 	RightHand->SetupAttachment(RootComponent);
 
-	Boddy = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Boddy"));
+	Boddy = CreateDefaultSubobject<UCapsuleComponent>(TEXT("Boddy"));
 	Boddy->SetupAttachment(RootComponent);
 
-	Camera_Normal = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera Normal"));
-	Camera_Normal->SetupAttachment(RootComponent);
-
-	Camera_Bat = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera Bat"));
-	Camera_Bat->SetupAttachment(RootComponent);
-
-	Camera_Blind = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera Blind"));
-	Camera_Blind->SetupAttachment(RootComponent);
+	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
+	Camera->SetupAttachment(RootComponent);
 }
 
 bool AVRPlayer::HandleCollision(USceneComponent * OtherComp)
@@ -50,6 +44,10 @@ bool AVRPlayer::HandleCollision(USceneComponent * OtherComp)
 	{
 		return false;
 	}
+}
+
+void AVRPlayer::ClientPlaySoundAtLocation(USoundBase * Sound, FVector Location, float VolumeMultiplier, float PitchMultiplier)
+{
 }
 
 // Called when the game starts or when spawned
