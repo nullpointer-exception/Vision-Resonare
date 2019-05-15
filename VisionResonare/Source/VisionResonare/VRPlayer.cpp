@@ -2,8 +2,6 @@
 
 #include "VRPlayer.h"
 #include "Classes/Components/StaticMeshComponent.h"
-#include "GameFramework/Pawn.h"
-#include "GameFramework/PlayerController.h"
 
 // Sets default values
 AVRPlayer::AVRPlayer()
@@ -51,19 +49,6 @@ bool AVRPlayer::HandleCollision(USceneComponent * OtherComp)
 void AVRPlayer::ClientPlaySoundAtLocation(USoundBase * Sound, FVector Location, float VolumeMultiplier, float PitchMultiplier)
 {
 }
-
-//void AVRPlayer::ActorBeginOverlap(AActor * OverlappedActor, AActor * OtherACtor)
-//{
-//	APawn* Pawn = Cast<APawn>(GetAttachParentActor);
-//	if (Pawn == nullptr)
-//	{
-//		APlayerController* Controller = Cast<APlayerController>(Pawn->GetController());
-//		if (Controller != nullptr)
-//		{
-//			Controller->PlayHapticEffect(HapticEffect, MotionController)
-//		}
-//	}
-//}
 
 // Called when the game starts or when spawned
 void AVRPlayer::BeginPlay()

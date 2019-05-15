@@ -7,9 +7,7 @@
 #include "Classes/Camera/CameraComponent.h"
 #include "Classes/Engine/Canvas.h"
 #include "Classes/GameFramework/PlayerController.h"
-#include "Classes/GameFramework/Actor.h"
 #include "Classes/Components/CapsuleComponent.h"
-#include "HeadMountedDisplay/Public/MotionControllerComponent.h"
 #include "VRPlayer.generated.h"
 
 UCLASS()
@@ -40,24 +38,15 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Player")
 		UCanvas* Canvas;
 
-	UPROPERTY(VisibleAnywhere)
-		UMotionControllerComponent* MotionController;
-
-	UPROPERTY(EditDefaultsOnly)
-		class UHapticFeedbackEffect_Base* HapticEffect;
-
 
 	UFUNCTION(BlueprintCallable, Category = "Player")
-		void ClientPlaySoundAtLocation
-		(
-			class USoundBase * Sound,
-			FVector Location,
-			float VolumeMultiplier,
-			float PitchMultiplier
-		);
-
-	UFUNCTION(BlueprintCallable, Category = "Player")
-		void ActorBeginOverlap(AActor* OverlappedActor, AActor* OtherACtor);
+	void ClientPlaySoundAtLocation
+	(
+		class USoundBase * Sound,
+		FVector Location,
+		float VolumeMultiplier,
+		float PitchMultiplier
+	);
 
 protected:
 	// Called when the game starts or when spawned
