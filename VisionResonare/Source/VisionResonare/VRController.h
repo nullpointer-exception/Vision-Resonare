@@ -31,7 +31,7 @@ public:
 
 public:
 	//Components
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player")
 		UMotionControllerComponent* RightController;
 
 	UFUNCTION(BlueprintCallable, Category = "Player")
