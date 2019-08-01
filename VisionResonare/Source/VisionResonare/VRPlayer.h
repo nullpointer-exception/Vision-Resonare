@@ -10,7 +10,7 @@
 #include "Components/CapsuleComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "Public/MotionControllerComponent.h"
-#include "VisionResonare/VRController.h"
+#include "VisionResonare/RightController.h"
 #include "VisionResonare/LeftController.h"
 #include "VRPlayer.generated.h"
 
@@ -62,7 +62,7 @@ public:
 
 	//Config
 	UPROPERTY(EditDefaultsOnly)
-		TSubclassOf<AVRController> RightControllerClass;
+		TSubclassOf<ARightController> RightControllerClass;
 
 	UPROPERTY(EditDefaultsOnly)
 		TSubclassOf<ALeftController> LeftControllerClass;
@@ -76,7 +76,7 @@ public:
 
 	//Referces
 	UPROPERTY()
-		AVRController* RightController;
+		ARightController* RightController;
 
 	UPROPERTY()
 		ALeftController* LeftController;

@@ -3,7 +3,7 @@
 #include "VRPlayer.h"
 #include "GameFramework/Pawn.h"
 #include "Engine/World.h"
-#include "VisionResonare/Saving/VisionSaveGame.h"
+#include "VisionResonare/Saving/VRSaveGame.h"
 
 // Sets default values
 AVRPlayer::AVRPlayer()
@@ -58,7 +58,7 @@ void AVRPlayer::BeginPlay()
 
 	if (RightControllerClass)
 	{
-		RightController = GetWorld()->SpawnActor< AVRController>(RightControllerClass);
+		RightController = GetWorld()->SpawnActor< ARightController>(RightControllerClass);
 		RightController->AttachToComponent(GetRootComponent(), FAttachmentTransformRules::KeepRelativeTransform);
 	}
 	if (LeftControllerClass)
@@ -78,12 +78,12 @@ void AVRPlayer::SetupPlayerInputComponent(UInputComponent * PlayerInputComponent
 
 void AVRPlayer::Save()
 {
-	UVisionSaveGame* Vision = UVisionSaveGame::Create();
+	UVRSaveGame* Vision = UVRSaveGame::Create();
 	Vision->SetState(" ");
 	Vision->Save();
 }
 
 void AVRPlayer::Load()
 {
-	UVisionSaveGame* Vision = UVisionSaveGame::Load();
+	UVRSaveGame* Vision = UVRSaveGame::Load();
 }
