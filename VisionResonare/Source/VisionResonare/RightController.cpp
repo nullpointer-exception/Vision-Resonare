@@ -21,14 +21,12 @@ ARightController::ARightController()
 void ARightController::BeginPlay()
 {
 	Super::BeginPlay();
-
 }
 
 // Called every frame
 void ARightController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
 void ARightController::ActorBeginOverlap(AActor * OverlappedActor, AActor * OtherActor)

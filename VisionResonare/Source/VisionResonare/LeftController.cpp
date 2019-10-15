@@ -2,6 +2,8 @@
 
 #include "LeftController.h"
 #include "GameFramework/Pawn.h"
+#include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
+
 #include "GameFramework/PlayerController.h"
 
 // Sets default values
@@ -12,7 +14,7 @@ ALeftController::ALeftController()
 
 	LeftController = CreateDefaultSubobject<UMotionControllerComponent>(TEXT("Left Controller"));
 	SetRootComponent(LeftController);
-	LeftController->SetTrackingSource(EControllerHand::Left);
+	LeftController->MotionSource = FXRMotionControllerBase::RightHandSourceId;
 	LeftController->SetShowDeviceModel(true);
 }
 
@@ -20,14 +22,12 @@ ALeftController::ALeftController()
 void ALeftController::BeginPlay()
 {
 	Super::BeginPlay();
-
 }
 
 // Called every frame
 void ALeftController::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
 void ALeftController::ActorBeginOverlap(AActor * OverlappedActor, AActor * OtherActor)

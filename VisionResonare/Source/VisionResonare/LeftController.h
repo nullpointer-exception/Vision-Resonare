@@ -19,7 +19,7 @@ public:
 	// Sets default values for this actor's properties
 	ALeftController();
 
-	void SetHand(EControllerHand Hand) { LeftController->Hand_DEPRECATED = Hand; }
+	void SetHand() { LeftController->MotionSource; }
 
 protected:
 	// Called when the game starts or when spawned

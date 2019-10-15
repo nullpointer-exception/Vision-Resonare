@@ -16,40 +16,7 @@ AVRPlayer::AVRPlayer()
 
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	Camera->SetupAttachment(VRRoot);
-
-	//LeftHand = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Left Hand"));
-	//LeftHand->SetupAttachment(VRRoot);
-	//
-	//RightHand = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Right Hand"));
-	//RightHand->SetupAttachment(VRRoot);
-	//
-	//Boddy = CreateDefaultSubobject<UCapsuleComponent>(TEXT("Boddy"));
-	//Boddy->SetupAttachment(VRRoot);
 }
-
-//bool AVRPlayer::HandleCollision(USceneComponent * OtherComp)
-//{
-//	if (OtherComp)
-//	{
-//		if (OtherComp != LeftHand && OtherComp != RightHand)
-//		{
-//			OtherComp->DestroyComponent();
-//			return true;
-//		}
-//		else
-//		{
-//			return false;
-//		}
-//	}
-//	else
-//	{
-//		return false;
-//	}
-//}
-
-//void AVRPlayer::ClientPlaySoundAtLocation(USoundBase * Sound, FVector Location, float VolumeMultiplier, float PitchMultiplier)
-//{
-//}
 
 // Called when the game starts or when spawned
 void AVRPlayer::BeginPlay()
