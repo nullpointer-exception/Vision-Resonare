@@ -15,11 +15,15 @@ class VISIONRESONARE_API ARightController : public AActor
 {
 	GENERATED_BODY()
 
+	//Motion controller
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
+		class UMotionControllerComponent* RightController;
+
 public:
 	// Sets default values for this actor's properties
 	ARightController();
 
-	void SetHand(EControllerHand Hand) { RightController->Hand_DEPRECATED = Hand; }
+	void SetHand() { RightController->MotionSource; }
 
 protected:
 	// Called when the game starts or when spawned
@@ -31,8 +35,8 @@ public:
 
 public:
 	//Components
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player")
-		UMotionControllerComponent* RightController;
+	//UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player")
+	//	UMotionControllerComponent* RightController;
 
 	UFUNCTION(BlueprintCallable, Category = "Player")
 		void ActorBeginOverlap(AActor* OverlappedActor, AActor* OtherActor);

@@ -23,38 +23,13 @@ public:
 	// Sets default values for this pawn's properties
 	AVRPlayer();
 
-	//UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Player")
-	//	UStaticMeshComponent* LeftHand;
-	//
-	//UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Player")
-	//	UStaticMeshComponent* RightHand;
-
-	//UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player")
-	//	UCapsuleComponent* Boddy;
-	//
-	//UFUNCTION(BlueprintCallable, Category = "Player")
-	//	bool HandleCollision(USceneComponent* OtherComp);
-
-
-
-	//UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Player")
-	//	UCanvas* Canvas;
-	//
-	//
-	//UFUNCTION(BlueprintCallable, Category = "Player")
-	//	void ClientPlaySoundAtLocation
-	//	(
-	//		class USoundBase * Sound,
-	//		FVector Location,
-	//		float VolumeMultiplier,
-	//		float PitchMultiplier
-	//	);
-
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent);
+	void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override;
+
+	//void OnResetVR();
 
 public:
 	void Save();
@@ -80,4 +55,7 @@ public:
 
 	UPROPERTY()
 		ALeftController* LeftController;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+		uint32 bUsingMotionControlers : 1;
 };

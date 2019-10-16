@@ -1,0 +1,39 @@
+To-Do-List
+
+Artists
+	Environment:
+    		• Karren
+    		• Eingangshalle
+    		• Banner
+    		• Kronleuchter
+    		• Gemälde
+
+	Character:
+    		• Fledermaus
+		• Werewolf
+
+Progger
+    • UX/Tutorial
+    • UI/Fledermaus
+      → erste Kommandos(Leben/Gegnerposition)
+      → erste Interaktion(Lebensabfrage/Pause/Spiel beenden)
+    • Gehen
+    • KI
+      → Objektinteraktion
+    • Levelübergang/Übergang Tutorial Level 1
+
+Audios
+    • Türen(öffnen/schließen)
+    • Fallgitter(öffnen/schließen)
+    • Schlosstore(öffnen/schließen)
+    • Schritte
+    • Fackeln(statisch/Bewegung)
+    • Kisten(Zerbersten)
+
+    • Werewolf
+      → Angriff
+      → Treffer
+      → Tod
+    • Schwerter
+      → Schlag in die Luft
+      → Schlag Treffer

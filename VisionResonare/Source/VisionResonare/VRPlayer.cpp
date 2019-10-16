@@ -3,6 +3,7 @@
 #include "VRPlayer.h"
 #include "GameFramework/Pawn.h"
 #include "Engine/World.h"
+#include "HeadMountedDisplayFunctionLibrary.h"
 #include "VisionResonare/Saving/VRSaveGame.h"
 
 // Sets default values
@@ -16,40 +17,7 @@ AVRPlayer::AVRPlayer()
 
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	Camera->SetupAttachment(VRRoot);
-
-	//LeftHand = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Left Hand"));
-	//LeftHand->SetupAttachment(VRRoot);
-	//
-	//RightHand = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Right Hand"));
-	//RightHand->SetupAttachment(VRRoot);
-	//
-	//Boddy = CreateDefaultSubobject<UCapsuleComponent>(TEXT("Boddy"));
-	//Boddy->SetupAttachment(VRRoot);
 }
-
-//bool AVRPlayer::HandleCollision(USceneComponent * OtherComp)
-//{
-//	if (OtherComp)
-//	{
-//		if (OtherComp != LeftHand && OtherComp != RightHand)
-//		{
-//			OtherComp->DestroyComponent();
-//			return true;
-//		}
-//		else
-//		{
-//			return false;
-//		}
-//	}
-//	else
-//	{
-//		return false;
-//	}
-//}
-
-//void AVRPlayer::ClientPlaySoundAtLocation(USoundBase * Sound, FVector Location, float VolumeMultiplier, float PitchMultiplier)
-//{
-//}
 
 // Called when the game starts or when spawned
 void AVRPlayer::BeginPlay()
@@ -68,13 +36,20 @@ void AVRPlayer::BeginPlay()
 	}
 }
 
-void AVRPlayer::SetupPlayerInputComponent(UInputComponent * PlayerInputComponent)
+void AVRPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+
+	//PlayerInputComponent->BindAxis(TEXT("ResetVR"), EInputEvent::IE_Pressed, this, &AVRPlayer::OnResetVR);
 
 	PlayerInputComponent->BindAction(TEXT("Save"), EInputEvent::IE_Released, this, &AVRPlayer::Save);
 	PlayerInputComponent->BindAction(TEXT("Load"), EInputEvent::IE_Released, this, &AVRPlayer::Load);
 }
+/*
+void AVRPlayer::OnResetVR()
+{
+	UHeadMountedDisplayFunctionLibrary::ResetOrientationAndPosition();
+}*/
 
 void AVRPlayer::Save()
 {
