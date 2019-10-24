@@ -18,6 +18,9 @@ class VISIONRESONARE_API ALeftController : public AActor
 public:
 	// Sets default values for this actor's properties
 	ALeftController();
+	//Motion controller
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
+		class UMotionControllerComponent* LeftController;
 
 	void SetHand() { LeftController->MotionSource; }
 
@@ -31,8 +34,8 @@ public:
 
 public:
 	//Components
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player")
-		UMotionControllerComponent* LeftController;
+	//UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player")
+	//	UMotionControllerComponent* LeftController;
 
 	UFUNCTION(BlueprintCallable, Category = "Player")
 		void ActorBeginOverlap(AActor* OverlappedActor, AActor* OtherActor);

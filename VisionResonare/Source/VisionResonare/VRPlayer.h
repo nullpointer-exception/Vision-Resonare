@@ -27,7 +27,9 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent);
+	void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override;
+
+	//void OnResetVR();
 
 public:
 	void Save();
@@ -53,4 +55,10 @@ public:
 
 	UPROPERTY()
 		ALeftController* LeftController;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+		uint32 bUsingMotionControllers : 1;
+
+	UMotionControllerComponent* R_MotionController;
+	UMotionControllerComponent* L_MotionController;
 };

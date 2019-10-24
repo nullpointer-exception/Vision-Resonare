@@ -2,6 +2,7 @@
 
 #include "RightController.h"
 #include "GameFramework/Pawn.h"
+#include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
 #include "GameFramework/PlayerController.h"
 
 // Sets default values
@@ -11,10 +12,10 @@ ARightController::ARightController()
 	PrimaryActorTick.bCanEverTick = true;
 
 	RightController = CreateDefaultSubobject<UMotionControllerComponent>(TEXT("Right Controller"));
+	RightController->MotionSource = FXRMotionControllerBase::RightHandSourceId;
 	SetRootComponent(RightController);
-	RightController->SetTrackingSource(EControllerHand::Right);
-	RightController->SetShowDeviceModel(true);
 	RightController->Hand_DEPRECATED = EControllerHand::Right;
+	RightController->SetShowDeviceModel(true);
 }
 
 // Called when the game starts or when spawned

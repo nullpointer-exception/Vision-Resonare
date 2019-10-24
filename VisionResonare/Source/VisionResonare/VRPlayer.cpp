@@ -3,7 +3,9 @@
 #include "VRPlayer.h"
 #include "GameFramework/Pawn.h"
 #include "Engine/World.h"
+#include "HeadMountedDisplayFunctionLibrary.h"
 #include "VisionResonare/Saving/VRSaveGame.h"
+#include "XRMotionControllerBase.h" 
 
 // Sets default values
 AVRPlayer::AVRPlayer()
@@ -16,6 +18,9 @@ AVRPlayer::AVRPlayer()
 
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	Camera->SetupAttachment(VRRoot);
+
+	bUsingMotionControllers = true;
+	
 }
 
 // Called when the game starts or when spawned
@@ -23,25 +28,41 @@ void AVRPlayer::BeginPlay()
 {
 	Super::BeginPlay();
 
+	// DO NOT TOUCH
+	// INCREASE THIS COUNTER IF YOU TRIED AND FAILED
+	// INSANITY COUNTER = 1
 	if (RightControllerClass)
 	{
-		RightController = GetWorld()->SpawnActor< ARightController>(RightControllerClass);
+		RightController = GetWorld()->SpawnActor<ARightController>(RightControllerClass);
+		RightController->RightController->MotionSource = FXRMotionControllerBase::RightHandSourceId;
+		//RightController->RightController->Hand_DEPRECATED = EControllerHand::Right;
+		RightController->SetOwner(this);
 		RightController->AttachToComponent(GetRootComponent(), FAttachmentTransformRules::KeepRelativeTransform);
 	}
 	if (LeftControllerClass)
 	{
-		LeftController = GetWorld()->SpawnActor< ALeftController>(LeftControllerClass);
+		LeftController = GetWorld()->SpawnActor<ALeftController>(LeftControllerClass);
+		LeftController->LeftController->MotionSource = FXRMotionControllerBase::LeftHandSourceId;
+		//LeftController->LeftController->Hand_DEPRECATED = EControllerHand::Left;
+		LeftController->SetOwner(this);
 		LeftController->AttachToComponent(GetRootComponent(), FAttachmentTransformRules::KeepRelativeTransform);
 	}
 }
 
-void AVRPlayer::SetupPlayerInputComponent(UInputComponent * PlayerInputComponent)
+void AVRPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+
+	//PlayerInputComponent->BindAxis(TEXT("ResetVR"), EInputEvent::IE_Pressed, this, &AVRPlayer::OnResetVR);
 
 	PlayerInputComponent->BindAction(TEXT("Save"), EInputEvent::IE_Released, this, &AVRPlayer::Save);
 	PlayerInputComponent->BindAction(TEXT("Load"), EInputEvent::IE_Released, this, &AVRPlayer::Load);
 }
+/*
+void AVRPlayer::OnResetVR()
+{
+	UHeadMountedDisplayFunctionLibrary::ResetOrientationAndPosition();
+}*/
 
 void AVRPlayer::Save()
 {

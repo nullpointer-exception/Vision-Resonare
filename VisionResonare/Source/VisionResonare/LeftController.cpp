@@ -3,7 +3,6 @@
 #include "LeftController.h"
 #include "GameFramework/Pawn.h"
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
-
 #include "GameFramework/PlayerController.h"
 
 // Sets default values
@@ -13,8 +12,9 @@ ALeftController::ALeftController()
 	PrimaryActorTick.bCanEverTick = true;
 
 	LeftController = CreateDefaultSubobject<UMotionControllerComponent>(TEXT("Left Controller"));
+	LeftController->MotionSource = FXRMotionControllerBase::LeftHandSourceId;
 	SetRootComponent(LeftController);
-	LeftController->MotionSource = FXRMotionControllerBase::RightHandSourceId;
+	LeftController->Hand_DEPRECATED = EControllerHand::Left;
 	LeftController->SetShowDeviceModel(true);
 }
 
@@ -30,7 +30,7 @@ void ALeftController::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 }
 
-void ALeftController::ActorBeginOverlap(AActor * OverlappedActor, AActor * OtherActor)
+void ALeftController::ActorBeginOverlap(AActor* OverlappedActor, AActor* OtherActor)
 {
 	APawn* Pawn = Cast<APawn>(GetAttachParentActor());
 	if (Pawn != nullptr)
@@ -43,6 +43,6 @@ void ALeftController::ActorBeginOverlap(AActor * OverlappedActor, AActor * Other
 	}
 }
 
-void ALeftController::ActorEndOverlap(AActor * OverlappedActor, AActor * OtherActor)
+void ALeftController::ActorEndOverlap(AActor* OverlappedActor, AActor* OtherActor)
 {
 }
