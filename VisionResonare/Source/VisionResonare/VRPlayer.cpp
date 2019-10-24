@@ -18,9 +18,12 @@ AVRPlayer::AVRPlayer()
 
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	Camera->SetupAttachment(VRRoot);
+<<<<<<< HEAD
 
 	bUsingMotionControllers = true;
 	
+=======
+>>>>>>> origin/Player
 }
 
 // Called when the game starts or when spawned

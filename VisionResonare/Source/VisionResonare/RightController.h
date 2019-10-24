@@ -15,6 +15,10 @@ class VISIONRESONARE_API ARightController : public AActor
 {
 	GENERATED_BODY()
 
+	//Motion controller
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
+		class UMotionControllerComponent* RightController;
+
 public:
 	// Sets default values for this actor's properties
 	ARightController();

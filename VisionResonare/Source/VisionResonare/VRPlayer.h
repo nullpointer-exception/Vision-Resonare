@@ -57,8 +57,12 @@ public:
 		ALeftController* LeftController;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+<<<<<<< HEAD
 		uint32 bUsingMotionControllers : 1;
 
 	UMotionControllerComponent* R_MotionController;
 	UMotionControllerComponent* L_MotionController;
+=======
+		uint32 bUsingMotionControlers : 1;
+>>>>>>> origin/Player
 };
