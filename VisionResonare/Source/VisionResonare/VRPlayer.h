@@ -44,25 +44,24 @@ public:
 
 	//Components
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player")
+		UCapsuleComponent* Boddy;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player")
 		USceneComponent* VRRoot;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player")
 		UCameraComponent* Camera;
 
 	//Referces
-	UPROPERTY()
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player")
 		ARightController* RightController;
 
-	UPROPERTY()
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player")
 		ALeftController* LeftController;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
-<<<<<<< HEAD
 		uint32 bUsingMotionControllers : 1;
 
 	UMotionControllerComponent* R_MotionController;
 	UMotionControllerComponent* L_MotionController;
-=======
-		uint32 bUsingMotionControlers : 1;
->>>>>>> origin/Player
 };

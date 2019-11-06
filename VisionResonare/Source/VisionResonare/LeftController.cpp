@@ -12,14 +12,9 @@ ALeftController::ALeftController()
 	PrimaryActorTick.bCanEverTick = true;
 
 	LeftController = CreateDefaultSubobject<UMotionControllerComponent>(TEXT("Left Controller"));
-<<<<<<< HEAD
 	LeftController->MotionSource = FXRMotionControllerBase::LeftHandSourceId;
 	SetRootComponent(LeftController);
 	LeftController->Hand_DEPRECATED = EControllerHand::Left;
-=======
-	//LeftController->MotionSource = FXRMotionControllerBase::LeftHandSourceId;
-	SetRootComponent(LeftController);
->>>>>>> origin/Player
 	LeftController->SetShowDeviceModel(true);
 }
 

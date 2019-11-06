@@ -14,10 +14,7 @@ ARightController::ARightController()
 	RightController = CreateDefaultSubobject<UMotionControllerComponent>(TEXT("Right Controller"));
 	RightController->MotionSource = FXRMotionControllerBase::RightHandSourceId;
 	SetRootComponent(RightController);
-<<<<<<< HEAD
 	RightController->Hand_DEPRECATED = EControllerHand::Right;
-=======
->>>>>>> origin/Player
 	RightController->SetShowDeviceModel(true);
 }
 

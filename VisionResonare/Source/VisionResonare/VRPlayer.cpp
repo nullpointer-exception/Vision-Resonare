@@ -13,17 +13,17 @@ AVRPlayer::AVRPlayer()
 	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = false;
 
+	Boddy = CreateDefaultSubobject<UCapsuleComponent>(TEXT("Boddy"));
+	SetRootComponent(Boddy);
+
 	VRRoot = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
-	SetRootComponent(VRRoot);
+	SetRootComponent(Boddy);
 
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	Camera->SetupAttachment(VRRoot);
-<<<<<<< HEAD
 
 	bUsingMotionControllers = true;
 	
-=======
->>>>>>> origin/Player
 }
 
 // Called when the game starts or when spawned
