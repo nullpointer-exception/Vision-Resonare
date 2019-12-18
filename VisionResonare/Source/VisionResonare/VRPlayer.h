@@ -43,8 +43,8 @@ public:
 		TSubclassOf<ALeftController> LeftControllerClass;
 
 	//Components
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player")
-		UCapsuleComponent* Boddy;
+	//UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player")
+	//	UCapsuleComponent* Boddy;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player")
 		USceneComponent* VRRoot;

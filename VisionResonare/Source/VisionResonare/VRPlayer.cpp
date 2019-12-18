@@ -13,11 +13,11 @@ AVRPlayer::AVRPlayer()
 	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = false;
 
-	Boddy = CreateDefaultSubobject<UCapsuleComponent>(TEXT("Boddy"));
-	SetRootComponent(Boddy);
+	//Boddy = CreateDefaultSubobject<UCapsuleComponent>(TEXT("Boddy"));
+	//SetRootComponent(Boddy);
 
 	VRRoot = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
-	SetRootComponent(Boddy);
+	SetRootComponent(VRRoot);
 
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	Camera->SetupAttachment(VRRoot);
