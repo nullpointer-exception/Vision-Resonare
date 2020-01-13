@@ -23,6 +23,8 @@ public:
 	// Sets default values for this pawn's properties
 	AVRPlayer();
 
+	virtual void Tick(float DeltaTime) override;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -43,8 +45,8 @@ public:
 		TSubclassOf<ALeftController> LeftControllerClass;
 
 	//Components
-	//UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player")
-	//	UCapsuleComponent* Boddy;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player")
+		UCapsuleComponent* Boddy;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player")
 		USceneComponent* VRRoot;
