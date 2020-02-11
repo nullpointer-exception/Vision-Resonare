@@ -19,6 +19,9 @@ AVRPlayer::AVRPlayer()
 	Boddy = CreateDefaultSubobject<UCapsuleComponent>(TEXT("Boddy"));
 	Boddy->SetupAttachment(VRRoot);
 
+	//HeightFix = CreateDefaultSubobject<UCapsuleComponent>(TEXT("HeightFix"));
+	//HeightFix->SetupAttachment(VRRoot);
+
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	Camera->SetupAttachment(VRRoot);
 
