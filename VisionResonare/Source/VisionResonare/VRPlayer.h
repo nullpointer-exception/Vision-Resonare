@@ -9,6 +9,7 @@
 #include "GameFramework/PlayerController.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/StaticMeshComponent.h"
+#include "Components/SceneComponent.h"
 #include "Public/MotionControllerComponent.h"
 #include "VisionResonare/RightController.h"
 #include "VisionResonare/LeftController.h"
@@ -53,6 +54,9 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player")
 		UCameraComponent* Camera;
+
+	//UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player")
+	//	USceneComponent* HeightFix;
 
 	//Referces
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Player")
