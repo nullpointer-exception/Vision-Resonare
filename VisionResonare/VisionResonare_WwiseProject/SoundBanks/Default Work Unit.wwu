@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{07722CE6-2918-4717-AD93-EAB44CE3349A}" SchemaVersion="94">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{07722CE6-2918-4717-AD93-EAB44CE3349A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{F0D0B4CB-5909-4E18-A694-0D1EFBBC0E71}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Werwolves_Hit" ID="{0E3C64BE-C132-4100-8EEF-E4355132A10A}" WorkUnitID="{DDE2F3D4-B255-4700-AC0D-33B11D68C715}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Werwolves_Punshes" ID="{A877E707-2E2F-4592-B554-82D67B5472AB}" WorkUnitID="{DDE2F3D4-B255-4700-AC0D-33B11D68C715}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Werwolves_Death" ID="{1DA6C5CA-975A-46E8-919D-00720D03FA49}" WorkUnitID="{DDE2F3D4-B255-4700-AC0D-33B11D68C715}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Clock_Pendulum" ID="{8B167887-D2DE-4887-975F-BE6B0AFF57FB}" WorkUnitID="{DDE2F3D4-B255-4700-AC0D-33B11D68C715}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Werwolves_Footsteps" ID="{894C0981-3874-4CF7-9FD0-7E68693570EA}" WorkUnitID="{DDE2F3D4-B255-4700-AC0D-33B11D68C715}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

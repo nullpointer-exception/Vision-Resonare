@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	345190206	Play_Fackeln			\Default Work Unit\Play_Fackeln	
+	3223762864	Stop_Fackeln			\Default Work Unit\Stop_Fackeln	
+	3283106468	Play_ANIMAL_DOG_SNARL_6EXT8_01			\Default Work Unit\Play_ANIMAL_DOG_SNARL_6EXT8_01	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	481529783	ANIMAL-DOG-SNARL_6EXT8-10117	Y:\Desktop\Vision-Resonare-master\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\ANIMAL-DOG-SNARL_6EXT8-10117_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ANIMAL-DOG-SNARL_6EXT8-10117		940096
+	682810299	Fackeln	Y:\Desktop\Vision-Resonare-master\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\Fackeln_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fackeln		16075812
+

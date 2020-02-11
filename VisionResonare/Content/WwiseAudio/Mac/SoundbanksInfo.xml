@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>/Users/princessxlea/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Vision-Resonare-master/VisionResonare/VisionResonare_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/princessxlea/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Vision-Resonare-master/VisionResonare/VisionResonare_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/princessxlea/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Users/princessxlea/Desktop/Vision-Resonare-master/VisionResonare/Content/WwiseAudio/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/princessxlea/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Vision-Resonare-master/VisionResonare/VisionResonare_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="675291117" Name="Play_Clock_Pendulum" ObjectPath="\Events\Default Work Unit\Play_Clock_Pendulum"/>
+				<Event Id="453361443" Name="Play_Werwolves_Death" ObjectPath="\Events\Default Work Unit\Play_Werwolves_Death"/>
+				<Event Id="832083148" Name="Play_Werwolves_Footsteps" ObjectPath="\Events\Default Work Unit\Play_Werwolves_Footsteps"/>
+				<Event Id="3966965874" Name="Play_Werwolves_Hit" ObjectPath="\Events\Default Work Unit\Play_Werwolves_Hit"/>
+				<Event Id="3021857173" Name="Play_Werwolves_Punshes" ObjectPath="\Events\Default Work Unit\Play_Werwolves_Punshes"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="5463484" Language="SFX">
+					<ShortName>Werwolves_Step2.wav</ShortName>
+					<Path>SFX/Werwolves_Step2_F8759906.wem</Path>
+				</File>
+				<File Id="301817558" Language="SFX">
+					<ShortName>Standart Klicken der Standuhr.wav</ShortName>
+					<Path>SFX/Standart Klicken der Standuhr_10332BA8.wem</Path>
+				</File>
+				<File Id="339717517" Language="SFX">
+					<ShortName>ANIMAL-DOG-SNARL_6EXT8-10122.wav</ShortName>
+					<Path>SFX/ANIMAL-DOG-SNARL_6EXT8-10122_10C4C929.wem</Path>
+				</File>
+				<File Id="355110932" Language="SFX">
+					<ShortName>Werwolves_Step3.wav</ShortName>
+					<Path>SFX/Werwolves_Step3_69159E0F.wem</Path>
+				</File>
+				<File Id="357962909" Language="SFX">
+					<ShortName>Werwolves_Step4.wav</ShortName>
+					<Path>SFX/Werwolves_Step4_E8001928.wem</Path>
+				</File>
+				<File Id="396447920" Language="SFX">
+					<ShortName>ANIMAL-DOG-SNARL_6EXT8-10117.wav</ShortName>
+					<Path>SFX/ANIMAL-DOG-SNARL_6EXT8-10117_A639B13B.wem</Path>
+				</File>
+				<File Id="428452335" Language="SFX">
+					<ShortName>ANIMAL-DOG-WHINE_6EXT8-10136.wav</ShortName>
+					<Path>SFX/ANIMAL-DOG-WHINE_6EXT8-10136_C0EC14E5.wem</Path>
+				</File>
+				<File Id="455734199" Language="SFX">
+					<ShortName>Werwolves_Step1.wav</ShortName>
+					<Path>SFX/Werwolves_Step1_6E85721E.wem</Path>
+				</File>
+				<File Id="589970338" Language="SFX">
+					<ShortName>Werwolves_Step7.wav</ShortName>
+					<Path>SFX/Werwolves_Step7_765608CD.wem</Path>
+				</File>
+				<File Id="611095656" Language="SFX">
+					<ShortName>ANIMAL-DOG-WHINE_6EXT8-10138.wav</ShortName>
+					<Path>SFX/ANIMAL-DOG-WHINE_6EXT8-10138_AAA80CB3.wem</Path>
+				</File>
+				<File Id="618518192" Language="SFX">
+					<ShortName>Werwolves_Step6.wav</ShortName>
+					<Path>SFX/Werwolves_Step6_12B5555B.wem</Path>
+				</File>
+				<File Id="725548632" Language="SFX">
+					<ShortName>Hit 4 Mittel.wav</ShortName>
+					<Path>SFX/Hit 4 Mittel_10C4C929.wem</Path>
+				</File>
+				<File Id="808348623" Language="SFX">
+					<ShortName>ANIMAL-DOG-WHIMPER_6EXT8-10134.wav</ShortName>
+					<Path>SFX/ANIMAL-DOG-WHIMPER_6EXT8-10134_E3618338.wem</Path>
+				</File>
+				<File Id="816440067" Language="SFX">
+					<ShortName>ANIMAL-DOG-SNARL_6EXT8-10120.wav</ShortName>
+					<Path>SFX/ANIMAL-DOG-SNARL_6EXT8-10120_10C4C929.wem</Path>
+				</File>
+				<File Id="843578874" Language="SFX">
+					<ShortName>Treffer(lufs Fehlt).wav</ShortName>
+					<Path>SFX/Treffer(lufs Fehlt)_10C4C929.wem</Path>
+				</File>
+				<File Id="888188494" Language="SFX">
+					<ShortName>ANIMAL-DOG-SNARL-GROWL_6EXT8-10125.wav</ShortName>
+					<Path>SFX/ANIMAL-DOG-SNARL-GROWL_6EXT8-10125_D3BCFB5A.wem</Path>
+				</File>
+				<File Id="916519863" Language="SFX">
+					<ShortName>Werwolves_Step5.wav</ShortName>
+					<Path>SFX/Werwolves_Step5_F5393AD4.wem</Path>
+				</File>
+				<File Id="952339481" Language="SFX">
+					<ShortName>Hit 3 Leicht.wav</ShortName>
+					<Path>SFX/Hit 3 Leicht_10C4C929.wem</Path>
+				</File>
+				<File Id="1006131049" Language="SFX">
+					<ShortName>ANIMAL-DOG-SNARL_6EXT8-10121.wav</ShortName>
+					<Path>SFX/ANIMAL-DOG-SNARL_6EXT8-10121_10C4C929.wem</Path>
+				</File>
+				<File Id="1017774219" Language="SFX">
+					<ShortName>ANIMAL-DOG-WHIMPER_6EXT8-10134.wav</ShortName>
+					<Path>SFX/ANIMAL-DOG-WHIMPER_6EXT8-10134_E36C00EE.wem</Path>
+				</File>
+				<File Id="1052346201" Language="SFX">
+					<ShortName>Standart Klicken der Standuhr.wav</ShortName>
+					<Path>SFX/Standart Klicken der Standuhr_9D2B5B2F.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

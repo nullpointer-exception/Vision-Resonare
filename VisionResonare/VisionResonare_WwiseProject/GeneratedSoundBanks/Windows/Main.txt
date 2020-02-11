@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2311991315	Play_Chain_6010_72_1			\Default Work Unit\Play_Chain_6010_72_1	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	772654293	Chain 6010_72_1	Y:\Desktop\Vision-Resonare-master\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Chain 6010_72_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Chain 6010_72_1		3215424
+

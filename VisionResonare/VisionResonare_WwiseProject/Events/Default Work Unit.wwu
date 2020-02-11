@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DDE2F3D4-B255-4700-AC0D-33B11D68C715}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{DDE2F3D4-B255-4700-AC0D-33B11D68C715}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Werwolves_Punshes" ID="{A877E707-2E2F-4592-B554-82D67B5472AB}">
+					<ChildrenList>
+						<Action Name="" ID="{54A1FED7-DD2C-4CEE-9DD9-9A67C709A32A}" ShortID="34316142">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Punshes" ID="{7952D8DA-84EB-48F6-8798-8FD4F0EA4B96}" WorkUnitID="{760176D8-4639-41D3-86E6-F7577D790185}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Werwolves_Death" ID="{1DA6C5CA-975A-46E8-919D-00720D03FA49}">
+					<ChildrenList>
+						<Action Name="" ID="{4E8F1F14-89E3-4CAC-9293-1DA21E99ABFF}" ShortID="656561865">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Death" ID="{18623FED-44DD-4FFC-A4A8-FB67A793797C}" WorkUnitID="{760176D8-4639-41D3-86E6-F7577D790185}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Werwolves_Hit" ID="{0E3C64BE-C132-4100-8EEF-E4355132A10A}">
+					<ChildrenList>
+						<Action Name="" ID="{BA866527-C448-4704-AF12-7BB944C2EFF6}" ShortID="916152413">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hit" ID="{C07D4E55-8E48-4812-8BE5-1888138D4297}" WorkUnitID="{760176D8-4639-41D3-86E6-F7577D790185}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Werwolves_Footsteps" ID="{894C0981-3874-4CF7-9FD0-7E68693570EA}">
+					<ChildrenList>
+						<Action Name="" ID="{D91E1036-DDBB-4ABD-AC8C-8C2EE1215F4B}" ShortID="825430739">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{43BE875E-A869-430D-83AC-FA3927A97C2C}" WorkUnitID="{760176D8-4639-41D3-86E6-F7577D790185}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Clock_Pendulum" ID="{8B167887-D2DE-4887-975F-BE6B0AFF57FB}">
+					<ChildrenList>
+						<Action Name="" ID="{247E68CE-174C-4748-AB68-51A9F97ED242}" ShortID="682316046">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pendulum" ID="{BF4F4FB2-5797-41E2-B83B-0ED6F7093320}" WorkUnitID="{760176D8-4639-41D3-86E6-F7577D790185}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
