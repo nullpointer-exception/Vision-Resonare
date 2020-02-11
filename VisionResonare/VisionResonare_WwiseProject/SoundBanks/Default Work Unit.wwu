@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D38006D0-FD2B-447A-A229-312FBA37D550}" SchemaVersion="94">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{D38006D0-FD2B-447A-A229-312FBA37D550}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{43A01BA3-2012-487D-9DC3-BE0CE15945A5}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Klicken_der_Uhr" ID="{EC7E50D5-3709-43C3-A967-0860BCE7E306}" WorkUnitID="{4833020F-8BFC-4616-A69C-B9C395C2AD98}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Sarg__ffnen" ID="{E7A773D3-B8C7-4AB1-AF89-DCE87658B86A}" WorkUnitID="{4833020F-8BFC-4616-A69C-B9C395C2AD98}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Play_Start_der_Standuhr_1" ID="{01A7B8CA-0524-4D1D-94C1-42C3D0621185}" WorkUnitID="{4833020F-8BFC-4616-A69C-B9C395C2AD98}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3F053EFF-87C0-4C7E-8625-8153F724CFEC}" SchemaVersion="94">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{3F053EFF-87C0-4C7E-8625-8153F724CFEC}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="New Work Unit" ID="{12EDFE16-E3F8-4DE5-A7B5-9CF095F11039}" PersistMode="Reference"/>
+				<Sound Name="Sarg öffnen" ID="{3648F6BC-611F-4058-B2DF-89460D24C466}" ShortID="408304506">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{12872B28-C66E-4B47-ADC9-6DEE62B530B9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{88E30930-B14B-4E1A-ACE8-AF6A8FE6791D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Sarg öffnen" ID="{9D6828C1-B1E9-43D3-A724-D49C42B3C5B3}" ShortID="598773984">
+							<Language>SFX</Language>
+							<AudioFile>Sarg öffnen.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Sarg öffnen" ID="{9D6828C1-B1E9-43D3-A724-D49C42B3C5B3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Standart Klicken der Standuhr" ID="{4D627441-0837-49AB-8922-01FEEACC9598}" ShortID="763858730">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{12872B28-C66E-4B47-ADC9-6DEE62B530B9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{88E30930-B14B-4E1A-ACE8-AF6A8FE6791D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Standart Klicken der Standuhr" ID="{6366F805-F418-4D4A-B5B7-522AA9B470F8}" ShortID="485439294">
+							<Language>SFX</Language>
+							<AudioFile>Standart Klicken der Standuhr.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Standart Klicken der Standuhr" ID="{6366F805-F418-4D4A-B5B7-522AA9B470F8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Start der Standuhr_1" ID="{4F17B0FD-D7CD-44B4-858E-3450B79D118F}" ShortID="525464365">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{12872B28-C66E-4B47-ADC9-6DEE62B530B9}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{88E30930-B14B-4E1A-ACE8-AF6A8FE6791D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Start der Standuhr_1" ID="{144A90C6-1FAF-4C76-BE5B-5EA6F3813A72}" ShortID="111191233">
+							<Language>SFX</Language>
+							<AudioFile>Start der Standuhr_1.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Start der Standuhr_1" ID="{144A90C6-1FAF-4C76-BE5B-5EA6F3813A72}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
