@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	196876986	Play_Start_der_Standuhr_1			\Default Work Unit\Play_Start_der_Standuhr_1	
+	1954887768	Play_Sarg__ffnen			\Default Work Unit\Play_Sarg__ffnen	
+	2496328612	Klicken_der_Uhr			\Default Work Unit\Klicken_der_Uhr	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	111191233	Start der Standuhr_1	Y:\Desktop\Vision-Resonare-master\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\Start der Standuhr_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Start der Standuhr_1		1683520
+	485439294	Standart Klicken der Standuhr	Y:\Desktop\Vision-Resonare-master\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\Standart Klicken der Standuhr_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Standart Klicken der Standuhr		254016
+	598773984	Sarg öffnen	Y:\Desktop\Vision-Resonare-master\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\Sarg öffnen_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sarg öffnen		842780
+
