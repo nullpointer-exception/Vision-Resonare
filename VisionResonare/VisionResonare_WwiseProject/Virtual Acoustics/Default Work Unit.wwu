@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <WwiseDocument Type="WorkUnit" ID="{B63B973E-A910-484F-A5A5-AF786062F925}" SchemaVersion="94">
 	<VirtualAcoustics>
 		<WorkUnit Name="Default Work Unit" ID="{B63B973E-A910-484F-A5A5-AF786062F925}" PersistMode="Standalone"/>
+=======
+<WwiseDocument Type="WorkUnit" ID="{202C8281-8169-4B78-AA91-79088EA4D5EA}" SchemaVersion="94">
+	<VirtualAcoustics>
+		<WorkUnit Name="Default Work Unit" ID="{202C8281-8169-4B78-AA91-79088EA4D5EA}" PersistMode="Standalone"/>
+>>>>>>> Sounds_Werwolf
 	</VirtualAcoustics>
 </WwiseDocument>

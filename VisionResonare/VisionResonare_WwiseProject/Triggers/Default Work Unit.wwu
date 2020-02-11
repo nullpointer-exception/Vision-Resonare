@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <WwiseDocument Type="WorkUnit" ID="{C6D1D006-3197-409E-B2CE-DA53FE263176}" SchemaVersion="94">
 	<Triggers>
 		<WorkUnit Name="Default Work Unit" ID="{C6D1D006-3197-409E-B2CE-DA53FE263176}" PersistMode="Standalone"/>
+=======
+<WwiseDocument Type="WorkUnit" ID="{CD56DD02-E6B5-4E9B-9D17-9B4880AFA876}" SchemaVersion="94">
+	<Triggers>
+		<WorkUnit Name="Default Work Unit" ID="{CD56DD02-E6B5-4E9B-9D17-9B4880AFA876}" PersistMode="Standalone"/>
+>>>>>>> Sounds_Werwolf
 	</Triggers>
 </WwiseDocument>

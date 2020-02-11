@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <WwiseDocument Type="WorkUnit" ID="{1C59FA9C-3FC6-4442-9CA5-B5BA5F848142}" SchemaVersion="94">
 	<Modulators>
 		<WorkUnit Name="Default Work Unit" ID="{1C59FA9C-3FC6-4442-9CA5-B5BA5F848142}" PersistMode="Standalone"/>
+=======
+<WwiseDocument Type="WorkUnit" ID="{7E6EFA2D-D780-413F-89D6-FC397DCC32AF}" SchemaVersion="94">
+	<Modulators>
+		<WorkUnit Name="Default Work Unit" ID="{7E6EFA2D-D780-413F-89D6-FC397DCC32AF}" PersistMode="Standalone"/>
+>>>>>>> Sounds_Werwolf
 	</Modulators>
 </WwiseDocument>

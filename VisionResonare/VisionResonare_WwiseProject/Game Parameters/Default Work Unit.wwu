@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <WwiseDocument Type="WorkUnit" ID="{4FFD4591-0718-4625-8706-A170D6AF03B8}" SchemaVersion="94">
 	<GameParameters>
 		<WorkUnit Name="Default Work Unit" ID="{4FFD4591-0718-4625-8706-A170D6AF03B8}" PersistMode="Standalone"/>
+=======
+<WwiseDocument Type="WorkUnit" ID="{481CF187-F976-4091-8D72-2CB8AFD17EBC}" SchemaVersion="94">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{481CF187-F976-4091-8D72-2CB8AFD17EBC}" PersistMode="Standalone"/>
+>>>>>>> Sounds_Werwolf
 	</GameParameters>
 </WwiseDocument>

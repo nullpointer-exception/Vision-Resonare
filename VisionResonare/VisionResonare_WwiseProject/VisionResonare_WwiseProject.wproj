@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="Project" SchemaVersion="94" WwiseVersion="v2019.1.7" WwiseBuild="7135">
 	<ProjectInfo>
+<<<<<<< HEAD
 		<Project Name="VisionResonare_WwiseProject" ID="{BEAC0820-D121-4C4C-9A7F-BF4809927713}">
 			<Platforms>
 				<Platform Name="Mac" ReferencePlatform="Mac" ID="{A4E58F82-B6F8-45F1-AA14-2B3B48960294}"/>
@@ -11,49 +12,96 @@
 				<Language Name="External" ID="{53646C35-FD09-41E6-92A3-04DB9392A86B}"/>
 				<Language Name="Mixed" ID="{12E7DCEB-706C-45FF-B02F-BD3AB9E88252}"/>
 				<Language Name="SFX" ID="{6C0D298A-AC46-47D7-8E9F-A1EDC40171F8}"/>
+=======
+		<Project Name="VisionResonare_WwiseProject" ID="{87FDAA8E-F53A-4361-866C-D5ABBF603E9D}">
+			<Platforms>
+				<Platform Name="Mac" ReferencePlatform="Mac" ID="{C4FAC371-4C81-4494-99CB-2624F8BF7772}"/>
+				<Platform Name="Windows" ReferencePlatform="Windows" ID="{E28F9ECB-847B-4FCA-81EB-E92535058341}"/>
+			</Platforms>
+			<LanguageList>
+				<Language Name="English(US)" ID="{0F03A428-EB38-4615-BFE7-A22E90B03299}"/>
+				<Language Name="External" ID="{660FA07A-3E32-401C-AC9D-8C18142258B8}"/>
+				<Language Name="Mixed" ID="{1EB8406B-A2D6-4798-BE9C-F3366E21EDC9}"/>
+				<Language Name="SFX" ID="{B08B0AD9-CFD9-4D67-8A9F-D5CDA19041DF}"/>
+>>>>>>> Sounds_Werwolf
 			</LanguageList>
 			<PropertyList>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
+<<<<<<< HEAD
 						<Value Platform="Windows"></Value>
 						<Value Platform="Mac"></Value>
+=======
+						<Value Platform="Mac"></Value>
+						<Value Platform="Windows"></Value>
+>>>>>>> Sounds_Werwolf
 					</ValueList>
 				</Property>
 				<Property Name="ExternalSourcesOutputPath" Type="string">
 					<ValueList>
+<<<<<<< HEAD
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
 						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
+=======
+						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
+						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
+>>>>>>> Sounds_Werwolf
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
+<<<<<<< HEAD
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
 						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
+=======
+						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
+						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
+>>>>>>> Sounds_Werwolf
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">
 					<ValueList>
+<<<<<<< HEAD
 						<Value Platform="Windows">Copy Streamed Files</Value>
 						<Value Platform="Mac">Copy Streamed Files</Value>
+=======
+						<Value Platform="Mac">Copy Streamed Files</Value>
+						<Value Platform="Windows">Copy Streamed Files</Value>
+>>>>>>> Sounds_Werwolf
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdLines" Type="string">
 					<ValueList>
+<<<<<<< HEAD
 						<Value Platform="Windows">"$(WwiseExePath)\CopyStreamedFiles.exe" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
 						<Value Platform="Mac">"$(WwiseExePath)\CopyStreamedFiles.exe" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
+=======
+						<Value Platform="Mac">"$(WwiseExePath)\CopyStreamedFiles.exe" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
+						<Value Platform="Windows">"$(WwiseExePath)\CopyStreamedFiles.exe" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
+>>>>>>> Sounds_Werwolf
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPreGenerateCustomCmdDescription" Type="string">
 					<ValueList>
+<<<<<<< HEAD
 						<Value Platform="Windows"></Value>
 						<Value Platform="Mac"></Value>
+=======
+						<Value Platform="Mac"></Value>
+						<Value Platform="Windows"></Value>
+>>>>>>> Sounds_Werwolf
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPreGenerateCustomCmdLines" Type="string">
 					<ValueList>
+<<<<<<< HEAD
 						<Value Platform="Windows"></Value>
 						<Value Platform="Mac"></Value>
+=======
+						<Value Platform="Mac"></Value>
+						<Value Platform="Windows"></Value>
+>>>>>>> Sounds_Werwolf
 					</ValueList>
 				</Property>
 				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2019.1|Build=7135|VersionName=v2019.1.7|Config=Release"/>
@@ -8945,7 +8993,11 @@
 					<Comment></Comment>
 					<ObsOccCurve CurveXType="Obstruction" CurveYType="Volume">
 						<PlatformCurve Platform="Linked" EnableCurve="true">
+<<<<<<< HEAD
 							<Curve Name="" ID="{2AA6DDD9-50BF-4AE3-BD20-5E492A88EE41}">
+=======
+							<Curve Name="" ID="{6716D287-5CE8-4897-B68D-564B0830D8A6}">
+>>>>>>> Sounds_Werwolf
 								<PropertyList>
 									<Property Name="Flags" Type="int32" Value="3"/>
 								</PropertyList>
@@ -8966,7 +9018,11 @@
 					</ObsOccCurve>
 					<ObsOccCurve CurveXType="Obstruction" CurveYType="LPF">
 						<PlatformCurve Platform="Linked" EnableCurve="true">
+<<<<<<< HEAD
 							<Curve Name="" ID="{89C5F58E-9391-4B12-AFE8-D83E85522327}">
+=======
+							<Curve Name="" ID="{80AB7AFE-64E7-420E-93B2-2E255550F7D7}">
+>>>>>>> Sounds_Werwolf
 								<PropertyList>
 									<Property Name="Flags" Type="int32" Value="1"/>
 								</PropertyList>
@@ -8987,7 +9043,11 @@
 					</ObsOccCurve>
 					<ObsOccCurve CurveXType="Obstruction" CurveYType="HPF">
 						<PlatformCurve Platform="Linked" EnableCurve="false">
+<<<<<<< HEAD
 							<Curve Name="" ID="{26534362-5635-4A73-ABBB-E3A38169E4B9}">
+=======
+							<Curve Name="" ID="{F8D76E10-2E51-447B-B4E3-A9D239AAD0B3}">
+>>>>>>> Sounds_Werwolf
 								<PropertyList>
 									<Property Name="Flags" Type="int32" Value="1"/>
 								</PropertyList>
@@ -9008,7 +9068,11 @@
 					</ObsOccCurve>
 					<ObsOccCurve CurveXType="Occlusion" CurveYType="Volume">
 						<PlatformCurve Platform="Linked" EnableCurve="true">
+<<<<<<< HEAD
 							<Curve Name="" ID="{906388DD-3A1E-47B4-A436-218889C0BC67}">
+=======
+							<Curve Name="" ID="{F1746E68-1F22-4BE7-8CF8-C6580094CFAA}">
+>>>>>>> Sounds_Werwolf
 								<PropertyList>
 									<Property Name="Flags" Type="int32" Value="3"/>
 								</PropertyList>
@@ -9029,7 +9093,11 @@
 					</ObsOccCurve>
 					<ObsOccCurve CurveXType="Occlusion" CurveYType="LPF">
 						<PlatformCurve Platform="Linked" EnableCurve="true">
+<<<<<<< HEAD
 							<Curve Name="" ID="{97C6945A-50C8-41BC-A5DF-A38C0A303367}">
+=======
+							<Curve Name="" ID="{081203EB-2B35-43C4-9AF7-AF5805CC3FC6}">
+>>>>>>> Sounds_Werwolf
 								<PropertyList>
 									<Property Name="Flags" Type="int32" Value="1"/>
 								</PropertyList>
@@ -9050,7 +9118,11 @@
 					</ObsOccCurve>
 					<ObsOccCurve CurveXType="Occlusion" CurveYType="HPF">
 						<PlatformCurve Platform="Linked" EnableCurve="false">
+<<<<<<< HEAD
 							<Curve Name="" ID="{74D6E9BE-9B5C-4BC8-A6B3-4BA4CCE232B7}">
+=======
+							<Curve Name="" ID="{1AC42169-AEBD-4548-B1DD-79D107E829DA}">
+>>>>>>> Sounds_Werwolf
 								<PropertyList>
 									<Property Name="Flags" Type="int32" Value="1"/>
 								</PropertyList>

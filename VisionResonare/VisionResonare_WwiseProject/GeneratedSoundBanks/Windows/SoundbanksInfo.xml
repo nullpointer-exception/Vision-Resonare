@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
 	<RootPaths>
+<<<<<<< HEAD
 		<ProjectRoot>/Users/floriankardos/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Vision-Resonare-master/VisionResonare/VisionResonare_WwiseProject/</ProjectRoot>
 		<SourceFilesRoot>/Users/floriankardos/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Vision-Resonare-master/VisionResonare/VisionResonare_WwiseProject/.cache/Windows/</SourceFilesRoot>
 		<SoundBanksRoot>/Users/floriankardos/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Vision-Resonare-master/VisionResonare/VisionResonare_WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>/Users/floriankardos/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Vision-Resonare-master/VisionResonare/VisionResonare_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+=======
+		<ProjectRoot>/Users/princessxlea/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Vision-Resonare-master/VisionResonare/VisionResonare_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/princessxlea/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Vision-Resonare-master/VisionResonare/VisionResonare_WwiseProject/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/princessxlea/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Vision-Resonare-master/VisionResonare/VisionResonare_WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/princessxlea/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Vision-Resonare-master/VisionResonare/VisionResonare_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+>>>>>>> Sounds_Werwolf
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -21,6 +29,7 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+<<<<<<< HEAD
 				<Event Id="2496328612" Name="Klicken_der_Uhr" ObjectPath="\Events\Default Work Unit\Klicken_der_Uhr"/>
 				<Event Id="1954887768" Name="Play_Sarg__ffnen" ObjectPath="\Events\Default Work Unit\Play_Sarg__ffnen"/>
 				<Event Id="196876986" Name="Play_Start_der_Standuhr_1" ObjectPath="\Events\Default Work Unit\Play_Start_der_Standuhr_1"/>
@@ -37,6 +46,14 @@
 				<File Id="598773984" Language="SFX">
 					<ShortName>Sarg öffnen.wav</ShortName>
 					<Path>SFX/Sarg öffnen_10C4C929.wem</Path>
+=======
+				<Event Id="2311991315" Name="Play_Chain_6010_72_1" ObjectPath="\Events\Default Work Unit\Play_Chain_6010_72_1"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="772654293" Language="SFX">
+					<ShortName>Chain 6010_72_1.wav</ShortName>
+					<Path>SFX/Chain 6010_72_1_10C4C929.wem</Path>
+>>>>>>> Sounds_Werwolf
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

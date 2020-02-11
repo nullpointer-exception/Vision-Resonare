@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <WwiseDocument Type="WorkUnit" ID="{4833020F-8BFC-4616-A69C-B9C395C2AD98}" SchemaVersion="94">
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{4833020F-8BFC-4616-A69C-B9C395C2AD98}" PersistMode="Standalone">
@@ -9,28 +10,80 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Sarg öffnen" ID="{3648F6BC-611F-4058-B2DF-89460D24C466}" WorkUnitID="{3F053EFF-87C0-4C7E-8625-8153F724CFEC}"/>
+=======
+<WwiseDocument Type="WorkUnit" ID="{DDE2F3D4-B255-4700-AC0D-33B11D68C715}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{DDE2F3D4-B255-4700-AC0D-33B11D68C715}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Werwolves_Punshes" ID="{A877E707-2E2F-4592-B554-82D67B5472AB}">
+					<ChildrenList>
+						<Action Name="" ID="{54A1FED7-DD2C-4CEE-9DD9-9A67C709A32A}" ShortID="34316142">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Punshes" ID="{7952D8DA-84EB-48F6-8798-8FD4F0EA4B96}" WorkUnitID="{760176D8-4639-41D3-86E6-F7577D790185}"/>
+>>>>>>> Sounds_Werwolf
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
+<<<<<<< HEAD
 				<Event Name="Klicken_der_Uhr" ID="{EC7E50D5-3709-43C3-A967-0860BCE7E306}">
 					<ChildrenList>
 						<Action Name="" ID="{84E18FC6-7E74-4240-B31A-C6E82F1450DE}" ShortID="543165509">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Standart Klicken der Standuhr" ID="{4D627441-0837-49AB-8922-01FEEACC9598}" WorkUnitID="{3F053EFF-87C0-4C7E-8625-8153F724CFEC}"/>
+=======
+				<Event Name="Play_Werwolves_Death" ID="{1DA6C5CA-975A-46E8-919D-00720D03FA49}">
+					<ChildrenList>
+						<Action Name="" ID="{4E8F1F14-89E3-4CAC-9293-1DA21E99ABFF}" ShortID="656561865">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Death" ID="{18623FED-44DD-4FFC-A4A8-FB67A793797C}" WorkUnitID="{760176D8-4639-41D3-86E6-F7577D790185}"/>
+>>>>>>> Sounds_Werwolf
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
+<<<<<<< HEAD
 				<Event Name="Play_Start_der_Standuhr_1" ID="{01A7B8CA-0524-4D1D-94C1-42C3D0621185}">
 					<ChildrenList>
 						<Action Name="" ID="{A3A48E83-E67C-42F4-BDA7-CC7AC0380904}" ShortID="689237615">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Start der Standuhr_1" ID="{4F17B0FD-D7CD-44B4-858E-3450B79D118F}" WorkUnitID="{3F053EFF-87C0-4C7E-8625-8153F724CFEC}"/>
+=======
+				<Event Name="Play_Werwolves_Hit" ID="{0E3C64BE-C132-4100-8EEF-E4355132A10A}">
+					<ChildrenList>
+						<Action Name="" ID="{BA866527-C448-4704-AF12-7BB944C2EFF6}" ShortID="916152413">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hit" ID="{C07D4E55-8E48-4812-8BE5-1888138D4297}" WorkUnitID="{760176D8-4639-41D3-86E6-F7577D790185}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Werwolves_Footsteps" ID="{894C0981-3874-4CF7-9FD0-7E68693570EA}">
+					<ChildrenList>
+						<Action Name="" ID="{D91E1036-DDBB-4ABD-AC8C-8C2EE1215F4B}" ShortID="825430739">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{43BE875E-A869-430D-83AC-FA3927A97C2C}" WorkUnitID="{760176D8-4639-41D3-86E6-F7577D790185}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Clock_Pendulum" ID="{8B167887-D2DE-4887-975F-BE6B0AFF57FB}">
+					<ChildrenList>
+						<Action Name="" ID="{247E68CE-174C-4748-AB68-51A9F97ED242}" ShortID="682316046">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pendulum" ID="{BF4F4FB2-5797-41E2-B83B-0ED6F7093320}" WorkUnitID="{760176D8-4639-41D3-86E6-F7577D790185}"/>
+>>>>>>> Sounds_Werwolf
 								</Reference>
 							</ReferenceList>
 						</Action>
