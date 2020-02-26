@@ -52,6 +52,36 @@
 					}
 				},
 				{
+					"mode": "dpad",
+					"path": "/user/hand/left/input/joystick",
+					"parameters":
+					{
+						"sub_mode": "touch"
+					},
+					"inputs":
+					{
+						"north":
+						{
+							"output": "/actions/main/in/WalkLeft"
+						}
+					}
+				},
+				{
+					"mode": "dpad",
+					"path": "/user/hand/right/input/joystick",
+					"parameters":
+					{
+						"sub_mode": "touch"
+					},
+					"inputs":
+					{
+						"north":
+						{
+							"output": "/actions/main/in/WalkRight"
+						}
+					}
+				},
+				{
 					"mode": "trigger",
 					"path": "/user/hand/left/input/trigger",
 					"inputs":
@@ -107,5 +137,5 @@
 			]
 		}
 	},
-	"description": ""
+	"description": "VisionResonare-11100242"
 }
