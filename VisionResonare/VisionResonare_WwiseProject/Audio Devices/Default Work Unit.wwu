@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
-<WwiseDocument Type="WorkUnit" ID="{5FF07BD8-4C7A-4194-BA8C-AFD31D717A51}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{46EA6B91-7AAF-4829-AE01-62D684F83EA5}" SchemaVersion="97">
 	<AudioDevices>
-		<WorkUnit Name="Default Work Unit" ID="{5FF07BD8-4C7A-4194-BA8C-AFD31D717A51}" PersistMode="Standalone">
+		<WorkUnit Name="Default Work Unit" ID="{46EA6B91-7AAF-4829-AE01-62D684F83EA5}" PersistMode="Standalone">
 			<ChildrenList>
-				<AudioDevice Name="System" ID="{80E73547-552E-499D-8C25-3FECE7B5E5F0}" PluginName="System" CompanyID="0" PluginID="174" PluginType="7"/>
-				<AudioDevice Name="No_Output" ID="{7014414A-AE55-48E7-ADC7-3C27DFE0F8F1}" PluginName="No Output" CompanyID="0" PluginID="181" PluginType="7"/>
-=======
-<WwiseDocument Type="WorkUnit" ID="{CBF84E15-177A-4571-AD26-53C28E0D9974}" SchemaVersion="94">
-	<AudioDevices>
-		<WorkUnit Name="Default Work Unit" ID="{CBF84E15-177A-4571-AD26-53C28E0D9974}" PersistMode="Standalone">
-			<ChildrenList>
-				<AudioDevice Name="System" ID="{3778E908-6CC8-4B9F-A8F6-C344E3374BB6}" PluginName="System" CompanyID="0" PluginID="174" PluginType="7"/>
-				<AudioDevice Name="No_Output" ID="{904E3253-4F41-4814-B2AA-B22DE466B0F5}" PluginName="No Output" CompanyID="0" PluginID="181" PluginType="7"/>
->>>>>>> Sounds_Werwolf
+				<AudioDevice Name="System" ID="{5591B1A0-C186-40C1-B5EB-BC0B8EC8769E}" PluginName="System" CompanyID="0" PluginID="174" PluginType="7"/>
+				<AudioDevice Name="No_Output" ID="{92644907-9ECC-4EBD-89BE-13877BEE369F}" PluginName="No Output" CompanyID="0" PluginID="181" PluginType="7"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioDevices>

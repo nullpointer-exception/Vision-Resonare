@@ -1,32 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
-<WwiseDocument Type="WorkUnit" ID="{04F67872-C54A-4A59-A954-CCEFD3F27C6B}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{93DA641A-04A5-411F-BCE8-219ECFB39743}" SchemaVersion="97">
 	<ControlSurfaceSessions>
-		<WorkUnit Name="Default Work Unit" ID="{04F67872-C54A-4A59-A954-CCEFD3F27C6B}" PersistMode="Standalone">
+		<WorkUnit Name="Default Work Unit" ID="{93DA641A-04A5-411F-BCE8-219ECFB39743}" PersistMode="Standalone">
 			<ChildrenList>
 				<ControlSurfaceSession Name="Default Control Surface Session" ID="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}">
 					<ChildrenList>
-						<ControlSurfaceBindingGroup Name="Global" ID="{2177DD75-F56A-4D90-A080-64CB606922B2}"/>
-						<ControlSurfaceBindingGroup Name="Current Selection" ID="{DE848B35-5A08-413B-9BB5-FDEB125095F3}">
-=======
-<WwiseDocument Type="WorkUnit" ID="{7D8D4CB7-6413-4DC0-96F6-E728AFA9B8FC}" SchemaVersion="94">
-	<ControlSurfaceSessions>
-		<WorkUnit Name="Default Work Unit" ID="{7D8D4CB7-6413-4DC0-96F6-E728AFA9B8FC}" PersistMode="Standalone">
-			<ChildrenList>
-				<ControlSurfaceSession Name="Default Control Surface Session" ID="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}">
-					<ChildrenList>
-						<ControlSurfaceBindingGroup Name="Global" ID="{50613E05-1766-4EDA-A1D8-B83066969CEB}"/>
-						<ControlSurfaceBindingGroup Name="Current Selection" ID="{46756DDC-5240-401F-88F4-111C2218964F}">
->>>>>>> Sounds_Werwolf
+						<ControlSurfaceBindingGroup Name="Global" ID="{88D263D1-DB7E-4748-94E6-8A9A6C6FD5A3}"/>
+						<ControlSurfaceBindingGroup Name="Current Selection" ID="{CE7C0AFF-6314-4172-A173-80F16648502B}">
 							<PropertyList>
 								<Property Name="GroupType" Type="int16" Value="4"/>
 							</PropertyList>
 							<ChildrenList>
-<<<<<<< HEAD
-								<ControlSurfaceBinding Name="Binding" ID="{25D1474F-A17D-47FB-9D40-576B8A2FA416}">
-=======
-								<ControlSurfaceBinding Name="Binding" ID="{86629253-103D-4D1A-BAA8-2D794980C06C}">
->>>>>>> Sounds_Werwolf
+								<ControlSurfaceBinding Name="Binding" ID="{1DAE046E-3976-40E8-8E66-CAC09A42E2BF}">
 									<PropertyList>
 										<Property Name="TargetName" Type="string" Value="PassMidiNote"/>
 										<Property Name="TargetType" Type="int16" Value="1"/>
@@ -34,11 +19,7 @@
 								</ControlSurfaceBinding>
 							</ChildrenList>
 						</ControlSurfaceBindingGroup>
-<<<<<<< HEAD
-						<ControlSurfaceBindingGroup Name="View Groups" ID="{3E9AB63D-9484-4D26-8017-782C18B4FB97}">
-=======
-						<ControlSurfaceBindingGroup Name="View Groups" ID="{FEB58B75-9192-43E1-BE24-A82BD374627D}">
->>>>>>> Sounds_Werwolf
+						<ControlSurfaceBindingGroup Name="View Groups" ID="{238D4118-B22E-4402-AEE5-EE30B621E926}">
 							<PropertyList>
 								<Property Name="GroupType" Type="int16" Value="3"/>
 							</PropertyList>
