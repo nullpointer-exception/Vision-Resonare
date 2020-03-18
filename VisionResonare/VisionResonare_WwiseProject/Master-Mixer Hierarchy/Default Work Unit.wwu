@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
-<WwiseDocument Type="WorkUnit" ID="{88E30930-B14B-4E1A-ACE8-AF6A8FE6791D}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}" SchemaVersion="97">
 	<Busses>
-		<WorkUnit Name="Default Work Unit" ID="{88E30930-B14B-4E1A-ACE8-AF6A8FE6791D}" PersistMode="Standalone">
-=======
-<WwiseDocument Type="WorkUnit" ID="{B88C2365-0ADE-4E70-A552-5CDE10F78327}" SchemaVersion="94">
-	<Busses>
-		<WorkUnit Name="Default Work Unit" ID="{B88C2365-0ADE-4E70-A552-5CDE10F78327}" PersistMode="Standalone">
->>>>>>> Sounds_Werwolf
+		<WorkUnit Name="Default Work Unit" ID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
 					<ReferenceList>
 						<Reference Name="AudioDevice">
-<<<<<<< HEAD
-							<ObjectRef Name="System" ID="{80E73547-552E-499D-8C25-3FECE7B5E5F0}" WorkUnitID="{5FF07BD8-4C7A-4194-BA8C-AFD31D717A51}"/>
-=======
-							<ObjectRef Name="System" ID="{3778E908-6CC8-4B9F-A8F6-C344E3374BB6}" WorkUnitID="{CBF84E15-177A-4571-AD26-53C28E0D9974}"/>
->>>>>>> Sounds_Werwolf
+							<ObjectRef Name="System" ID="{5591B1A0-C186-40C1-B5EB-BC0B8EC8769E}" WorkUnitID="{46EA6B91-7AAF-4829-AE01-62D684F83EA5}"/>
 						</Reference>
 					</ReferenceList>
 				</Bus>

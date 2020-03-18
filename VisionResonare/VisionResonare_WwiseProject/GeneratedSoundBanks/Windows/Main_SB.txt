@@ -1,0 +1,100 @@
+Event	ID	Name			Wwise Object Path	Notes
+	85895373	Play_Bat_Voice_Master			\Default Work Unit\Play_Bat_Voice_Master	
+	817739961	Play_Coffin_Falling			\Default Work Unit\Play_Coffin_Falling	
+	947550151	Play_Window_Opening			\Default Work Unit\Play_Window_Opening	
+	1501216439	Play_Fireplace			\Default Work Unit\Play_Fireplace	
+	1641900755	Play_Werwolf_Snarl			\Default Work Unit\Play_Werwolf_Snarl	
+	1977715428	Play_Wind_Atmo			\Default Work Unit\Play_Wind_Atmo	
+	2058615616	Play_Soil_Grass_Steps			\Default Work Unit\Play_Soil_Grass_Steps	
+	2075285581	Play_Stone_Steps_Outside			\Default Work Unit\Play_Stone_Steps_Outside	
+	2146771764	Play_Werwolf_Steps			\Default Work Unit\Play_Werwolf_Steps	
+	2241062414	Play_Grandclock_Ticking			\Default Work Unit\Play_Grandclock_Ticking	
+	2262333507	Play_Carpet_Steps			\Default Work Unit\Play_Carpet_Steps	
+	2288494097	Play_Wood_Steps			\Default Work Unit\Play_Wood_Steps	
+	2595488237	Play_Stone_Steps			\Default Work Unit\Play_Stone_Steps	
+	2719308801	Play_Werwolf_Hits			\Default Work Unit\Play_Werwolf_Hits	
+	2802846588	Play_Fallgitter			\Default Work Unit\Play_Fallgitter	
+	2843172720	Play_Bat_Flight			\Default Work Unit\Play_Bat_Flight	
+	3216481374	Play_Player_Voice			\Default Work Unit\Play_Player_Voice	
+	3313437967	Play_Grandclock_Start			\Default Work Unit\Play_Grandclock_Start	
+	3810207109	Play_Bat_Voice_Dialogue			\Default Work Unit\Play_Bat_Voice_Dialogue	
+	3898497534	Play_Werwolf_Death_Sounds			\Default Work Unit\Play_Werwolf_Death_Sounds	
+	4043899765	Play_Werwolf_Death_Hit			\Default Work Unit\Play_Werwolf_Death_Hit	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	37894755	steps_stone_6	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_stone_6_F629F52A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Stone_Steps\Toe\steps_stone_6		30770
+	45451389	steps_carpet_11	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_carpet_11_AFFEFEFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Carpet_Steps\Heel\steps_carpet_11		41148
+	71402433	steps_stone_5	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_stone_5_06E2C8E3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Stone_Steps\Toe\steps_stone_5		33522
+	81773806	Vanto_MS1	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Vanto_MS1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bat\Bat_Voice_Master\Vanto_MS1		436544
+	117204444	steps_carpet_2	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_carpet_2_CCE8B216.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Carpet_Steps\Heel\steps_carpet_2		49036
+	123741879	steps_carpet_8	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_carpet_8_172DACA8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Carpet_Steps\Heel\steps_carpet_8		44636
+	128833052	steps_soil_grass_3	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_soil_grass_3_7934A08B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Soil_Grass_Steps\Toe\steps_soil_grass_3		30772
+	166622100	Snarl_1	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\ANIMAL-DOG-SNARL-GROWL_6EXT8-10125_A0729A21.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Werwolf_Snarl\Snarl_1		381048
+	179425905	Werwolves_Step2	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Werwolves_Step2_1594E873.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Werwolf_Steps\Heel\Werwolves_Step2		141500
+	189922547	steps_stone_4	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_stone_4_DFE298D5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Stone_Steps\Toe\steps_stone_4		31952
+	199780543	steps_carpet_10	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_carpet_10_F274D49D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Carpet_Steps\Heel\steps_carpet_10		44658
+	219111869	steps_stone_10	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_stone_10_A4C6B457.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Stone_Steps\Toe\steps_stone_10		33686
+	228537939	steps_wood_8	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_wood_8_E59FFF5C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Wood_Steps\Toe\steps_wood_8		23832
+	231825891	Death_1	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\ANIMAL-DOG-WHIMPER_6EXT8-10134_B69E8DB0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Werwolf_Death_Sounds\Death_1		303504
+	264115149	Chain 6010_72_1	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Chain 6010_72_1_E49FB17D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fallgitter\Fallgitter\Chain 6010_72_1		2112064
+	288783382	Werwolves_Step5	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Werwolves_Step5_9715C6DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Werwolf_Steps\Heel\Werwolves_Step5		80580
+	302937213	steps_wood_7	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_wood_7_9EB8AB3C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Wood_Steps\Toe\steps_wood_7		25274
+	312369803	steps_carpet_12	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_carpet_12_68BDEA89.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Carpet_Steps\Heel\steps_carpet_12		26708
+	321959893	steps_soil_grass_2	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_soil_grass_2_4A020382.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Soil_Grass_Steps\Toe\steps_soil_grass_2		33068
+	331146349	Treffer(lufs Fehlt)	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Treffer(lufs Fehlt)_C04959AD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Werwolf_Death_Hit\Treffer(lufs Fehlt)		74252
+	337478376	steps_stone_2	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_stone_2_DD6E5E4F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Stone_Steps\Toe\steps_stone_2		32578
+	346095103	Standart Klicken der Standuhr_1	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Standart Klicken der Standuhr_5870E13E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grandclock\Grandclock_Ticking\Standart Klicken der Standuhr_1		87472
+	370486443	Hit_1	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Hit 3 Leicht_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Werwolf_Hits\Hits\Hit_1		86464
+	379327883	Hit_3	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Hit 4 Mittel_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Werwolf_Hits\Hits\Hit_3		74464
+	394097750	Death_3	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\ANIMAL-DOG-WHINE_6EXT8-10137_B62C34D5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Werwolf_Death_Sounds\Death_3		150836
+	456173472	Snarl_3	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\ANIMAL-DOG-SNARL_6EXT8-10120_EF2FB5F4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Werwolf_Snarl\Snarl_3		225972
+	465281918	steps_soil_grass_9	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_soil_grass_9_6ECDA3B8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Soil_Grass_Steps\Toe\steps_soil_grass_9		22286
+	491260216	steps_wood_5	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_wood_5_D85DA323.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Wood_Steps\Toe\steps_wood_5		22478
+	514400515	steps_soil_grass_1	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_soil_grass_1_27E40F67.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Soil_Grass_Steps\Toe\steps_soil_grass_1		17900
+	527660936	Start der Standuhr_1	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Start der Standuhr_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grandclock\Grandclock_Start\Start der Standuhr_1		1683520
+	529279669	DoorMetal 6075_44_1	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\DoorMetal 6075_44_1_F5D5CEC3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fallgitter\Fallgitter\DoorMetal 6075_44_1		2112064
+	531781723	steps_stone_3	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_stone_3_FF8E850D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Stone_Steps\Toe\steps_stone_3		33382
+	536328160	Werwolves_Step3	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Werwolves_Step3_DF64AEDE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Werwolf_Steps\Heel\Werwolves_Step3		139148
+	537797925	steps_wood_3	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_wood_3_E771C647.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Wood_Steps\Toe\steps_wood_3		23342
+	568488320	Sarg öffnen	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Sarg öffnen_602645DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coffin\Coffin_Falling\Sarg öffnen		295880
+	601616758	Werwolves_Step6	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Werwolves_Step6_161133F6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Werwolf_Steps\Heel\Werwolves_Step6		71596
+	626619697	steps_soil_grass_15	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_soil_grass_15_9E8BBDE7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Soil_Grass_Steps\Toe\steps_soil_grass_15		19910
+	627844333	Snarl_4	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\ANIMAL-DOG-SNARL_6EXT8-10121_75CA1082.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Werwolf_Snarl\Snarl_4		227940
+	631889780	steps_carpet_1	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_carpet_1_147238A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Carpet_Steps\Heel\steps_carpet_1		46228
+	633166063	Wind_2	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\AtmoStage2Wind_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wind_Atmo\Wind_Atmo\Wind_2		62360704
+	677432059	Snarl_5	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\ANIMAL-DOG-SNARL_6EXT8-10122_7BC3234B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Werwolf_Snarl\Snarl_5		192720
+	701236010	Death_2	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\ANIMAL-DOG-WHINE_6EXT8-10136_B15B1638.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Werwolf_Death_Sounds\Death_2		355552
+	709425308	Werwolves_Step4	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Werwolves_Step4_758C78A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Werwolf_Steps\Heel\Werwolves_Step4		81172
+	734580216	Snarl_01	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\ANIMAL-DOG-SNARL_6EXT8-10122_416D9DA9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Werwolf_Snarl\Snarl_01		228648
+	750376241	Fensteröffnen	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Fensteröffnen_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Window\Window_Opening\Fensteröffnen		526400
+	751260702	steps_stone_9	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_stone_9_741C3D3C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Stone_Steps\Toe\steps_stone_9		31316
+	756624637	steps_soil_grass_5	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_soil_grass_5_FADCC4F5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Soil_Grass_Steps\Toe\steps_soil_grass_5		20354
+	767990650	steps_wood_6	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_wood_6_1A7D9049.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Wood_Steps\Toe\steps_wood_6		24910
+	779561860	steps_wood_1	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_wood_1_3232F8AC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Wood_Steps\Toe\steps_wood_1		20802
+	798550870	Bat_Flight_2	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Bat_Flight_E3AAD0AE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bat\Bat_Flight\Bat_Flight_2		35132
+	801531504	Snarl_03	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\ANIMAL-DOG-SNARL_6EXT8-10120_57E25580.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Werwolf_Snarl\Snarl_03		197648
+	808075304	steps_carpet_4	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_carpet_4_D1DE20E6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Carpet_Steps\Heel\steps_carpet_4		43242
+	818401427	Snarl_02	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\ANIMAL-DOG-SNARL_6EXT8-10117_5E683AE1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Werwolf_Snarl\Snarl_02		243120
+	822788779	Werwolves_Step1	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Werwolves_Step1_4F75EFD0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Werwolf_Steps\Heel\Werwolves_Step1		137972
+	850875119	fireplace_stereo	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\fireplace_stereo_79D82905.wem		\Actor-Mixer Hierarchy\Default Work Unit\Fireplace\Fireplace\fireplace_stereo		21379744
+	894164563	Snarl_05	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\ANIMAL-DOG-SNARL-GROWL_6EXT8-10125_8316F7CB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Werwolf_Snarl\Snarl_05		369264
+	899825233	steps_wood_4	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_wood_4_5F46AE99.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Wood_Steps\Toe\steps_wood_4		15928
+	909562462	steps_soil_grass_14	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_soil_grass_14_1A402849.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Soil_Grass_Steps\Toe\steps_soil_grass_14		22540
+	924476053	Snarl_2	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\ANIMAL-DOG-SNARL_6EXT8-10117_228C1FC0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Werwolf_Snarl\Snarl_2		239900
+	943812112	steps_stone_7	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_stone_7_9BD621DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Stone_Steps\Toe\steps_stone_7		33376
+	959576625	Death_4	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\ANIMAL-DOG-WHINE_6EXT8-10138_B51CDBE5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Werwolf_Death_Sounds\Death_4		382548
+	962621772	steps_wood_2	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_wood_2_DDC2D27B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Wood_Steps\Toe\steps_wood_2		20248
+	977450910	steps_carpet_6	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_carpet_6_5E43F4F3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Carpet_Steps\Heel\steps_carpet_6		42020
+	980445538	steps_stone_11	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_stone_11_6C9140EB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Stone_Steps\Toe\steps_stone_11		33798
+	1008196273	Werwolves_Step7	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Werwolves_Step7_10523CEA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Werwolf_Steps\Heel\Werwolves_Step7		66024
+	1013946811	steps_carpet_3	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_carpet_3_030DE146.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Carpet_Steps\Heel\steps_carpet_3		51574
+	1017914283	Vampir_Dialogue	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Vampir voice _10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Voice\Vampir_Dialogue		5603392
+	1027367088	steps_carpet_9	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_carpet_9_61630BFD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Carpet_Steps\Heel\steps_carpet_9		54104
+	1039299331	steps_carpet_7	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_carpet_7_6B26A7A1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Carpet_Steps\Heel\steps_carpet_7		46400
+	1052349251	steps_stone_8	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_stone_8_F71F8EF2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Stone_Steps\Toe\steps_stone_8		35268
+	1053202334	steps_carpet_5	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_carpet_5_29DF59C0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Carpet_Steps\Heel\steps_carpet_5		37548
+	1056376327	steps_stone_1	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_stone_1_9DBBB04D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Stone_Steps\Toe\steps_stone_1		32018
+	1059657711	Bat_Dialogue	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Fledermaus voice_A5656A0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bat\Bat_Voice_Dialogue\Bat_Dialogue		4073472
+	1069390104	Snarl_04	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\ANIMAL-DOG-SNARL_6EXT8-10121_3545888A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Werwolf_Snarl\Snarl_04		215148
+	1071527565	Wind_1	E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\AtmoStage1Wind_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wind_Atmo\Wind_Atmo\Wind_1		62360700
+

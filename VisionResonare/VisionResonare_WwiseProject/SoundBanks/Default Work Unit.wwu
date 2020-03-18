@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
-<WwiseDocument Type="WorkUnit" ID="{D38006D0-FD2B-447A-A229-312FBA37D550}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{BA6BE6E1-95AF-4AA5-95E6-381296C068EF}" SchemaVersion="97">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{D38006D0-FD2B-447A-A229-312FBA37D550}" PersistMode="Standalone">
+		<WorkUnit Name="Default Work Unit" ID="{BA6BE6E1-95AF-4AA5-95E6-381296C068EF}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="Main" ID="{43A01BA3-2012-487D-9DC3-BE0CE15945A5}">
+				<SoundBank Name="Main_SB" ID="{76771355-7ED6-456B-95AC-15EB78A76A91}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Klicken_der_Uhr" ID="{EC7E50D5-3709-43C3-A967-0860BCE7E306}" WorkUnitID="{4833020F-8BFC-4616-A69C-B9C395C2AD98}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Sarg__ffnen" ID="{E7A773D3-B8C7-4AB1-AF89-DCE87658B86A}" WorkUnitID="{4833020F-8BFC-4616-A69C-B9C395C2AD98}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Start_der_Standuhr_1" ID="{01A7B8CA-0524-4D1D-94C1-42C3D0621185}" WorkUnitID="{4833020F-8BFC-4616-A69C-B9C395C2AD98}" Filter="7" Origin="Manual"/>
-=======
-<WwiseDocument Type="WorkUnit" ID="{07722CE6-2918-4717-AD93-EAB44CE3349A}" SchemaVersion="94">
-	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{07722CE6-2918-4717-AD93-EAB44CE3349A}" PersistMode="Standalone">
-			<ChildrenList>
-				<SoundBank Name="Main" ID="{F0D0B4CB-5909-4E18-A694-0D1EFBBC0E71}">
-					<ObjectInclusionList>
-						<ObjectRef Name="Play_Werwolves_Hit" ID="{0E3C64BE-C132-4100-8EEF-E4355132A10A}" WorkUnitID="{DDE2F3D4-B255-4700-AC0D-33B11D68C715}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Werwolves_Punshes" ID="{A877E707-2E2F-4592-B554-82D67B5472AB}" WorkUnitID="{DDE2F3D4-B255-4700-AC0D-33B11D68C715}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Werwolves_Death" ID="{1DA6C5CA-975A-46E8-919D-00720D03FA49}" WorkUnitID="{DDE2F3D4-B255-4700-AC0D-33B11D68C715}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Clock_Pendulum" ID="{8B167887-D2DE-4887-975F-BE6B0AFF57FB}" WorkUnitID="{DDE2F3D4-B255-4700-AC0D-33B11D68C715}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Play_Werwolves_Footsteps" ID="{894C0981-3874-4CF7-9FD0-7E68693570EA}" WorkUnitID="{DDE2F3D4-B255-4700-AC0D-33B11D68C715}" Filter="7" Origin="Manual"/>
->>>>>>> Sounds_Werwolf
+						<ObjectRef Name="Play_Fireplace" ID="{0B382BFB-2927-406B-A987-C581AC5A7C41}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Stone_Steps_Outside" ID="{DA161721-CF7E-4129-A0ED-6E89D8CC7069}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Coffin_Falling" ID="{0B0C1258-CB67-4195-BF2B-0002213EE309}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Wood_Steps" ID="{59A944A6-883A-43AA-8F0E-844A06D53C91}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Werwolf_Steps" ID="{13921011-B420-4443-8F89-D540343EE6DD}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Grandclock_Start" ID="{A59E9E3A-DE44-44FE-8B42-A713640DEE7A}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Soil_Grass_Steps" ID="{490DDEA7-A775-45B3-BA31-EE3DE64E5EDD}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Carpet_Steps" ID="{0E318F4D-9B5F-45CD-A937-BA6F483892FF}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Werwolf_Death_Hit" ID="{E6F9DA7D-288B-4646-A557-3B454953E618}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Bat_Flight" ID="{A4384660-E205-4798-93BC-FE5F00CD8924}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Fallgitter" ID="{1941026A-26DB-47FE-A6B8-686AF8958EF8}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Player_Voice" ID="{F29E93FC-2CD8-48D6-A6F6-FB427ED30B97}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Bat_Voice_Dialogue" ID="{52D2A576-D161-4A6E-8636-E19FE20CC7B6}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Bat_Voice_Master" ID="{B489546C-E6C3-4AA1-BF46-05679DFC0C39}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Window_Opening" ID="{2743CDB8-060C-4B2E-A67F-E3C899C8574E}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Wind_Atmo" ID="{547FCA64-E6C3-4BAC-9D3A-C24C0D6B46E9}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Werwolf_Death_Sounds" ID="{F42A6059-3B3B-4C25-A1A8-C2B5C5BEBD0A}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Grandclock_Ticking" ID="{B5CECD36-4CB6-4D8C-8AB8-B375ABD190F4}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Werwolf_Snarl" ID="{887CA701-E4DC-4E76-AACE-0A2228678371}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Stone_Steps" ID="{21F00207-A8D8-4F4C-AEEF-20F0BE8C018F}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Werwolf_Hits" ID="{A7668C44-E058-4FFB-9F73-5EDE53C61C5B}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

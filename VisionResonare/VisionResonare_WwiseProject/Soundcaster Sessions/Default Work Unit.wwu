@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
-<WwiseDocument Type="WorkUnit" ID="{A11EAB76-DBAF-4F37-901B-731A577EA8A8}" SchemaVersion="94">
+<WwiseDocument Type="WorkUnit" ID="{F077C389-3677-4A11-9BB5-FA2FC0AECE45}" SchemaVersion="97">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{A11EAB76-DBAF-4F37-901B-731A577EA8A8}" PersistMode="Standalone"/>
-=======
-<WwiseDocument Type="WorkUnit" ID="{3E6E144D-7AEE-4419-9A22-541DE7079705}" SchemaVersion="94">
-	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{3E6E144D-7AEE-4419-9A22-541DE7079705}" PersistMode="Standalone"/>
->>>>>>> Sounds_Werwolf
+		<WorkUnit Name="Default Work Unit" ID="{F077C389-3677-4A11-9BB5-FA2FC0AECE45}" PersistMode="Standalone"/>
 	</SoundcasterSessions>
 </WwiseDocument>
