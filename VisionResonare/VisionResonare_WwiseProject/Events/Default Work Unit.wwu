@@ -168,45 +168,12 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Wind_Atmo" ID="{547FCA64-E6C3-4BAC-9D3A-C24C0D6B46E9}">
-					<ChildrenList>
-						<Action Name="" ID="{431035A4-A5F8-4508-838C-6023E2B073A0}" ShortID="1014816787">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Wind_Atmo" ID="{7A08C897-11B1-4B84-896A-E52121BBF0E6}" WorkUnitID="{D039DBCC-1BCF-4909-855E-59753F4C5F2A}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Bat_Flight" ID="{A4384660-E205-4798-93BC-FE5F00CD8924}">
-					<ChildrenList>
-						<Action Name="" ID="{3B6AB52A-2022-4A89-ACF3-891BBEE74B3D}" ShortID="446283540">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Bat_Flight" ID="{E1AC5B29-A1BA-4001-97E6-34A4C87D96BF}" WorkUnitID="{91E31934-C053-47CB-A131-39A014752986}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Fallgitter" ID="{1941026A-26DB-47FE-A6B8-686AF8958EF8}">
 					<ChildrenList>
 						<Action Name="" ID="{F55949AD-591F-435A-B5B7-B6BF206467CF}" ShortID="782286063">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Fallgitter" ID="{06D0ECA0-E340-4581-B112-FAE105E7856D}" WorkUnitID="{189F3DC8-A464-4AA2-B4ED-B0C9F43A0979}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Bat_Voice_Dialogue" ID="{52D2A576-D161-4A6E-8636-E19FE20CC7B6}">
-					<ChildrenList>
-						<Action Name="" ID="{6A22DB38-1312-420A-8028-2C23F991D2A8}" ShortID="847878932">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Bat_Voice_Dialogue" ID="{7C48579B-10AB-4AEF-94AC-1006081ABF2F}" WorkUnitID="{91E31934-C053-47CB-A131-39A014752986}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -245,6 +212,51 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Atmo" ID="{6689D7A0-7A32-4C70-8889-6006F6539832}" ShortID="223012402">
+					<ChildrenList>
+						<Event Name="Play_Wind_Atmo" ID="{547FCA64-E6C3-4BAC-9D3A-C24C0D6B46E9}">
+							<ChildrenList>
+								<Action Name="" ID="{431035A4-A5F8-4508-838C-6023E2B073A0}" ShortID="1014816787">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wind_Atmo" ID="{7A08C897-11B1-4B84-896A-E52121BBF0E6}" WorkUnitID="{D039DBCC-1BCF-4909-855E-59753F4C5F2A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Charakter" ID="{B3404797-0A85-4B40-A59F-36767759837B}" ShortID="893648903">
+					<ChildrenList>
+						<Folder Name="Bat" ID="{297E6727-F0D8-4801-97C7-B7B2DA857EC0}" ShortID="84539270">
+							<ChildrenList>
+								<Event Name="Play_Bat_Voice_Dialogue" ID="{52D2A576-D161-4A6E-8636-E19FE20CC7B6}">
+									<ChildrenList>
+										<Action Name="" ID="{6A22DB38-1312-420A-8028-2C23F991D2A8}" ShortID="847878932">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Bat_Voice_Dialogue" ID="{7C48579B-10AB-4AEF-94AC-1006081ABF2F}" WorkUnitID="{91E31934-C053-47CB-A131-39A014752986}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Event Name="Play_Bat_Flight" ID="{A4384660-E205-4798-93BC-FE5F00CD8924}">
+							<ChildrenList>
+								<Action Name="" ID="{3B6AB52A-2022-4A89-ACF3-891BBEE74B3D}" ShortID="446283540">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bat_Flight" ID="{E1AC5B29-A1BA-4001-97E6-34A4C87D96BF}" WorkUnitID="{91E31934-C053-47CB-A131-39A014752986}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

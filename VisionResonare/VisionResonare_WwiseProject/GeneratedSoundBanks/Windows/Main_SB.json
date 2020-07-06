@@ -250,70 +250,20 @@
       "Name": "Play_Player_Voice",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Player_Voice",
       "GUID": "{F29E93FC-2CD8-48D6-A6F6-FB427ED30B97}",
+      "MaxAttenuation": "0.000000",
       "DurationType": "OneShot",
-      "DurationMin": "24.336658",
-      "DurationMax": "24.336658",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "1017914283",
-        "Language": "SFX",
-        "ShortName": "Vampir voice .wav",
-        "Path": "SFX\\Vampir voice _BCD17148.wem"
-       }
-      ]
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
      },
      {
       "Id": "2058615616",
       "Name": "Play_Soil_Grass_Steps",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Soil_Grass_Steps",
       "GUID": "{490DDEA7-A775-45B3-BA31-EE3DE64E5EDD}",
+      "MaxAttenuation": "0.000000",
       "DurationType": "OneShot",
-      "DurationMin": "0.302224",
-      "DurationMax": "0.474195",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "128833052",
-        "Language": "SFX",
-        "ShortName": "steps_soil_grass_3.wav",
-        "Path": "SFX\\steps_soil_grass_3_7934A08B.wem"
-       },
-       {
-        "Id": "321959893",
-        "Language": "SFX",
-        "ShortName": "steps_soil_grass_2.wav",
-        "Path": "SFX\\steps_soil_grass_2_4A020382.wem"
-       },
-       {
-        "Id": "465281918",
-        "Language": "SFX",
-        "ShortName": "steps_soil_grass_9.wav",
-        "Path": "SFX\\steps_soil_grass_9_6ECDA3B8.wem"
-       },
-       {
-        "Id": "514400515",
-        "Language": "SFX",
-        "ShortName": "steps_soil_grass_1.wav",
-        "Path": "SFX\\steps_soil_grass_1_27E40F67.wem"
-       },
-       {
-        "Id": "626619697",
-        "Language": "SFX",
-        "ShortName": "steps_soil_grass_15.wav",
-        "Path": "SFX\\steps_soil_grass_15_9E8BBDE7.wem"
-       },
-       {
-        "Id": "756624637",
-        "Language": "SFX",
-        "ShortName": "steps_soil_grass_5.wav",
-        "Path": "SFX\\steps_soil_grass_5_FADCC4F5.wem"
-       },
-       {
-        "Id": "909562462",
-        "Language": "SFX",
-        "ShortName": "steps_soil_grass_14.wav",
-        "Path": "SFX\\steps_soil_grass_14_1A402849.wem"
-       }
-      ]
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
      },
      {
       "Id": "2595488237",
@@ -534,14 +484,38 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Werwolf_Death_Hit",
       "GUID": "{E6F9DA7D-288B-4646-A557-3B454953E618}",
       "DurationType": "OneShot",
-      "DurationMin": "0.772795",
-      "DurationMax": "0.772795",
+      "DurationMin": "0.387500",
+      "DurationMax": "0.644511",
       "IncludedMemoryFiles": [
+       {
+        "Id": "61262564",
+        "Language": "SFX",
+        "ShortName": "Hit_4_Mittel.WAV",
+        "Path": "SFX\\Hit_4_Mittel_9D2CE009.wem"
+       },
        {
         "Id": "331146349",
         "Language": "SFX",
         "ShortName": "Treffer(lufs Fehlt).wav",
-        "Path": "SFX\\Treffer(lufs Fehlt)_C04959AD.wem"
+        "Path": "SFX\\Treffer(lufs Fehlt)_8B12F5CD.wem"
+       },
+       {
+        "Id": "564816078",
+        "Language": "SFX",
+        "ShortName": "Hit_2_Schwer.WAV",
+        "Path": "SFX\\Hit_2_Schwer_10C4C929.wem"
+       },
+       {
+        "Id": "722770632",
+        "Language": "SFX",
+        "ShortName": "Hit_1_Mittel.WAV",
+        "Path": "SFX\\Hit_1_Mittel_10C4C929.wem"
+       },
+       {
+        "Id": "895482701",
+        "Language": "SFX",
+        "ShortName": "Hit_3_Leicht.WAV",
+        "Path": "SFX\\Hit_3_Leicht_10C4C929.wem"
        }
       ]
      },
@@ -558,19 +532,13 @@
         "Id": "231825891",
         "Language": "SFX",
         "ShortName": "ANIMAL-DOG-WHIMPER_6EXT8-10134.wav",
-        "Path": "SFX\\ANIMAL-DOG-WHIMPER_6EXT8-10134_B69E8DB0.wem"
+        "Path": "SFX\\ANIMAL-DOG-WHIMPER_6EXT8-10134_8C3731AF.wem"
        },
        {
         "Id": "394097750",
         "Language": "SFX",
         "ShortName": "ANIMAL-DOG-WHINE_6EXT8-10137.wav",
         "Path": "SFX\\ANIMAL-DOG-WHINE_6EXT8-10137_B62C34D5.wem"
-       },
-       {
-        "Id": "701236010",
-        "Language": "SFX",
-        "ShortName": "ANIMAL-DOG-WHINE_6EXT8-10136.wav",
-        "Path": "SFX\\ANIMAL-DOG-WHINE_6EXT8-10136_B15B1638.wem"
        },
        {
         "Id": "959576625",
@@ -608,124 +576,20 @@
       "Name": "Play_Werwolf_Snarl",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Werwolf_Snarl",
       "GUID": "{887CA701-E4DC-4E76-AACE-0A2228678371}",
+      "MaxAttenuation": "0.000000",
       "DurationType": "OneShot",
-      "DurationMin": "1.193247",
-      "DurationMax": "2.719423",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "166622100",
-        "Language": "SFX",
-        "ShortName": "ANIMAL-DOG-SNARL-GROWL_6EXT8-10125.wav",
-        "Path": "SFX\\ANIMAL-DOG-SNARL-GROWL_6EXT8-10125_A0729A21.wem"
-       },
-       {
-        "Id": "456173472",
-        "Language": "SFX",
-        "ShortName": "ANIMAL-DOG-SNARL_6EXT8-10120.wav",
-        "Path": "SFX\\ANIMAL-DOG-SNARL_6EXT8-10120_EF2FB5F4.wem"
-       },
-       {
-        "Id": "627844333",
-        "Language": "SFX",
-        "ShortName": "ANIMAL-DOG-SNARL_6EXT8-10121.wav",
-        "Path": "SFX\\ANIMAL-DOG-SNARL_6EXT8-10121_75CA1082.wem"
-       },
-       {
-        "Id": "677432059",
-        "Language": "SFX",
-        "ShortName": "ANIMAL-DOG-SNARL_6EXT8-10122.wav",
-        "Path": "SFX\\ANIMAL-DOG-SNARL_6EXT8-10122_7BC3234B.wem"
-       },
-       {
-        "Id": "734580216",
-        "Language": "SFX",
-        "ShortName": "ANIMAL-DOG-SNARL_6EXT8-10122.wav",
-        "Path": "SFX\\ANIMAL-DOG-SNARL_6EXT8-10122_416D9DA9.wem"
-       },
-       {
-        "Id": "801531504",
-        "Language": "SFX",
-        "ShortName": "ANIMAL-DOG-SNARL_6EXT8-10120.wav",
-        "Path": "SFX\\ANIMAL-DOG-SNARL_6EXT8-10120_57E25580.wem"
-       },
-       {
-        "Id": "818401427",
-        "Language": "SFX",
-        "ShortName": "ANIMAL-DOG-SNARL_6EXT8-10117.wav",
-        "Path": "SFX\\ANIMAL-DOG-SNARL_6EXT8-10117_5E683AE1.wem"
-       },
-       {
-        "Id": "894164563",
-        "Language": "SFX",
-        "ShortName": "ANIMAL-DOG-SNARL-GROWL_6EXT8-10125.wav",
-        "Path": "SFX\\ANIMAL-DOG-SNARL-GROWL_6EXT8-10125_8316F7CB.wem"
-       },
-       {
-        "Id": "924476053",
-        "Language": "SFX",
-        "ShortName": "ANIMAL-DOG-SNARL_6EXT8-10117.wav",
-        "Path": "SFX\\ANIMAL-DOG-SNARL_6EXT8-10117_228C1FC0.wem"
-       },
-       {
-        "Id": "1069390104",
-        "Language": "SFX",
-        "ShortName": "ANIMAL-DOG-SNARL_6EXT8-10121.wav",
-        "Path": "SFX\\ANIMAL-DOG-SNARL_6EXT8-10121_3545888A.wem"
-       }
-      ]
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
      },
      {
       "Id": "2146771764",
       "Name": "Play_Werwolf_Steps",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Werwolf_Steps",
       "GUID": "{13921011-B420-4443-8F89-D540343EE6DD}",
+      "MaxAttenuation": "0.000000",
       "DurationType": "OneShot",
-      "DurationMin": "0.443539",
-      "DurationMax": "0.876031",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "179425905",
-        "Language": "SFX",
-        "ShortName": "Werwolves_Step2.wav",
-        "Path": "SFX\\Werwolves_Step2_1594E873.wem"
-       },
-       {
-        "Id": "288783382",
-        "Language": "SFX",
-        "ShortName": "Werwolves_Step5.wav",
-        "Path": "SFX\\Werwolves_Step5_9715C6DF.wem"
-       },
-       {
-        "Id": "536328160",
-        "Language": "SFX",
-        "ShortName": "Werwolves_Step3.wav",
-        "Path": "SFX\\Werwolves_Step3_DF64AEDE.wem"
-       },
-       {
-        "Id": "601616758",
-        "Language": "SFX",
-        "ShortName": "Werwolves_Step6.wav",
-        "Path": "SFX\\Werwolves_Step6_161133F6.wem"
-       },
-       {
-        "Id": "709425308",
-        "Language": "SFX",
-        "ShortName": "Werwolves_Step4.wav",
-        "Path": "SFX\\Werwolves_Step4_758C78A4.wem"
-       },
-       {
-        "Id": "822788779",
-        "Language": "SFX",
-        "ShortName": "Werwolves_Step1.wav",
-        "Path": "SFX\\Werwolves_Step1_4F75EFD0.wem"
-       },
-       {
-        "Id": "1008196273",
-        "Language": "SFX",
-        "ShortName": "Werwolves_Step7.wav",
-        "Path": "SFX\\Werwolves_Step7_10523CEA.wem"
-       }
-      ]
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
      },
      {
       "Id": "1977715428",
@@ -781,6 +645,12 @@
         "Language": "SFX",
         "ShortName": "steps_wood_8.wav",
         "Path": "SFX\\steps_wood_8_E59FFF5C.wem"
+       },
+       {
+        "Id": "284298852",
+        "Language": "SFX",
+        "ShortName": "steps_wood_2.wav",
+        "Path": "SFX\\steps_wood_2_0798DA4A.wem"
        },
        {
         "Id": "302937213",
