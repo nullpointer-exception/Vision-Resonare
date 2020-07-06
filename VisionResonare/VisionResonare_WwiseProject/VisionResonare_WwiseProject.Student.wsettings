@@ -3,6 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{D6574B56-5B6C-44C8-A11B-2163F20C3DF1}">
 			<PropertyList>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="D:\Francis Steffens\Sound Orrdner für VR\"/>
 				<Property Name="Event Action List\{0B0C1258-CB67-4195-BF2B-0002213EE309}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{0B382BFB-2927-406B-A987-C581AC5A7C41}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{0E318F4D-9B5F-45CD-A937-BA6F483892FF}\x64_Expand States" Type="string" Value=""/>
@@ -23,6 +24,7 @@
 				<Property Name="Event Action List\{A7668C44-E058-4FFB-9F73-5EDE53C61C5B}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{B489546C-E6C3-4AA1-BF46-05679DFC0C39}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{B5CECD36-4CB6-4D8C-8AB8-B375ABD190F4}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{D0859F95-DA89-460B-B38C-0DEB928953A8}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{DA161721-CF7E-4129-A0ED-6E89D8CC7069}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E6F9DA7D-288B-4646-A557-3B454953E618}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{F29E93FC-2CD8-48D6-A6F6-FB427ED30B97}\x64_Expand States" Type="string" Value=""/>

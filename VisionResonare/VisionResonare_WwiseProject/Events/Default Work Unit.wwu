@@ -234,6 +234,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Warnsignal_Attack_Werewolf" ID="{D0859F95-DA89-460B-B38C-0DEB928953A8}">
+					<ChildrenList>
+						<Action Name="" ID="{8892C340-FA26-4B38-9258-3C53E1D74D31}" ShortID="245691774">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Warnsignal 1" ID="{F5B29C09-1B88-4BBD-9AA1-D0E536E2A858}" WorkUnitID="{660D74D9-459E-4573-B2CD-2D6910A199D5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -5971,6 +5971,109 @@
 					</ReferenceList>
 					<GroupingInfo/>
 				</SwitchContainer>
+				<RandomSequenceContainer Name="Warnsignal 1" ID="{F5B29C09-1B88-4BBD-9AA1-D0E536E2A858}" ShortID="32009197">
+					<PropertyList>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="1_Ep Facepla" ID="{69A0B0BB-4F80-4467-85D5-D74089050A83}" ShortID="427880875">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="1_Ep Facepla" ID="{F513DCAB-7CDB-49E1-84AF-F788DFD7FC50}">
+									<Language>SFX</Language>
+									<AudioFile>1.Ep Facepla.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="774435495"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="1_Ep Facepla" ID="{F513DCAB-7CDB-49E1-84AF-F788DFD7FC50}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="1_Ep Facepla_01" ID="{AFC3BB6F-AFB2-4501-B816-7B44ACAF362A}" ShortID="649076994">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="1_Ep Facepla" ID="{71BCF2AD-CAC3-4454-A4C0-76D0E6427685}">
+									<Language>SFX</Language>
+									<AudioFile>1.Ep Facepla.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="774435495"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="1_Ep Facepla" ID="{71BCF2AD-CAC3-4454-A4C0-76D0E6427685}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="1_Ep Facepla_02" ID="{AA7011C4-C849-48C6-9443-458693695028}" ShortID="264204733">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="1_Ep Facepla" ID="{D04B5EA2-F0E1-4429-81E2-E7DB8FDBD0D7}">
+									<Language>SFX</Language>
+									<AudioFile>1.Ep Facepla.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="774435495"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="1_Ep Facepla" ID="{D04B5EA2-F0E1-4429-81E2-E7DB8FDBD0D7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="1_Ep Facepla_03" ID="{048CDC49-2368-4A2A-91D3-27D63A5242A3}" ShortID="560931786">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="1_Ep Facepla" ID="{0A698360-8A31-400A-9023-B6D63586B978}">
+									<Language>SFX</Language>
+									<AudioFile>1.Ep Facepla.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="774435495"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="1_Ep Facepla" ID="{0A698360-8A31-400A-9023-B6D63586B978}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

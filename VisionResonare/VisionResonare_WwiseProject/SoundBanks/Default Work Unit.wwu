@@ -13,6 +13,7 @@
 						<ObjectRef Name="Play_Grandclock_Start" ID="{A59E9E3A-DE44-44FE-8B42-A713640DEE7A}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Soil_Grass_Steps" ID="{490DDEA7-A775-45B3-BA31-EE3DE64E5EDD}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Carpet_Steps" ID="{0E318F4D-9B5F-45CD-A937-BA6F483892FF}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Warnsignal_Attack_Werewolf" ID="{D0859F95-DA89-460B-B38C-0DEB928953A8}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Werwolf_Death_Hit" ID="{E6F9DA7D-288B-4646-A557-3B454953E618}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Bat_Flight" ID="{A4384660-E205-4798-93BC-FE5F00CD8924}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Fallgitter" ID="{1941026A-26DB-47FE-A6B8-686AF8958EF8}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
