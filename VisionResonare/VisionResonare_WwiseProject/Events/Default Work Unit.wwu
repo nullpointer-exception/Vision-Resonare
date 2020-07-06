@@ -8,7 +8,7 @@
 						<Action Name="" ID="{22CB9C87-C455-4B87-8420-9E8215617D1F}" ShortID="692108199">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Werwolf_Death_Sounds" ID="{B0292A9B-8653-4128-9335-EDA763BBBB77}" WorkUnitID="{660D74D9-459E-4573-B2CD-2D6910A199D5}"/>
+									<ObjectRef Name="Werwolf_Death_Sounds" ID="{B0292A9B-8653-4128-9335-EDA763BBBB77}" WorkUnitID="{91E31934-C053-47CB-A131-39A014752986}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -30,7 +30,7 @@
 						<Action Name="" ID="{D76CAD52-77A4-498B-8627-847FC27B25D4}" ShortID="225486714">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Werwolf_Death_Hit" ID="{E3283317-B654-4FA6-B378-32F5CEE42B99}" WorkUnitID="{660D74D9-459E-4573-B2CD-2D6910A199D5}"/>
+									<ObjectRef Name="Attack on Werewolf" ID="{E3283317-B654-4FA6-B378-32F5CEE42B99}" WorkUnitID="{91E31934-C053-47CB-A131-39A014752986}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -41,7 +41,7 @@
 						<Action Name="" ID="{3E5DF266-A43A-457F-AAD0-320EC4FCCAC9}" ShortID="197868464">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Werwolf_Hits" ID="{3A3B027F-A576-4DB0-9548-6E4D405477DF}" WorkUnitID="{660D74D9-459E-4573-B2CD-2D6910A199D5}"/>
+									<ObjectRef Name="Werwolf_Hits" ID="{3A3B027F-A576-4DB0-9548-6E4D405477DF}" WorkUnitID="{91E31934-C053-47CB-A131-39A014752986}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -63,7 +63,7 @@
 						<Action Name="" ID="{1A0C5E72-475E-408B-8D4C-1AA701637D4A}" ShortID="683813924">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Carpet_Steps" ID="{1C0CAE50-2C77-4AEE-9CBF-77AAC4E189CE}" WorkUnitID="{660D74D9-459E-4573-B2CD-2D6910A199D5}"/>
+									<ObjectRef Name="Carpet_Steps" ID="{1C0CAE50-2C77-4AEE-9CBF-77AAC4E189CE}" WorkUnitID="{91E31934-C053-47CB-A131-39A014752986}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -85,7 +85,7 @@
 						<Action Name="" ID="{A9D85178-BC31-475E-9EB8-87C2BC76561B}" ShortID="202944592">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Stone_Steps" ID="{CE0A159E-7AC4-4403-8141-F8A764BF047E}" WorkUnitID="{660D74D9-459E-4573-B2CD-2D6910A199D5}"/>
+									<ObjectRef Name="Stone_Steps" ID="{CE0A159E-7AC4-4403-8141-F8A764BF047E}" WorkUnitID="{91E31934-C053-47CB-A131-39A014752986}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -96,7 +96,7 @@
 						<Action Name="" ID="{6D43FD31-FA80-478E-8E85-272ED9A61850}" ShortID="931136784">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Stone_Steps_Outside" ID="{AB95ABBD-CD63-4EF2-9A69-83046E323D87}" WorkUnitID="{660D74D9-459E-4573-B2CD-2D6910A199D5}"/>
+									<ObjectRef Name="Stone_Steps_Outside" ID="{AB95ABBD-CD63-4EF2-9A69-83046E323D87}" WorkUnitID="{91E31934-C053-47CB-A131-39A014752986}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -107,7 +107,7 @@
 						<Action Name="" ID="{80591428-42A4-4903-AF36-59FA367C6665}" ShortID="786177658">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Wood_Steps" ID="{7E7DF046-A705-432A-AF8B-906BDAA98877}" WorkUnitID="{660D74D9-459E-4573-B2CD-2D6910A199D5}"/>
+									<ObjectRef Name="Wood_Steps" ID="{7E7DF046-A705-432A-AF8B-906BDAA98877}" WorkUnitID="{91E31934-C053-47CB-A131-39A014752986}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -118,7 +118,7 @@
 						<Action Name="" ID="{8E5FD17C-6B43-4AD8-84F1-59D79064E24E}" ShortID="996111655">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Fireplace" ID="{21C2E75C-EB88-4784-978D-C9B668E8B512}" WorkUnitID="{660D74D9-459E-4573-B2CD-2D6910A199D5}"/>
+									<ObjectRef Name="Fireplace" ID="{21C2E75C-EB88-4784-978D-C9B668E8B512}" WorkUnitID="{189F3DC8-A464-4AA2-B4ED-B0C9F43A0979}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -129,7 +129,7 @@
 						<Action Name="" ID="{846FA764-1C07-439C-B6E5-277E90CB30C4}" ShortID="788711176">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Coffin_Falling" ID="{F5611C36-FA07-4E25-B5D7-DF071F3413BA}" WorkUnitID="{660D74D9-459E-4573-B2CD-2D6910A199D5}"/>
+									<ObjectRef Name="Coffin_Falling" ID="{F5611C36-FA07-4E25-B5D7-DF071F3413BA}" WorkUnitID="{189F3DC8-A464-4AA2-B4ED-B0C9F43A0979}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -140,7 +140,7 @@
 						<Action Name="" ID="{A3979BFB-2EFF-4822-A680-AD386EED640C}" ShortID="142734587">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Grandclock_Start" ID="{8EED6DA2-B814-409B-9966-93D96C517F34}" WorkUnitID="{660D74D9-459E-4573-B2CD-2D6910A199D5}"/>
+									<ObjectRef Name="Grandclock_Start" ID="{8EED6DA2-B814-409B-9966-93D96C517F34}" WorkUnitID="{189F3DC8-A464-4AA2-B4ED-B0C9F43A0979}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -151,7 +151,7 @@
 						<Action Name="" ID="{5296BE21-AB6C-4B48-A63B-5D5EFAF2061B}" ShortID="645218922">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Grandclock_Ticking" ID="{A8256F6B-EB92-4AA8-8811-044A0BBF855F}" WorkUnitID="{660D74D9-459E-4573-B2CD-2D6910A199D5}"/>
+									<ObjectRef Name="Grandclock_Ticking" ID="{A8256F6B-EB92-4AA8-8811-044A0BBF855F}" WorkUnitID="{189F3DC8-A464-4AA2-B4ED-B0C9F43A0979}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -195,7 +195,7 @@
 						<Action Name="" ID="{F55949AD-591F-435A-B5B7-B6BF206467CF}" ShortID="782286063">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Fallgitter" ID="{06D0ECA0-E340-4581-B112-FAE105E7856D}" WorkUnitID="{660D74D9-459E-4573-B2CD-2D6910A199D5}"/>
+									<ObjectRef Name="Fallgitter" ID="{06D0ECA0-E340-4581-B112-FAE105E7856D}" WorkUnitID="{189F3DC8-A464-4AA2-B4ED-B0C9F43A0979}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -239,7 +239,7 @@
 						<Action Name="" ID="{8892C340-FA26-4B38-9258-3C53E1D74D31}" ShortID="245691774">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Warnsignal 1" ID="{F5B29C09-1B88-4BBD-9AA1-D0E536E2A858}" WorkUnitID="{660D74D9-459E-4573-B2CD-2D6910A199D5}"/>
+									<ObjectRef Name="Warnsignal 1" ID="{F5B29C09-1B88-4BBD-9AA1-D0E536E2A858}" WorkUnitID="{91E31934-C053-47CB-A131-39A014752986}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
