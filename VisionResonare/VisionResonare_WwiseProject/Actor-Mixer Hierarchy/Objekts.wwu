@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{189F3DC8-A464-4AA2-B4ED-B0C9F43A0979}" SchemaVersion="97" RootDocumentID="{660D74D9-459E-4573-B2CD-2D6910A199D5}">
+	<AudioObjects>
+		<WorkUnit Name="Objekts" ID="{189F3DC8-A464-4AA2-B4ED-B0C9F43A0979}" OwnerID="{660D74D9-459E-4573-B2CD-2D6910A199D5}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="Level 1" ID="{CCF8E078-739F-4E30-B844-1410D31F1CE3}" ShortID="197892410"/>
+				<Folder Name="Level 2" ID="{43ABBBA5-2222-4975-90D7-C6B4AF22BAF3}" ShortID="1062421541"/>
+				<SwitchContainer Name="Window" ID="{4C6B1610-F7F8-4845-828D-4EB586E3AB1A}" ShortID="180724409">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Window_Opening" ID="{D9464EEA-6483-4432-BE50-73A1C1FB28CB}" ShortID="540908888">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Fensteröffnen" ID="{E2437FB8-5FD5-4954-8264-DC092FE14CC5}" ShortID="844278762">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fensteröffnen" ID="{A3AE1A48-0278-4A5A-A87B-E336215B713D}">
+											<Language>SFX</Language>
+											<AudioFile>Fensteröffnen.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="750376241"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fensteröffnen" ID="{A3AE1A48-0278-4A5A-A87B-E336215B713D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Window_Opening" ID="{D9464EEA-6483-4432-BE50-73A1C1FB28CB}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

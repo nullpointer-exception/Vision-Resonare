@@ -162,7 +162,7 @@
 						<Action Name="" ID="{CC167BC3-1444-4D86-989A-C040CC8D47D3}" ShortID="750585226">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Window_Opening" ID="{D9464EEA-6483-4432-BE50-73A1C1FB28CB}" WorkUnitID="{660D74D9-459E-4573-B2CD-2D6910A199D5}"/>
+									<ObjectRef Name="Window_Opening" ID="{D9464EEA-6483-4432-BE50-73A1C1FB28CB}" WorkUnitID="{189F3DC8-A464-4AA2-B4ED-B0C9F43A0979}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -173,7 +173,7 @@
 						<Action Name="" ID="{431035A4-A5F8-4508-838C-6023E2B073A0}" ShortID="1014816787">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Wind_Atmo" ID="{7A08C897-11B1-4B84-896A-E52121BBF0E6}" WorkUnitID="{660D74D9-459E-4573-B2CD-2D6910A199D5}"/>
+									<ObjectRef Name="Wind_Atmo" ID="{7A08C897-11B1-4B84-896A-E52121BBF0E6}" WorkUnitID="{D039DBCC-1BCF-4909-855E-59753F4C5F2A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -184,7 +184,7 @@
 						<Action Name="" ID="{3B6AB52A-2022-4A89-ACF3-891BBEE74B3D}" ShortID="446283540">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Bat_Flight" ID="{E1AC5B29-A1BA-4001-97E6-34A4C87D96BF}" WorkUnitID="{660D74D9-459E-4573-B2CD-2D6910A199D5}"/>
+									<ObjectRef Name="Bat_Flight" ID="{E1AC5B29-A1BA-4001-97E6-34A4C87D96BF}" WorkUnitID="{91E31934-C053-47CB-A131-39A014752986}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -206,7 +206,7 @@
 						<Action Name="" ID="{6A22DB38-1312-420A-8028-2C23F991D2A8}" ShortID="847878932">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Bat_Voice_Dialogue" ID="{7C48579B-10AB-4AEF-94AC-1006081ABF2F}" WorkUnitID="{660D74D9-459E-4573-B2CD-2D6910A199D5}"/>
+									<ObjectRef Name="Bat_Voice_Dialogue" ID="{7C48579B-10AB-4AEF-94AC-1006081ABF2F}" WorkUnitID="{91E31934-C053-47CB-A131-39A014752986}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -217,7 +217,7 @@
 						<Action Name="" ID="{2A7B0156-DA86-4A0A-BE6F-2CD54015679E}" ShortID="192432158">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Bat_Voice_Master" ID="{12EF3D7B-94EC-41C3-B69E-AD00EBD13C91}" WorkUnitID="{660D74D9-459E-4573-B2CD-2D6910A199D5}"/>
+									<ObjectRef Name="Bat_Voice_Master" ID="{12EF3D7B-94EC-41C3-B69E-AD00EBD13C91}" WorkUnitID="{91E31934-C053-47CB-A131-39A014752986}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
