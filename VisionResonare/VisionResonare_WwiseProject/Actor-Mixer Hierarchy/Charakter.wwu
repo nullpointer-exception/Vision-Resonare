@@ -246,6 +246,13 @@
 									</ChildrenList>
 								</BlendContainer>
 								<BlendContainer Name="Bat_Voice_Master" ID="{12EF3D7B-94EC-41C3-B69E-AD00EBD13C91}" ShortID="645957338">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
@@ -362,7 +369,7 @@
 													<PropertyList>
 														<Property Name="Pitch" Type="int32">
 															<ValueList>
-																<Value>-600</Value>
+																<Value>-730</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>
@@ -849,6 +856,822 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
+						<BlendContainer Name="Carpet_Steps_Werwolf" ID="{1C0CAE50-2C77-4AEE-9CBF-77AAC4E189CE}" ShortID="274713393">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Heel" ID="{2D078409-36D5-45CC-9B9E-4492D3E32951}" ShortID="501514026">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>0.1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="steps_carpet_1" ID="{87626B0F-293D-44FF-97A6-45817BC343E1}" ShortID="222297129">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="steps_carpet_1" ID="{7D85DA78-155A-44F6-A6F9-23A89C325FCE}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0233561643835616"/>
+														<Property Name="FadeInShape" Type="int16" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0966095890410959"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>steps_carpet_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="631889780"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="steps_carpet_1" ID="{7D85DA78-155A-44F6-A6F9-23A89C325FCE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="steps_carpet_2" ID="{C13D08FB-5EBC-4DE4-A313-4F85DE72992B}" ShortID="712879786">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="steps_carpet_2" ID="{3518B69B-D8D2-4671-8C6C-56BEC599BD38}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0532876712328767"/>
+														<Property Name="FadeInShape" Type="int16" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0647602739726027"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>steps_carpet_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="117204444"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="steps_carpet_2" ID="{3518B69B-D8D2-4671-8C6C-56BEC599BD38}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="steps_carpet_3" ID="{5B141487-0D29-4EF4-B2F2-35D5D513A007}" ShortID="772439259">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="steps_carpet_3" ID="{343359B1-F9B6-475F-B839-1610768EEFF7}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0761135961233809"/>
+														<Property Name="FadeInShape" Type="int16" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.113460418413941"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>steps_carpet_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1013946811"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="steps_carpet_3" ID="{343359B1-F9B6-475F-B839-1610768EEFF7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="steps_carpet_4" ID="{5F771BD4-53BB-45B7-8BD7-00CF93DABDC4}" ShortID="438497019">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="steps_carpet_4" ID="{4208722E-6E0B-48B8-8C38-0E6E716E4B36}">
+													<PropertyList>
+														<Property Name="FadeInShape" Type="int16" Value="0"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0.0585225048923679"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0529489329978567"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>steps_carpet_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="808075304"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="steps_carpet_4" ID="{4208722E-6E0B-48B8-8C38-0E6E716E4B36}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="steps_carpet_5" ID="{239C6B7A-F396-451B-B9AB-2CBFD670000E}" ShortID="13082610">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="steps_carpet_5" ID="{971C7852-D8FF-426A-84CA-B26FDF63EAED}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.114357934954804"/>
+														<Property Name="FadeInShape" Type="int16" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.134007392911503"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>steps_carpet_5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1053202334"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="steps_carpet_5" ID="{971C7852-D8FF-426A-84CA-B26FDF63EAED}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="steps_carpet_6" ID="{77CCF798-730C-4E03-8A88-4910948FFC36}" ShortID="94435124">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="steps_carpet_6" ID="{EBBB1CDF-46D0-4357-81B4-C97DFC00AB0E}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.118493150684932"/>
+														<Property Name="FadeInShape" Type="int16" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.124315068493151"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>steps_carpet_6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="977450910"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="steps_carpet_6" ID="{EBBB1CDF-46D0-4357-81B4-C97DFC00AB0E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="steps_carpet_7" ID="{D61F78F7-9C8F-441B-B606-80EC23CBA3A0}" ShortID="482071015">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="steps_carpet_7" ID="{767F8527-11FA-4426-B121-3D57866635CB}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.1"/>
+														<Property Name="FadeInShape" Type="int16" Value="0"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0.143067786475321"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.143067786475321"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>steps_carpet_7.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1039299331"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="steps_carpet_7" ID="{767F8527-11FA-4426-B121-3D57866635CB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="steps_carpet_8" ID="{B76BB9CD-D5F7-4181-9415-BD04F4274563}" ShortID="1071122038">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="steps_carpet_8" ID="{9002E966-B6AA-4503-B97E-F8F96F1EB4F7}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.1"/>
+														<Property Name="FadeInShape" Type="int16" Value="0"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0.114657534246575"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.114657534246575"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>steps_carpet_8.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="123741879"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="steps_carpet_8" ID="{9002E966-B6AA-4503-B97E-F8F96F1EB4F7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="steps_carpet_9" ID="{8B7AEEE7-61F8-4BF6-95C2-53E139E04773}" ShortID="898694617">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="steps_carpet_9" ID="{2075A4C2-4907-4C29-9991-D0F3768FC03B}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.1"/>
+														<Property Name="FadeInShape" Type="int16" Value="0"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0.123546423135464"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.123546423135464"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>steps_carpet_9.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1027367088"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="steps_carpet_9" ID="{2075A4C2-4907-4C29-9991-D0F3768FC03B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="steps_carpet_10" ID="{73C43476-3657-4FE3-848A-96F40AB07081}" ShortID="1032346687">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="steps_carpet_10" ID="{3FB6CF21-CDE5-4CF0-BB56-9B83DFC5183E}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.1"/>
+														<Property Name="FadeInShape" Type="int16" Value="0"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0.0885804755692231"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0756417544186625"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>steps_carpet_10.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="199780543"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="steps_carpet_10" ID="{3FB6CF21-CDE5-4CF0-BB56-9B83DFC5183E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="steps_carpet_11" ID="{C07ACBC1-E51C-4233-8717-96C6E8A86CD2}" ShortID="63907706">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="steps_carpet_11" ID="{5C8EA192-5271-4DE5-B863-BED408EAF874}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.1"/>
+														<Property Name="FadeInShape" Type="int16" Value="0"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0.115453204112695"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.115453204112695"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>steps_carpet_11.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="45451389"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="steps_carpet_11" ID="{5C8EA192-5271-4DE5-B863-BED408EAF874}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="steps_carpet_12" ID="{28981AB1-C627-40D3-A682-F695263826D2}" ShortID="932725824">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="steps_carpet_12" ID="{B9B34047-312C-4D88-BF8A-E2AB1B31CA58}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.1"/>
+														<Property Name="FadeInShape" Type="int16" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.167114590128289"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>steps_carpet_12.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="312369803"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="steps_carpet_12" ID="{B9B34047-312C-4D88-BF8A-E2AB1B31CA58}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Toe" ID="{AEE03B41-2908-4E06-8577-D4F642F18D7F}" ShortID="184413786">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-300</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="steps_carpet_7" ID="{BCAAB333-C53D-49FF-B5D5-2991334A1426}" ShortID="757626949">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-300</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="steps_carpet_7" ID="{326C0991-847A-411E-AC79-9138C1085A16}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.1"/>
+														<Property Name="FadeInShape" Type="int16" Value="0"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0.143067786475321"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.143067786475321"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>steps_carpet_7.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1039299331"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="steps_carpet_7" ID="{326C0991-847A-411E-AC79-9138C1085A16}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="steps_carpet_2" ID="{A4AD1405-72AB-4D03-9AAA-AF01FE194110}" ShortID="244813686">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-300</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="steps_carpet_2" ID="{CF95338C-F694-4328-8F53-F5EAD17F0916}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0532876712328767"/>
+														<Property Name="FadeInShape" Type="int16" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0647602739726027"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>steps_carpet_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="117204444"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="steps_carpet_2" ID="{CF95338C-F694-4328-8F53-F5EAD17F0916}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="steps_carpet_9" ID="{0CCB566F-D2A6-45B5-ADF9-CA5EE7706AA1}" ShortID="135351442">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-300</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="steps_carpet_9" ID="{F206F955-6E29-42A7-937B-2384768B5C3C}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.1"/>
+														<Property Name="FadeInShape" Type="int16" Value="0"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0.123546423135464"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.123546423135464"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>steps_carpet_9.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1027367088"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="steps_carpet_9" ID="{F206F955-6E29-42A7-937B-2384768B5C3C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="steps_carpet_8" ID="{B9337265-F67A-468C-A01E-47634E919F1B}" ShortID="229443386">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-300</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="steps_carpet_8" ID="{5CA44234-0711-4B53-BB16-EA1CA943DBAD}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.1"/>
+														<Property Name="FadeInShape" Type="int16" Value="0"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0.114657534246575"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.114657534246575"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>steps_carpet_8.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="123741879"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="steps_carpet_8" ID="{5CA44234-0711-4B53-BB16-EA1CA943DBAD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="steps_carpet_12" ID="{4B79B24D-F4BB-4378-80CE-0BE4B35764FC}" ShortID="309835332">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-300</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="steps_carpet_12" ID="{6B5DFFDC-E52D-4135-B139-1A71286EB418}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.1"/>
+														<Property Name="FadeInShape" Type="int16" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.167114590128289"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>steps_carpet_12.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="312369803"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="steps_carpet_12" ID="{6B5DFFDC-E52D-4135-B139-1A71286EB418}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="steps_carpet_4" ID="{FE1F21E0-F557-4463-9B15-9084B2E17772}" ShortID="719351052">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-300</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="steps_carpet_4" ID="{198C5E6A-3A4F-45BC-A46E-277DA534CFFC}">
+													<PropertyList>
+														<Property Name="FadeInShape" Type="int16" Value="0"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0.0585225048923679"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0529489329978567"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>steps_carpet_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="808075304"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="steps_carpet_4" ID="{198C5E6A-3A4F-45BC-A46E-277DA534CFFC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="steps_carpet_3" ID="{17E82383-90CE-4A6A-8908-D1EA356F376D}" ShortID="406248077">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-300</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="steps_carpet_3" ID="{4E1BC665-DEF9-41DD-BFF7-9755D1241C6D}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0761135961233809"/>
+														<Property Name="FadeInShape" Type="int16" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.113460418413941"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>steps_carpet_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1013946811"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="steps_carpet_3" ID="{4E1BC665-DEF9-41DD-BFF7-9755D1241C6D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="steps_carpet_11" ID="{EA64DC3A-0DFF-4E23-AFE1-9EE9DBBF78E7}" ShortID="661461058">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-300</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="steps_carpet_11" ID="{5057A2F9-6360-4209-807A-E1FBE8CCF0F2}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.1"/>
+														<Property Name="FadeInShape" Type="int16" Value="0"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0.115453204112695"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.115453204112695"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>steps_carpet_11.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="45451389"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="steps_carpet_11" ID="{5057A2F9-6360-4209-807A-E1FBE8CCF0F2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="steps_carpet_1" ID="{6F47D3AB-15A6-45B5-B106-1C051328E38E}" ShortID="147119572">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-300</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="steps_carpet_1" ID="{059821F7-A4DA-47E8-AD56-CC144C8E0C0B}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0233561643835616"/>
+														<Property Name="FadeInShape" Type="int16" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0966095890410959"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>steps_carpet_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="631889780"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="steps_carpet_1" ID="{059821F7-A4DA-47E8-AD56-CC144C8E0C0B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="steps_carpet_5" ID="{B02C702D-1E82-4997-8D5D-D8A3CFFD6BDA}" ShortID="903545054">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-300</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="steps_carpet_5" ID="{57D54A61-93B0-413B-9167-2F25693A595C}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.114357934954804"/>
+														<Property Name="FadeInShape" Type="int16" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.134007392911503"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>steps_carpet_5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1053202334"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="steps_carpet_5" ID="{57D54A61-93B0-413B-9167-2F25693A595C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="steps_carpet_6" ID="{10377D2C-0F01-440B-AB01-050C807D565D}" ShortID="201856095">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-300</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="steps_carpet_6" ID="{51F07106-9AC9-4FD1-A5F8-5217E6E9DECC}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.118493150684932"/>
+														<Property Name="FadeInShape" Type="int16" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.124315068493151"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>steps_carpet_6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="977450910"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="steps_carpet_6" ID="{51F07106-9AC9-4FD1-A5F8-5217E6E9DECC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="steps_carpet_10" ID="{171089F1-93F6-4927-8F41-DB76B3E3A2C9}" ShortID="620492065">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-300</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="steps_carpet_10" ID="{B03E14B4-F585-41C9-8534-A1B6637FA9D7}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.1"/>
+														<Property Name="FadeInShape" Type="int16" Value="0"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0.0885804755692231"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0756417544186625"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>steps_carpet_10.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="199780543"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="steps_carpet_10" ID="{B03E14B4-F585-41C9-8534-A1B6637FA9D7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</BlendContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Player" ID="{EA468EE7-01AD-4AC5-BC6F-65C25783B51A}" ShortID="473650928">
@@ -1068,6 +1891,10 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="Schwingen" ID="{EA31F06D-9192-4060-B37D-CE0A49C7D1F3}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.857979452054792"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Schwingen.WAV</AudioFile>
 													<MediaIDList>
@@ -1111,822 +1938,6 @@
 										</Reference>
 									</ReferenceList>
 								</RandomSequenceContainer>
-								<BlendContainer Name="Carpet_Steps" ID="{1C0CAE50-2C77-4AEE-9CBF-77AAC4E189CE}" ShortID="274713393">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<RandomSequenceContainer Name="Heel" ID="{2D078409-36D5-45CC-9B9E-4492D3E32951}" ShortID="501514026">
-											<PropertyList>
-												<Property Name="InitialDelay" Type="Real64">
-													<ValueList>
-														<Value>0.1</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="steps_carpet_1" ID="{87626B0F-293D-44FF-97A6-45817BC343E1}" ShortID="222297129">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="steps_carpet_1" ID="{7D85DA78-155A-44F6-A6F9-23A89C325FCE}">
-															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.0233561643835616"/>
-																<Property Name="FadeInShape" Type="int16" Value="0"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.0966095890410959"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>steps_carpet_1.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="631889780"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="steps_carpet_1" ID="{7D85DA78-155A-44F6-A6F9-23A89C325FCE}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="steps_carpet_2" ID="{C13D08FB-5EBC-4DE4-A313-4F85DE72992B}" ShortID="712879786">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="steps_carpet_2" ID="{3518B69B-D8D2-4671-8C6C-56BEC599BD38}">
-															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.0532876712328767"/>
-																<Property Name="FadeInShape" Type="int16" Value="0"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.0647602739726027"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>steps_carpet_2.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="117204444"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="steps_carpet_2" ID="{3518B69B-D8D2-4671-8C6C-56BEC599BD38}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="steps_carpet_3" ID="{5B141487-0D29-4EF4-B2F2-35D5D513A007}" ShortID="772439259">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="steps_carpet_3" ID="{343359B1-F9B6-475F-B839-1610768EEFF7}">
-															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.0761135961233809"/>
-																<Property Name="FadeInShape" Type="int16" Value="0"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.113460418413941"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>steps_carpet_3.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="1013946811"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="steps_carpet_3" ID="{343359B1-F9B6-475F-B839-1610768EEFF7}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="steps_carpet_4" ID="{5F771BD4-53BB-45B7-8BD7-00CF93DABDC4}" ShortID="438497019">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="steps_carpet_4" ID="{4208722E-6E0B-48B8-8C38-0E6E716E4B36}">
-															<PropertyList>
-																<Property Name="FadeInShape" Type="int16" Value="0"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0.0585225048923679"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.0529489329978567"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>steps_carpet_4.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="808075304"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="steps_carpet_4" ID="{4208722E-6E0B-48B8-8C38-0E6E716E4B36}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="steps_carpet_5" ID="{239C6B7A-F396-451B-B9AB-2CBFD670000E}" ShortID="13082610">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="steps_carpet_5" ID="{971C7852-D8FF-426A-84CA-B26FDF63EAED}">
-															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.114357934954804"/>
-																<Property Name="FadeInShape" Type="int16" Value="0"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.134007392911503"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>steps_carpet_5.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="1053202334"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="steps_carpet_5" ID="{971C7852-D8FF-426A-84CA-B26FDF63EAED}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="steps_carpet_6" ID="{77CCF798-730C-4E03-8A88-4910948FFC36}" ShortID="94435124">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="steps_carpet_6" ID="{EBBB1CDF-46D0-4357-81B4-C97DFC00AB0E}">
-															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.118493150684932"/>
-																<Property Name="FadeInShape" Type="int16" Value="0"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.124315068493151"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>steps_carpet_6.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="977450910"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="steps_carpet_6" ID="{EBBB1CDF-46D0-4357-81B4-C97DFC00AB0E}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="steps_carpet_7" ID="{D61F78F7-9C8F-441B-B606-80EC23CBA3A0}" ShortID="482071015">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="steps_carpet_7" ID="{767F8527-11FA-4426-B121-3D57866635CB}">
-															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.1"/>
-																<Property Name="FadeInShape" Type="int16" Value="0"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0.143067786475321"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.143067786475321"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>steps_carpet_7.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="1039299331"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="steps_carpet_7" ID="{767F8527-11FA-4426-B121-3D57866635CB}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="steps_carpet_8" ID="{B76BB9CD-D5F7-4181-9415-BD04F4274563}" ShortID="1071122038">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="steps_carpet_8" ID="{9002E966-B6AA-4503-B97E-F8F96F1EB4F7}">
-															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.1"/>
-																<Property Name="FadeInShape" Type="int16" Value="0"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0.114657534246575"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.114657534246575"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>steps_carpet_8.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="123741879"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="steps_carpet_8" ID="{9002E966-B6AA-4503-B97E-F8F96F1EB4F7}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="steps_carpet_9" ID="{8B7AEEE7-61F8-4BF6-95C2-53E139E04773}" ShortID="898694617">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="steps_carpet_9" ID="{2075A4C2-4907-4C29-9991-D0F3768FC03B}">
-															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.1"/>
-																<Property Name="FadeInShape" Type="int16" Value="0"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0.123546423135464"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.123546423135464"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>steps_carpet_9.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="1027367088"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="steps_carpet_9" ID="{2075A4C2-4907-4C29-9991-D0F3768FC03B}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="steps_carpet_10" ID="{73C43476-3657-4FE3-848A-96F40AB07081}" ShortID="1032346687">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="steps_carpet_10" ID="{3FB6CF21-CDE5-4CF0-BB56-9B83DFC5183E}">
-															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.1"/>
-																<Property Name="FadeInShape" Type="int16" Value="0"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0.0885804755692231"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.0756417544186625"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>steps_carpet_10.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="199780543"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="steps_carpet_10" ID="{3FB6CF21-CDE5-4CF0-BB56-9B83DFC5183E}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="steps_carpet_11" ID="{C07ACBC1-E51C-4233-8717-96C6E8A86CD2}" ShortID="63907706">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="steps_carpet_11" ID="{5C8EA192-5271-4DE5-B863-BED408EAF874}">
-															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.1"/>
-																<Property Name="FadeInShape" Type="int16" Value="0"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0.115453204112695"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.115453204112695"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>steps_carpet_11.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="45451389"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="steps_carpet_11" ID="{5C8EA192-5271-4DE5-B863-BED408EAF874}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="steps_carpet_12" ID="{28981AB1-C627-40D3-A682-F695263826D2}" ShortID="932725824">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="steps_carpet_12" ID="{B9B34047-312C-4D88-BF8A-E2AB1B31CA58}">
-															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.1"/>
-																<Property Name="FadeInShape" Type="int16" Value="0"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.167114590128289"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>steps_carpet_12.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="312369803"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="steps_carpet_12" ID="{B9B34047-312C-4D88-BF8A-E2AB1B31CA58}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="Toe" ID="{AEE03B41-2908-4E06-8577-D4F642F18D7F}" ShortID="184413786">
-											<PropertyList>
-												<Property Name="Pitch" Type="int32">
-													<ValueList>
-														<Value>-300</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="steps_carpet_7" ID="{BCAAB333-C53D-49FF-B5D5-2991334A1426}" ShortID="757626949">
-													<PropertyList>
-														<Property Name="Pitch" Type="int32">
-															<ValueList>
-																<Value>-300</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="steps_carpet_7" ID="{326C0991-847A-411E-AC79-9138C1085A16}">
-															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.1"/>
-																<Property Name="FadeInShape" Type="int16" Value="0"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0.143067786475321"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.143067786475321"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>steps_carpet_7.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="1039299331"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="steps_carpet_7" ID="{326C0991-847A-411E-AC79-9138C1085A16}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="steps_carpet_2" ID="{A4AD1405-72AB-4D03-9AAA-AF01FE194110}" ShortID="244813686">
-													<PropertyList>
-														<Property Name="Pitch" Type="int32">
-															<ValueList>
-																<Value>-300</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="steps_carpet_2" ID="{CF95338C-F694-4328-8F53-F5EAD17F0916}">
-															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.0532876712328767"/>
-																<Property Name="FadeInShape" Type="int16" Value="0"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.0647602739726027"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>steps_carpet_2.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="117204444"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="steps_carpet_2" ID="{CF95338C-F694-4328-8F53-F5EAD17F0916}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="steps_carpet_9" ID="{0CCB566F-D2A6-45B5-ADF9-CA5EE7706AA1}" ShortID="135351442">
-													<PropertyList>
-														<Property Name="Pitch" Type="int32">
-															<ValueList>
-																<Value>-300</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="steps_carpet_9" ID="{F206F955-6E29-42A7-937B-2384768B5C3C}">
-															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.1"/>
-																<Property Name="FadeInShape" Type="int16" Value="0"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0.123546423135464"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.123546423135464"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>steps_carpet_9.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="1027367088"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="steps_carpet_9" ID="{F206F955-6E29-42A7-937B-2384768B5C3C}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="steps_carpet_8" ID="{B9337265-F67A-468C-A01E-47634E919F1B}" ShortID="229443386">
-													<PropertyList>
-														<Property Name="Pitch" Type="int32">
-															<ValueList>
-																<Value>-300</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="steps_carpet_8" ID="{5CA44234-0711-4B53-BB16-EA1CA943DBAD}">
-															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.1"/>
-																<Property Name="FadeInShape" Type="int16" Value="0"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0.114657534246575"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.114657534246575"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>steps_carpet_8.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="123741879"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="steps_carpet_8" ID="{5CA44234-0711-4B53-BB16-EA1CA943DBAD}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="steps_carpet_12" ID="{4B79B24D-F4BB-4378-80CE-0BE4B35764FC}" ShortID="309835332">
-													<PropertyList>
-														<Property Name="Pitch" Type="int32">
-															<ValueList>
-																<Value>-300</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="steps_carpet_12" ID="{6B5DFFDC-E52D-4135-B139-1A71286EB418}">
-															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.1"/>
-																<Property Name="FadeInShape" Type="int16" Value="0"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.167114590128289"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>steps_carpet_12.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="312369803"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="steps_carpet_12" ID="{6B5DFFDC-E52D-4135-B139-1A71286EB418}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="steps_carpet_4" ID="{FE1F21E0-F557-4463-9B15-9084B2E17772}" ShortID="719351052">
-													<PropertyList>
-														<Property Name="Pitch" Type="int32">
-															<ValueList>
-																<Value>-300</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="steps_carpet_4" ID="{198C5E6A-3A4F-45BC-A46E-277DA534CFFC}">
-															<PropertyList>
-																<Property Name="FadeInShape" Type="int16" Value="0"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0.0585225048923679"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.0529489329978567"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>steps_carpet_4.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="808075304"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="steps_carpet_4" ID="{198C5E6A-3A4F-45BC-A46E-277DA534CFFC}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="steps_carpet_3" ID="{17E82383-90CE-4A6A-8908-D1EA356F376D}" ShortID="406248077">
-													<PropertyList>
-														<Property Name="Pitch" Type="int32">
-															<ValueList>
-																<Value>-300</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="steps_carpet_3" ID="{4E1BC665-DEF9-41DD-BFF7-9755D1241C6D}">
-															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.0761135961233809"/>
-																<Property Name="FadeInShape" Type="int16" Value="0"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.113460418413941"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>steps_carpet_3.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="1013946811"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="steps_carpet_3" ID="{4E1BC665-DEF9-41DD-BFF7-9755D1241C6D}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="steps_carpet_11" ID="{EA64DC3A-0DFF-4E23-AFE1-9EE9DBBF78E7}" ShortID="661461058">
-													<PropertyList>
-														<Property Name="Pitch" Type="int32">
-															<ValueList>
-																<Value>-300</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="steps_carpet_11" ID="{5057A2F9-6360-4209-807A-E1FBE8CCF0F2}">
-															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.1"/>
-																<Property Name="FadeInShape" Type="int16" Value="0"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0.115453204112695"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.115453204112695"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>steps_carpet_11.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="45451389"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="steps_carpet_11" ID="{5057A2F9-6360-4209-807A-E1FBE8CCF0F2}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="steps_carpet_1" ID="{6F47D3AB-15A6-45B5-B106-1C051328E38E}" ShortID="147119572">
-													<PropertyList>
-														<Property Name="Pitch" Type="int32">
-															<ValueList>
-																<Value>-300</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="steps_carpet_1" ID="{059821F7-A4DA-47E8-AD56-CC144C8E0C0B}">
-															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.0233561643835616"/>
-																<Property Name="FadeInShape" Type="int16" Value="0"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.0966095890410959"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>steps_carpet_1.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="631889780"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="steps_carpet_1" ID="{059821F7-A4DA-47E8-AD56-CC144C8E0C0B}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="steps_carpet_5" ID="{B02C702D-1E82-4997-8D5D-D8A3CFFD6BDA}" ShortID="903545054">
-													<PropertyList>
-														<Property Name="Pitch" Type="int32">
-															<ValueList>
-																<Value>-300</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="steps_carpet_5" ID="{57D54A61-93B0-413B-9167-2F25693A595C}">
-															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.114357934954804"/>
-																<Property Name="FadeInShape" Type="int16" Value="0"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.134007392911503"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>steps_carpet_5.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="1053202334"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="steps_carpet_5" ID="{57D54A61-93B0-413B-9167-2F25693A595C}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="steps_carpet_6" ID="{10377D2C-0F01-440B-AB01-050C807D565D}" ShortID="201856095">
-													<PropertyList>
-														<Property Name="Pitch" Type="int32">
-															<ValueList>
-																<Value>-300</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="steps_carpet_6" ID="{51F07106-9AC9-4FD1-A5F8-5217E6E9DECC}">
-															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.118493150684932"/>
-																<Property Name="FadeInShape" Type="int16" Value="0"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.124315068493151"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>steps_carpet_6.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="977450910"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="steps_carpet_6" ID="{51F07106-9AC9-4FD1-A5F8-5217E6E9DECC}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="steps_carpet_10" ID="{171089F1-93F6-4927-8F41-DB76B3E3A2C9}" ShortID="620492065">
-													<PropertyList>
-														<Property Name="Pitch" Type="int32">
-															<ValueList>
-																<Value>-300</Value>
-															</ValueList>
-														</Property>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="steps_carpet_10" ID="{B03E14B4-F585-41C9-8534-A1B6637FA9D7}">
-															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.1"/>
-																<Property Name="FadeInShape" Type="int16" Value="0"/>
-																<Property Name="LoopBegin" Type="Real64" Value="0.0885804755692231"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.0756417544186625"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>steps_carpet_10.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="199780543"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="steps_carpet_10" ID="{B03E14B4-F585-41C9-8534-A1B6637FA9D7}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-										</RandomSequenceContainer>
-									</ChildrenList>
-								</BlendContainer>
 								<BlendContainer Name="Stone_Steps" ID="{CE0A159E-7AC4-4403-8141-F8A764BF047E}" ShortID="721531413">
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -4142,34 +4153,6 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="steps_wood_1" ID="{546E399F-054C-46D1-9B2E-5C69CF3ADB26}" ShortID="708187896">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="steps_wood_1" ID="{8B84ABFD-262B-4276-8B73-7B65DEF3A4DB}">
-															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.0106314260864163"/>
-																<Property Name="FadeInShape" Type="int16" Value="0"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.00368010902991334"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>steps_wood_1.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="779561860"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="steps_wood_1" ID="{8B84ABFD-262B-4276-8B73-7B65DEF3A4DB}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
 												<Sound Name="steps_wood_2" ID="{8A979111-2F75-4924-A15D-71FAF16F3B9A}" ShortID="965355867">
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -4226,34 +4209,6 @@
 														<ActiveSource Name="steps_wood_3" ID="{DDD53F9A-7114-4A0F-8041-D3D90DB23B28}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="steps_wood_4" ID="{68284AB9-0FF5-490B-AEF9-A4E1D6D2BBD6}" ShortID="6764932">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="steps_wood_4" ID="{0E841ABF-4DD6-483E-AB60-EDF334C28F1B}">
-															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.00796135805920542"/>
-																<Property Name="FadeInShape" Type="int16" Value="0"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.0314835523250396"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>steps_wood_4.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="899825233"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="steps_wood_4" ID="{0E841ABF-4DD6-483E-AB60-EDF334C28F1B}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
 												<Sound Name="steps_wood_5" ID="{2289C5F4-BC54-42F5-99F6-54DC7F295D85}" ShortID="530596384">
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -4280,34 +4235,6 @@
 													</ChildrenList>
 													<ActiveSourceList>
 														<ActiveSource Name="steps_wood_5" ID="{DC7F7D63-C2EB-40FF-9A3F-EB3CFB46E39B}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="steps_wood_6" ID="{5108D3AF-8B19-419B-B849-A30D7398B219}" ShortID="288266706">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CAAC4552-5CD0-45A7-A321-1E3FEAAD27A3}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="steps_wood_6" ID="{DF80AB77-6426-4577-9F38-0ACBC03C782B}">
-															<PropertyList>
-																<Property Name="FadeInDuration" Type="Real64" Value="0.0058138415183425"/>
-																<Property Name="FadeInShape" Type="int16" Value="0"/>
-																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.0269550834032243"/>
-															</PropertyList>
-															<Language>SFX</Language>
-															<AudioFile>steps_wood_6.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="767990650"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="steps_wood_6" ID="{DF80AB77-6426-4577-9F38-0ACBC03C782B}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="steps_wood_7" ID="{7B4C1947-1452-4AF0-A1E0-151FAB4ADB3F}" ShortID="601087646">
