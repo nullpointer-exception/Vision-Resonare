@@ -16,7 +16,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="NewAkAudioEvent" ID="{1AD03151-5D84-45CA-9469-2D3DB97688F4}"/>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Charakter" ID="{B3404797-0A85-4B40-A59F-36767759837B}" ShortID="893648903">
@@ -179,12 +178,23 @@
 					<ChildrenList>
 						<Folder Name="Level 0" ID="{8D7A5E66-CE04-4657-A649-CAFD59183888}" ShortID="146357340">
 							<ChildrenList>
-								<Event Name="Play_Coffin_Falling" ID="{0B0C1258-CB67-4195-BF2B-0002213EE309}">
+								<Event Name="Atmosphere_Outside_Level1" ID="{58612D08-75BD-4B22-8CFE-744085B3D688}">
 									<ChildrenList>
-										<Action Name="" ID="{846FA764-1C07-439C-B6E5-277E90CB30C4}" ShortID="788711176">
+										<Action Name="" ID="{D809DC10-1E9C-4F4B-AABF-F92BF95F6616}" ShortID="333037165">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Coffin_Falling" ID="{F5611C36-FA07-4E25-B5D7-DF071F3413BA}" WorkUnitID="{189F3DC8-A464-4AA2-B4ED-B0C9F43A0979}"/>
+													<ObjectRef Name="Wind_Atmo_01" ID="{7A08C897-11B1-4B84-896A-E52121BBF0E6}" WorkUnitID="{D039DBCC-1BCF-4909-855E-59753F4C5F2A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Fallgitter" ID="{1941026A-26DB-47FE-A6B8-686AF8958EF8}">
+									<ChildrenList>
+										<Action Name="" ID="{F55949AD-591F-435A-B5B7-B6BF206467CF}" ShortID="782286063">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Fallgitter" ID="{06D0ECA0-E340-4581-B112-FAE105E7856D}" WorkUnitID="{189F3DC8-A464-4AA2-B4ED-B0C9F43A0979}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -201,12 +211,17 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Play_Grandclock_Start" ID="{A59E9E3A-DE44-44FE-8B42-A713640DEE7A}">
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Level 1" ID="{EF6FEF88-D6A8-459E-8C2D-3271A7749F25}" ShortID="811659096"/>
+						<Folder Name="Level_Start_Screen" ID="{04351A74-EC40-42BD-9606-57B24F2B0506}" ShortID="843441703">
+							<ChildrenList>
+								<Event Name="Play_Coffin_Falling" ID="{0B0C1258-CB67-4195-BF2B-0002213EE309}">
 									<ChildrenList>
-										<Action Name="" ID="{A3979BFB-2EFF-4822-A680-AD386EED640C}" ShortID="142734587">
+										<Action Name="" ID="{846FA764-1C07-439C-B6E5-277E90CB30C4}" ShortID="788711176">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Grandclock_Start" ID="{8EED6DA2-B814-409B-9966-93D96C517F34}" WorkUnitID="{189F3DC8-A464-4AA2-B4ED-B0C9F43A0979}"/>
+													<ObjectRef Name="Coffin_Falling" ID="{F5611C36-FA07-4E25-B5D7-DF071F3413BA}" WorkUnitID="{189F3DC8-A464-4AA2-B4ED-B0C9F43A0979}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -223,38 +238,23 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Play_Grandclock_Start" ID="{A59E9E3A-DE44-44FE-8B42-A713640DEE7A}">
+									<ChildrenList>
+										<Action Name="" ID="{A3979BFB-2EFF-4822-A680-AD386EED640C}" ShortID="142734587">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grandclock_Start" ID="{8EED6DA2-B814-409B-9966-93D96C517F34}" WorkUnitID="{189F3DC8-A464-4AA2-B4ED-B0C9F43A0979}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 								<Event Name="Play_Window_Opening" ID="{2743CDB8-060C-4B2E-A67F-E3C899C8574E}">
 									<ChildrenList>
 										<Action Name="" ID="{CC167BC3-1444-4D86-989A-C040CC8D47D3}" ShortID="750585226">
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Window_Opening" ID="{D9464EEA-6483-4432-BE50-73A1C1FB28CB}" WorkUnitID="{189F3DC8-A464-4AA2-B4ED-B0C9F43A0979}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-							</ChildrenList>
-						</Folder>
-						<Folder Name="Level 1" ID="{EF6FEF88-D6A8-459E-8C2D-3271A7749F25}" ShortID="811659096">
-							<ChildrenList>
-								<Event Name="Play_Fallgitter" ID="{1941026A-26DB-47FE-A6B8-686AF8958EF8}">
-									<ChildrenList>
-										<Action Name="" ID="{F55949AD-591F-435A-B5B7-B6BF206467CF}" ShortID="782286063">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Fallgitter" ID="{06D0ECA0-E340-4581-B112-FAE105E7856D}" WorkUnitID="{189F3DC8-A464-4AA2-B4ED-B0C9F43A0979}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Atmosphere_Outside_Level1" ID="{58612D08-75BD-4B22-8CFE-744085B3D688}">
-									<ChildrenList>
-										<Action Name="" ID="{D809DC10-1E9C-4F4B-AABF-F92BF95F6616}" ShortID="333037165">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Wind_Atmo_01" ID="{7A08C897-11B1-4B84-896A-E52121BBF0E6}" WorkUnitID="{D039DBCC-1BCF-4909-855E-59753F4C5F2A}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

@@ -11,25 +11,7 @@
 							</ValueList>
 						</Property>
 					</PropertyList>
-					<ObjectInclusionList>
-						<ObjectRef Name="Play_Fireplace" ID="{0B382BFB-2927-406B-A987-C581AC5A7C41}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Stone_Steps_Outside" ID="{DA161721-CF7E-4129-A0ED-6E89D8CC7069}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Coffin_Falling" ID="{0B0C1258-CB67-4195-BF2B-0002213EE309}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Wood_Steps" ID="{59A944A6-883A-43AA-8F0E-844A06D53C91}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Grandclock_Start" ID="{A59E9E3A-DE44-44FE-8B42-A713640DEE7A}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Carpet_Steps" ID="{0E318F4D-9B5F-45CD-A937-BA6F483892FF}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Warnsignal_Attack_Werewolf" ID="{D0859F95-DA89-460B-B38C-0DEB928953A8}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Werwolf_Death_Hit" ID="{E6F9DA7D-288B-4646-A557-3B454953E618}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Bat_Flight" ID="{A4384660-E205-4798-93BC-FE5F00CD8924}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Fallgitter" ID="{1941026A-26DB-47FE-A6B8-686AF8958EF8}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Bat_Voice_Dialogue" ID="{52D2A576-D161-4A6E-8636-E19FE20CC7B6}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Bat_Voice_Master" ID="{B489546C-E6C3-4AA1-BF46-05679DFC0C39}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Window_Opening" ID="{2743CDB8-060C-4B2E-A67F-E3C899C8574E}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Wind_Atmo" ID="{547FCA64-E6C3-4BAC-9D3A-C24C0D6B46E9}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Werwolf_Death_Sounds" ID="{F42A6059-3B3B-4C25-A1A8-C2B5C5BEBD0A}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Grandclock_Ticking" ID="{B5CECD36-4CB6-4D8C-8AB8-B375ABD190F4}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Stone_Steps" ID="{21F00207-A8D8-4F4C-AEEF-20F0BE8C018F}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
-					</ObjectInclusionList>
+					<ObjectInclusionList/>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
@@ -41,7 +23,9 @@
 							</ValueList>
 						</Property>
 					</PropertyList>
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Fireplace" ID="{0B382BFB-2927-406B-A987-C581AC5A7C41}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
@@ -53,9 +37,19 @@
 							</ValueList>
 						</Property>
 					</PropertyList>
-					<ObjectInclusionList>
-						<ObjectRef Name="Atmosphere_Outside_Level1" ID="{58612D08-75BD-4B22-8CFE-744085B3D688}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
-					</ObjectInclusionList>
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Level_Start_Screen" ID="{1CED3C2B-2F4E-4DE3-B5EB-C61D63EB1925}">
+					<PropertyList>
+						<Property Name="Maximum" Type="int32">
+							<ValueList>
+								<Value>20000000</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ObjectInclusionList/>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

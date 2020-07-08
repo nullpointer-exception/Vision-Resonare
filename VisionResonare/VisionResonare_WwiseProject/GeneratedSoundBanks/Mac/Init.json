@@ -18,7 +18,15 @@
     "Language": "SFX",
     "ObjectPath": "Init",
     "ShortName": "Init",
-    "Path": "Init.bnk"
+    "Path": "Init.bnk",
+    "IncludedAuxBusses": [
+     {
+      "Id": "1635884993",
+      "Name": "Level_1_outside",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Level_1_outside",
+      "GUID": "{86F2F776-F972-4579-AECA-3DF0CBEFC1CE}"
+     }
+    ]
    }
   ]
  }
