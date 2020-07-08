@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "D:\\Florian Kardos\\VR Test\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\",
-   "SourceFilesRoot": "D:\\Florian Kardos\\VR Test\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\.cache\\Windows\\",
-   "SoundBanksRoot": "D:\\Florian Kardos\\VR Test\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "D:\\Florian Kardos\\Vision Resonare Master\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Florian Kardos\\Vision Resonare Master\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Florian Kardos\\Vision Resonare Master\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "D:\\Florian Kardos\\VR Test\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "D:\\Florian Kardos\\Vision Resonare Master\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
@@ -23,7 +23,7 @@
      {
       "Id": "2843172720",
       "Name": "Play_Bat_Flight",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Bat_Flight",
+      "ObjectPath": "\\Events\\Default Work Unit\\Charakter\\Bat\\Flight\\Play_Bat_Flight",
       "GUID": "{A4384660-E205-4798-93BC-FE5F00CD8924}",
       "DurationType": "OneShot",
       "DurationMin": "0.118204",
@@ -40,7 +40,7 @@
      {
       "Id": "3810207109",
       "Name": "Play_Bat_Voice_Dialogue",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Bat_Voice_Dialogue",
+      "ObjectPath": "\\Events\\Default Work Unit\\Charakter\\Bat\\Voice\\Play_Bat_Voice_Dialogue",
       "GUID": "{52D2A576-D161-4A6E-8636-E19FE20CC7B6}",
       "DurationType": "OneShot",
       "DurationMin": "24.275141",
@@ -57,7 +57,7 @@
      {
       "Id": "85895373",
       "Name": "Play_Bat_Voice_Master",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Bat_Voice_Master",
+      "ObjectPath": "\\Events\\Default Work Unit\\Charakter\\Bat\\Voice\\Play_Bat_Voice_Master",
       "GUID": "{B489546C-E6C3-4AA1-BF46-05679DFC0C39}",
       "DurationType": "OneShot",
       "DurationMin": "4.948753",
@@ -74,7 +74,7 @@
      {
       "Id": "2262333507",
       "Name": "Play_Carpet_Steps",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Carpet_Steps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Charakter\\Werwolf\\Steps\\Play_Carpet_Steps",
       "GUID": "{0E318F4D-9B5F-45CD-A937-BA6F483892FF}",
       "DurationType": "OneShot",
       "DurationMin": "0.427222",
@@ -157,7 +157,7 @@
      {
       "Id": "817739961",
       "Name": "Play_Coffin_Falling",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Coffin_Falling",
+      "ObjectPath": "\\Events\\Default Work Unit\\Objects\\Level 0\\Play_Coffin_Falling",
       "GUID": "{0B0C1258-CB67-4195-BF2B-0002213EE309}",
       "DurationType": "OneShot",
       "DurationMin": "1.540710",
@@ -174,7 +174,7 @@
      {
       "Id": "2802846588",
       "Name": "Play_Fallgitter",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Fallgitter",
+      "ObjectPath": "\\Events\\Default Work Unit\\Objects\\Level 1\\Play_Fallgitter",
       "GUID": "{1941026A-26DB-47FE-A6B8-686AF8958EF8}",
       "DurationType": "OneShot",
       "DurationMin": "11.000000",
@@ -197,7 +197,7 @@
      {
       "Id": "1501216439",
       "Name": "Play_Fireplace",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Fireplace",
+      "ObjectPath": "\\Events\\Default Work Unit\\Objects\\Level 0\\Play_Fireplace",
       "GUID": "{0B382BFB-2927-406B-A987-C581AC5A7C41}",
       "DurationType": "OneShot",
       "DurationMin": "121.199997",
@@ -214,7 +214,7 @@
      {
       "Id": "3313437967",
       "Name": "Play_Grandclock_Start",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Grandclock_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Objects\\Level 0\\Play_Grandclock_Start",
       "GUID": "{A59E9E3A-DE44-44FE-8B42-A713640DEE7A}",
       "DurationType": "OneShot",
       "DurationMin": "5.964626",
@@ -231,7 +231,7 @@
      {
       "Id": "2241062414",
       "Name": "Play_Grandclock_Ticking",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Grandclock_Ticking",
+      "ObjectPath": "\\Events\\Default Work Unit\\Objects\\Level 0\\Play_Grandclock_Ticking",
       "GUID": "{B5CECD36-4CB6-4D8C-8AB8-B375ABD190F4}",
       "DurationType": "OneShot",
       "DurationMin": "0.495492",
@@ -246,29 +246,9 @@
       ]
      },
      {
-      "Id": "3216481374",
-      "Name": "Play_Player_Voice",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Player_Voice",
-      "GUID": "{F29E93FC-2CD8-48D6-A6F6-FB427ED30B97}",
-      "MaxAttenuation": "0.000000",
-      "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
-     },
-     {
-      "Id": "2058615616",
-      "Name": "Play_Soil_Grass_Steps",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Soil_Grass_Steps",
-      "GUID": "{490DDEA7-A775-45B3-BA31-EE3DE64E5EDD}",
-      "MaxAttenuation": "0.000000",
-      "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
-     },
-     {
       "Id": "2595488237",
       "Name": "Play_Stone_Steps",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Stone_Steps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Charakter\\Player\\Steps\\Play_Stone_Steps",
       "GUID": "{21F00207-A8D8-4F4C-AEEF-20F0BE8C018F}",
       "DurationType": "OneShot",
       "DurationMin": "0.448141",
@@ -345,7 +325,7 @@
      {
       "Id": "2075285581",
       "Name": "Play_Stone_Steps_Outside",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Stone_Steps_Outside",
+      "ObjectPath": "\\Events\\Default Work Unit\\Charakter\\Player\\Steps\\Play_Stone_Steps_Outside",
       "GUID": "{DA161721-CF7E-4129-A0ED-6E89D8CC7069}",
       "DurationType": "OneShot",
       "DurationMin": "0.448141",
@@ -464,7 +444,7 @@
      {
       "Id": "2925324267",
       "Name": "Play_Warnsignal_Attack_Werewolf",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Warnsignal_Attack_Werewolf",
+      "ObjectPath": "\\Events\\Default Work Unit\\Charakter\\Werwolf\\Warnsignal\\Play_Warnsignal_Attack_Werewolf",
       "GUID": "{D0859F95-DA89-460B-B38C-0DEB928953A8}",
       "DurationType": "OneShot",
       "DurationMin": "0.000000",
@@ -481,7 +461,7 @@
      {
       "Id": "4043899765",
       "Name": "Play_Werwolf_Death_Hit",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Werwolf_Death_Hit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Charakter\\Werwolf\\Attack\\Play_Werwolf_Death_Hit",
       "GUID": "{E6F9DA7D-288B-4646-A557-3B454953E618}",
       "DurationType": "OneShot",
       "DurationMin": "0.387500",
@@ -491,13 +471,13 @@
         "Id": "61262564",
         "Language": "SFX",
         "ShortName": "Hit_4_Mittel.WAV",
-        "Path": "SFX\\Hit_4_Mittel_9D2CE009.wem"
+        "Path": "SFX\\Hit_4_Mittel_C600CFC0.wem"
        },
        {
         "Id": "331146349",
         "Language": "SFX",
         "ShortName": "Treffer(lufs Fehlt).wav",
-        "Path": "SFX\\Treffer(lufs Fehlt)_8B12F5CD.wem"
+        "Path": "SFX\\Treffer(lufs Fehlt)_1015E0DA.wem"
        },
        {
         "Id": "564816078",
@@ -522,7 +502,7 @@
      {
       "Id": "3898497534",
       "Name": "Play_Werwolf_Death_Sounds",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Werwolf_Death_Sounds",
+      "ObjectPath": "\\Events\\Default Work Unit\\Charakter\\Werwolf\\Voice\\Play_Werwolf_Death_Sounds",
       "GUID": "{F42A6059-3B3B-4C25-A1A8-C2B5C5BEBD0A}",
       "DurationType": "OneShot",
       "DurationMin": "1.110552",
@@ -532,7 +512,7 @@
         "Id": "231825891",
         "Language": "SFX",
         "ShortName": "ANIMAL-DOG-WHIMPER_6EXT8-10134.wav",
-        "Path": "SFX\\ANIMAL-DOG-WHIMPER_6EXT8-10134_8C3731AF.wem"
+        "Path": "SFX\\ANIMAL-DOG-WHIMPER_6EXT8-10134_71248BC8.wem"
        },
        {
         "Id": "394097750",
@@ -549,52 +529,9 @@
       ]
      },
      {
-      "Id": "2719308801",
-      "Name": "Play_Werwolf_Hits",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Werwolf_Hits",
-      "GUID": "{A7668C44-E058-4FFB-9F73-5EDE53C61C5B}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.387500",
-      "DurationMax": "0.636396",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "370486443",
-        "Language": "SFX",
-        "ShortName": "Hit 3 Leicht.wav",
-        "Path": "SFX\\Hit 3 Leicht_10C4C929.wem"
-       },
-       {
-        "Id": "379327883",
-        "Language": "SFX",
-        "ShortName": "Hit 4 Mittel.wav",
-        "Path": "SFX\\Hit 4 Mittel_10C4C929.wem"
-       }
-      ]
-     },
-     {
-      "Id": "1641900755",
-      "Name": "Play_Werwolf_Snarl",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Werwolf_Snarl",
-      "GUID": "{887CA701-E4DC-4E76-AACE-0A2228678371}",
-      "MaxAttenuation": "0.000000",
-      "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
-     },
-     {
-      "Id": "2146771764",
-      "Name": "Play_Werwolf_Steps",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Werwolf_Steps",
-      "GUID": "{13921011-B420-4443-8F89-D540343EE6DD}",
-      "MaxAttenuation": "0.000000",
-      "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
-     },
-     {
       "Id": "1977715428",
       "Name": "Play_Wind_Atmo",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Wind_Atmo",
+      "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play_Wind_Atmo",
       "GUID": "{547FCA64-E6C3-4BAC-9D3A-C24C0D6B46E9}",
       "DurationType": "OneShot",
       "DurationMin": "324.794983",
@@ -617,7 +554,7 @@
      {
       "Id": "947550151",
       "Name": "Play_Window_Opening",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Window_Opening",
+      "ObjectPath": "\\Events\\Default Work Unit\\Objects\\Level 0\\Play_Window_Opening",
       "GUID": "{2743CDB8-060C-4B2E-A67F-E3C899C8574E}",
       "DurationType": "OneShot",
       "DurationMin": "2.741333",
@@ -634,10 +571,10 @@
      {
       "Id": "2288494097",
       "Name": "Play_Wood_Steps",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Wood_Steps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Charakter\\Player\\Steps\\Play_Wood_Steps",
       "GUID": "{59A944A6-883A-43AA-8F0E-844A06D53C91}",
       "DurationType": "OneShot",
-      "DurationMin": "0.279854",
+      "DurationMin": "0.331570",
       "DurationMax": "0.385820",
       "IncludedMemoryFiles": [
        {
@@ -650,7 +587,7 @@
         "Id": "284298852",
         "Language": "SFX",
         "ShortName": "steps_wood_2.wav",
-        "Path": "SFX\\steps_wood_2_0798DA4A.wem"
+        "Path": "SFX\\steps_wood_2_9B65C52B.wem"
        },
        {
         "Id": "302937213",
