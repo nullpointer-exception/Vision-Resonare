@@ -18,7 +18,46 @@
     "Language": "SFX",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Level_1",
     "ShortName": "Level_1",
-    "Path": "Level_1.bnk"
+    "Path": "Level_1.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3745494675",
+      "Name": "Atmosphere_Outside_Level1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Objects\\Level 1\\Atmosphere_Outside_Level1",
+      "GUID": "{58612D08-75BD-4B22-8CFE-744085B3D688}",
+      "DurationType": "Infinite",
+      "ReferencedStreamedFiles": [
+       {
+        "Id": "633166063",
+        "Language": "SFX",
+        "ShortName": "AtmoStage2Wind.wav",
+        "Path": "SFX\\AtmoStage2Wind_10C4C929.wem"
+       },
+       {
+        "Id": "1071527565",
+        "Language": "SFX",
+        "ShortName": "AtmoStage1Wind.wav",
+        "Path": "SFX\\AtmoStage1Wind_10C4C929.wem"
+       }
+      ],
+      "IncludedMemoryFiles": [
+       {
+        "Id": "633166063",
+        "Language": "SFX",
+        "ShortName": "AtmoStage2Wind.wav",
+        "Path": "SFX\\AtmoStage2Wind_10C4C929.wem",
+        "PrefetchSize": "19264"
+       },
+       {
+        "Id": "1071527565",
+        "Language": "SFX",
+        "ShortName": "AtmoStage1Wind.wav",
+        "Path": "SFX\\AtmoStage1Wind_10C4C929.wem",
+        "PrefetchSize": "19264"
+       }
+      ]
+     }
+    ]
    }
   ]
  }

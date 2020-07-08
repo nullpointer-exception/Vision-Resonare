@@ -17,6 +17,12 @@ Event	ID	Name			Wwise Object Path	Notes
 	3898497534	Play_Werwolf_Death_Sounds			\Default Work Unit\Charakter\Werwolf\Voice\Play_Werwolf_Death_Sounds	
 	4043899765	Play_Werwolf_Death_Hit			\Default Work Unit\Charakter\Werwolf\Attack\Play_Werwolf_Death_Hit	
 
+State Group	ID	Name			Wwise Object Path	Notes
+	3408441773	Warnsignal			\Default Work Unit\Warnsignal	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Warnsignal			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	37894755	steps_stone_6	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_stone_6_F629F52A.wem		\Actor-Mixer Hierarchy\Charakter\Player\Steps\Stone_Steps\Toe\steps_stone_6		30770
 	45451389	steps_carpet_11	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_carpet_11_AFFEFEFB.wem		\Actor-Mixer Hierarchy\Charakter\Werewolf\Carpet_Steps_Werwolf\Heel\steps_carpet_11		41148
@@ -51,13 +57,12 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	568488320	Sarg öffnen	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Sarg öffnen_602645DC.wem		\Actor-Mixer Hierarchy\Objekts\Level0\Coffin\Coffin_Falling\Sarg öffnen		295880
 	626619697	steps_soil_grass_15	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_soil_grass_15_9E8BBDE7.wem		\Actor-Mixer Hierarchy\Charakter\Player\Steps\Stone_Steps_Outside\Heel_Gras\steps_soil_grass_15		19910
 	631889780	steps_carpet_1	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_carpet_1_147238A7.wem		\Actor-Mixer Hierarchy\Charakter\Werewolf\Carpet_Steps_Werwolf\Heel\steps_carpet_1		46228
-	633166063	Wind_2	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\AtmoStage2Wind_10C4C929.wem		\Actor-Mixer Hierarchy\Atmo\Wind_Atmo\Wind_Atmo\Wind_2		62360704
+	633166063	Wind_2	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\AtmoStage2Wind_10C4C929.wem		\Actor-Mixer Hierarchy\Atmo\Wind_Atmo_01\Wind_2		19264
 	722770632	Hit_1_Mittel	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Hit_1_Mittel_10C4C929.wem		\Actor-Mixer Hierarchy\Charakter\Player\Attack\Attack on Werewolf\Hits\Hit_1_Mittel		104864
 	750376241	Fensteröffnen	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Fensteröffnen_10C4C929.wem		\Actor-Mixer Hierarchy\Objekts\Level0\Window\Window_Opening\Fensteröffnen		526400
 	751260702	steps_stone_9	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_stone_9_741C3D3C.wem		\Actor-Mixer Hierarchy\Charakter\Player\Steps\Stone_Steps\Toe\steps_stone_9		31316
 	756624637	steps_soil_grass_5	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_soil_grass_5_FADCC4F5.wem		\Actor-Mixer Hierarchy\Charakter\Player\Steps\Stone_Steps_Outside\Heel_Gras\steps_soil_grass_5		20354
 	767990650	steps_wood_6	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_wood_6_1A7D9049.wem		\Actor-Mixer Hierarchy\Charakter\Player\Steps\Wood_Steps\Toe\steps_wood_6		24910
-	774435495	1_Ep Facepla	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\1.Ep Facepla_10C4C929.wem		\Actor-Mixer Hierarchy\Charakter\Werewolf\Warnsignale\Warnsignal 1\1_Ep Facepla		292512
 	779561860	steps_wood_1	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_wood_1_3232F8AC.wem		\Actor-Mixer Hierarchy\Charakter\Player\Steps\Wood_Steps\Toe\steps_wood_1		20802
 	798550870	Bat_Flight_2	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Bat_Flight_E3AAD0AE.wem		\Actor-Mixer Hierarchy\Charakter\Bat\Flight\Bat_Flight\Bat_Flight_2		35132
 	808075304	steps_carpet_4	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_carpet_4_D1DE20E6.wem		\Actor-Mixer Hierarchy\Charakter\Werewolf\Carpet_Steps_Werwolf\Heel\steps_carpet_4		43242
@@ -77,5 +82,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1053202334	steps_carpet_5	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_carpet_5_29DF59C0.wem		\Actor-Mixer Hierarchy\Charakter\Werewolf\Carpet_Steps_Werwolf\Heel\steps_carpet_5		37548
 	1056376327	steps_stone_1	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\steps_stone_1_9DBBB04D.wem		\Actor-Mixer Hierarchy\Charakter\Player\Steps\Stone_Steps\Toe\steps_stone_1		32018
 	1059657711	Bat_Dialogue	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Fledermaus voice_EF85C257.wem		\Actor-Mixer Hierarchy\Charakter\Bat\voice\Bat_Voice_Dialogue\Bat_Dialogue		4660892
-	1071527565	Wind_1	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\AtmoStage1Wind_10C4C929.wem		\Actor-Mixer Hierarchy\Atmo\Wind_Atmo\Wind_Atmo\Wind_1		62360700
+	1071527565	Wind_1	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\AtmoStage1Wind_10C4C929.wem		\Actor-Mixer Hierarchy\Atmo\Wind_Atmo_01\Wind_1		19264
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	633166063	Wind_2	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\AtmoStage2Wind_10C4C929.wem	633166063.wem	\Actor-Mixer Hierarchy\Atmo\Wind_Atmo_01\Wind_2	
+	1071527565	Wind_1	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\AtmoStage1Wind_10C4C929.wem	1071527565.wem	\Actor-Mixer Hierarchy\Atmo\Wind_Atmo_01\Wind_1	
 

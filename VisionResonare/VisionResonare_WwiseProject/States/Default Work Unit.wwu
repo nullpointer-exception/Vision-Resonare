@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{4B6F444A-3FBF-46C4-B164-2E2E6DFBE533}" SchemaVersion="97">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{4B6F444A-3FBF-46C4-B164-2E2E6DFBE533}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{4B6F444A-3FBF-46C4-B164-2E2E6DFBE533}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Warnsignal" ID="{497D43D5-AE87-4D1B-93DE-940CA7A292CF}">
+					<ChildrenList>
+						<State Name="None" ID="{26F19A0C-948B-404B-B2DE-43F2286395A3}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

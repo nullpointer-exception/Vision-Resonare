@@ -10,12 +10,13 @@
 								<Action Name="" ID="{431035A4-A5F8-4508-838C-6023E2B073A0}" ShortID="1014816787">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Wind_Atmo" ID="{7A08C897-11B1-4B84-896A-E52121BBF0E6}" WorkUnitID="{D039DBCC-1BCF-4909-855E-59753F4C5F2A}"/>
+											<ObjectRef Name="Wind_Atmo_01" ID="{7A08C897-11B1-4B84-896A-E52121BBF0E6}" WorkUnitID="{D039DBCC-1BCF-4909-855E-59753F4C5F2A}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="NewAkAudioEvent" ID="{1AD03151-5D84-45CA-9469-2D3DB97688F4}"/>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Charakter" ID="{B3404797-0A85-4B40-A59F-36767759837B}" ShortID="893648903">
@@ -243,6 +244,17 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Fallgitter" ID="{06D0ECA0-E340-4581-B112-FAE105E7856D}" WorkUnitID="{189F3DC8-A464-4AA2-B4ED-B0C9F43A0979}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Atmosphere_Outside_Level1" ID="{58612D08-75BD-4B22-8CFE-744085B3D688}">
+									<ChildrenList>
+										<Action Name="" ID="{D809DC10-1E9C-4F4B-AABF-F92BF95F6616}" ShortID="333037165">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Wind_Atmo_01" ID="{7A08C897-11B1-4B84-896A-E52121BBF0E6}" WorkUnitID="{D039DBCC-1BCF-4909-855E-59753F4C5F2A}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

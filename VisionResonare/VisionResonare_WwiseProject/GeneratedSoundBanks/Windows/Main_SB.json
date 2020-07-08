@@ -448,15 +448,7 @@
       "GUID": "{D0859F95-DA89-460B-B38C-0DEB928953A8}",
       "DurationType": "OneShot",
       "DurationMin": "0.000000",
-      "DurationMax": "0.000000",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "774435495",
-        "Language": "SFX",
-        "ShortName": "1.Ep Facepla.wav",
-        "Path": "SFX\\1.Ep Facepla_10C4C929.wem"
-       }
-      ]
+      "DurationMax": "0.000000"
      },
      {
       "Id": "4043899765",
@@ -533,10 +525,8 @@
       "Name": "Play_Wind_Atmo",
       "ObjectPath": "\\Events\\Default Work Unit\\Atmo\\Play_Wind_Atmo",
       "GUID": "{547FCA64-E6C3-4BAC-9D3A-C24C0D6B46E9}",
-      "DurationType": "OneShot",
-      "DurationMin": "324.794983",
-      "DurationMax": "324.795013",
-      "IncludedMemoryFiles": [
+      "DurationType": "Infinite",
+      "ReferencedStreamedFiles": [
        {
         "Id": "633166063",
         "Language": "SFX",
@@ -548,6 +538,22 @@
         "Language": "SFX",
         "ShortName": "AtmoStage1Wind.wav",
         "Path": "SFX\\AtmoStage1Wind_10C4C929.wem"
+       }
+      ],
+      "IncludedMemoryFiles": [
+       {
+        "Id": "633166063",
+        "Language": "SFX",
+        "ShortName": "AtmoStage2Wind.wav",
+        "Path": "SFX\\AtmoStage2Wind_10C4C929.wem",
+        "PrefetchSize": "19264"
+       },
+       {
+        "Id": "1071527565",
+        "Language": "SFX",
+        "ShortName": "AtmoStage1Wind.wav",
+        "Path": "SFX\\AtmoStage1Wind_10C4C929.wem",
+        "PrefetchSize": "19264"
        }
       ]
      },
