@@ -1,6 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	1501216439	Play_Fireplace			\Default Work Unit\Objects\Level 0\Play_Fireplace	
-
-In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	850875119	fireplace_stereo	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\fireplace_stereo_79D82905.wem		\Actor-Mixer Hierarchy\Objekts\Level0\Fireplace\Fireplace\fireplace_stereo		21379744
-

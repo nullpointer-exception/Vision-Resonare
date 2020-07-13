@@ -1,89 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{44937191-BDA5-400B-812B-F6A361BD3F3B}" SchemaVersion="97">
 	<Conversions>
-		<WorkUnit Name="Default Work Unit" ID="{E5B3B713-0DAA-416D-9EE1-06BCF9CEECFB}" PersistMode="Standalone">
+		<WorkUnit Name="Default Work Unit" ID="{44937191-BDA5-400B-812B-F6A361BD3F3B}" PersistMode="Standalone">
 			<ChildrenList>
 				<Conversion Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}">
 					<PropertyList>
 						<Property Name="Channels" Type="int32">
 							<ValueList>
-								<Value Platform="Mac">4</Value>
 								<Value Platform="Windows">4</Value>
+								<Value Platform="Mac">4</Value>
 							</ValueList>
 						</Property>
 						<Property Name="LRMix" Type="Real64">
 							<ValueList>
-								<Value Platform="Mac">0</Value>
 								<Value Platform="Windows">0</Value>
+								<Value Platform="Mac">0</Value>
 							</ValueList>
 						</Property>
 						<Property Name="MaxSampleRate" Type="int32">
 							<ValueList>
-								<Value Platform="Mac">0</Value>
 								<Value Platform="Windows">0</Value>
+								<Value Platform="Mac">0</Value>
 							</ValueList>
 						</Property>
 						<Property Name="MinSampleRate" Type="int32">
 							<ValueList>
-								<Value Platform="Mac">0</Value>
 								<Value Platform="Windows">0</Value>
+								<Value Platform="Mac">0</Value>
 							</ValueList>
 						</Property>
 						<Property Name="SampleRate" Type="int32">
 							<ValueList>
-								<Value Platform="Mac">0</Value>
 								<Value Platform="Windows">0</Value>
+								<Value Platform="Mac">0</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
 					<ConversionPluginInfoList>
-						<ConversionPluginInfo Platform="Mac">
-							<ConversionPlugin Name="" ID="{8D1D540F-F6F9-4F08-BCF6-EA847A0A23B9}" PluginName="PCM" CompanyID="0" PluginID="1"/>
-						</ConversionPluginInfo>
 						<ConversionPluginInfo Platform="Windows">
-							<ConversionPlugin Name="" ID="{DB7B89A0-A310-4E3F-A25B-C349DF5DBE4E}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+							<ConversionPlugin Name="" ID="{6F71BFD1-6888-48AF-993E-CAE7B8F8F213}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 						</ConversionPluginInfo>
-					</ConversionPluginInfoList>
-				</Conversion>
-				<Conversion Name="Zum Überprüfen von Speicher" ID="{4D6AC281-153E-493C-BF3D-0C7EF563E71F}">
-					<PropertyList>
-						<Property Name="Channels" Type="int32">
-							<ValueList>
-								<Value Platform="Mac">4</Value>
-								<Value Platform="Windows">4</Value>
-							</ValueList>
-						</Property>
-						<Property Name="LRMix" Type="Real64">
-							<ValueList>
-								<Value Platform="Mac">0</Value>
-								<Value Platform="Windows">0</Value>
-							</ValueList>
-						</Property>
-						<Property Name="MaxSampleRate" Type="int32">
-							<ValueList>
-								<Value Platform="Mac">0</Value>
-								<Value Platform="Windows">0</Value>
-							</ValueList>
-						</Property>
-						<Property Name="MinSampleRate" Type="int32">
-							<ValueList>
-								<Value Platform="Mac">0</Value>
-								<Value Platform="Windows">0</Value>
-							</ValueList>
-						</Property>
-						<Property Name="SampleRate" Type="int32">
-							<ValueList>
-								<Value Platform="Mac">0</Value>
-								<Value Platform="Windows">0</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ConversionPluginInfoList>
 						<ConversionPluginInfo Platform="Mac">
-							<ConversionPlugin Name="" ID="{F20F940A-317D-457E-A4EF-63174B2F66CA}" PluginName="PCM" CompanyID="0" PluginID="1"/>
-						</ConversionPluginInfo>
-						<ConversionPluginInfo Platform="Windows">
-							<ConversionPlugin Name="" ID="{84CAA66C-037F-4697-8BAC-0C13012421A6}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+							<ConversionPlugin Name="" ID="{A4446CF8-0D30-4A18-8C83-EA9B81F6778B}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 						</ConversionPluginInfo>
 					</ConversionPluginInfoList>
 				</Conversion>
