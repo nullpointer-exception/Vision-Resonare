@@ -9,6 +9,15 @@
 							<ObjectRef Name="System" ID="{5591B1A0-C186-40C1-B5EB-BC0B8EC8769E}" WorkUnitID="{46EA6B91-7AAF-4829-AE01-62D684F83EA5}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<AuxBus Name="Level_1_outside" ID="{86F2F776-F972-4579-AECA-3DF0CBEFC1CE}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

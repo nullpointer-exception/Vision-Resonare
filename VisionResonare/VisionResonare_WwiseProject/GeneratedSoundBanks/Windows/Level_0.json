@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Florian Kardos\\Vision Resonare Master\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Florian Kardos\\Vision Resonare Master\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Florian Kardos\\Vision Resonare Master\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Florian Kardos\\Vision Resonare Master\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1290008368",
+    "GUID": "{2CEAA065-51BC-4A78-B7E7-76370FBF8D2B}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Level_0",
+    "ShortName": "Level_0",
+    "Path": "Level_0.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1501216439",
+      "Name": "Play_Fireplace",
+      "ObjectPath": "\\Events\\Default Work Unit\\Objects\\Level 0\\Play_Fireplace",
+      "GUID": "{0B382BFB-2927-406B-A987-C581AC5A7C41}",
+      "DurationType": "OneShot",
+      "DurationMin": "121.199997",
+      "DurationMax": "121.199997",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "850875119",
+        "Language": "SFX",
+        "ShortName": "fireplace_stereo.wav",
+        "Path": "SFX\\fireplace_stereo_79D82905.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
