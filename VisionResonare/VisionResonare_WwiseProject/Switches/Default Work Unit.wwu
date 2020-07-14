@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{40A45802-7F56-462D-B529-1DDDC8CAB34A}" SchemaVersion="97">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{40A45802-7F56-462D-B529-1DDDC8CAB34A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{40A45802-7F56-462D-B529-1DDDC8CAB34A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Start_Screen" ID="{3CB0FAEE-E1C3-4A3B-A208-486D5523B2C0}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

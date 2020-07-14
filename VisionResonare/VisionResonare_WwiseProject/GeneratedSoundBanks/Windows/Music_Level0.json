@@ -1,0 +1,137 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "E:\\GitHub\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\",
+   "SourceFilesRoot": "E:\\GitHub\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\GitHub\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "E:\\GitHub\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2209143527",
+    "GUID": "{30F0B416-DC00-414E-B27E-97AA3A9F1623}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music_Level0",
+    "ShortName": "Music_Level0",
+    "Path": "Music_Level0.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "771707439",
+      "Name": "Play_Soundtracks",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Soundtracks",
+      "GUID": "{A39BD2F4-42AB-4B17-9247-84DB992E721D}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "593465054",
+        "Language": "SFX",
+        "ShortName": "Vision_Resonare-Losing_EndBearbeitung.wav",
+        "Path": "SFX\\Vision_Resonare-Losing_EndBearbeitung_D79FB2B7.wem"
+       },
+       {
+        "Id": "635747131",
+        "Language": "SFX",
+        "ShortName": "Vision_Resonare-Winning_EndBearbeitung.wav",
+        "Path": "SFX\\Vision_Resonare-Winning_EndBearbeitung_D79FB2B7.wem"
+       },
+       {
+        "Id": "674193047",
+        "Language": "SFX",
+        "ShortName": "Vision_Resonare-Fight_EndBearbeitung.wav",
+        "Path": "SFX\\Vision_Resonare-Fight_EndBearbeitung_D79FB2B7.wem"
+       },
+       {
+        "Id": "812505198",
+        "Language": "SFX",
+        "ShortName": "Vision_Resonare-Start_Screen_EndBearbeitung.wav",
+        "Path": "SFX\\Vision_Resonare-Start_Screen_EndBearbeitung_D79FB2B7.wem"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{A5073407-0266-4E97-A09A-8DB7694DD590}",
+        "Media": [
+         {
+          "Id": "674193047"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{41FDD8AA-3620-4562-9F4A-A94B93925C95}",
+        "Media": [
+         {
+          "Id": "593465054"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{326C7ED1-F5FA-4E53-A203-0CB93316E1B2}",
+        "Media": [
+         {
+          "Id": "812505198"
+         },
+         {
+          "Id": "812505198"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{F00A63EB-7EE0-417E-9F2A-71C128815E9F}",
+        "Media": [
+         {
+          "Id": "635747131"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "2721494480",
+      "Name": "Game_States",
+      "ObjectPath": "\\States\\Default Work Unit\\Game_States",
+      "GUID": "{5106B4D4-3FF1-45DF-9825-8BAB27E1FDE8}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Game_States\\None",
+        "GUID": "{AE405609-76A4-42E0-AA30-A475BF2FB480}"
+       },
+       {
+        "Id": "1705842598",
+        "Name": "Start_Screen",
+        "ObjectPath": "\\States\\Default Work Unit\\Game_States\\Start_Screen",
+        "GUID": "{326C7ED1-F5FA-4E53-A203-0CB93316E1B2}"
+       },
+       {
+        "Id": "514064485",
+        "Name": "Fight",
+        "ObjectPath": "\\States\\Default Work Unit\\Game_States\\Fight",
+        "GUID": "{A5073407-0266-4E97-A09A-8DB7694DD590}"
+       },
+       {
+        "Id": "1080430619",
+        "Name": "Won",
+        "ObjectPath": "\\States\\Default Work Unit\\Game_States\\Won",
+        "GUID": "{F00A63EB-7EE0-417E-9F2A-71C128815E9F}"
+       },
+       {
+        "Id": "221232711",
+        "Name": "Lost",
+        "ObjectPath": "\\States\\Default Work Unit\\Game_States\\Lost",
+        "GUID": "{41FDD8AA-3620-4562-9F4A-A94B93925C95}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

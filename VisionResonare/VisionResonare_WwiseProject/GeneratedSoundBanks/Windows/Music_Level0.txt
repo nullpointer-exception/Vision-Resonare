@@ -1,0 +1,19 @@
+Event	ID	Name			Wwise Object Path	Notes
+	771707439	Play_Soundtracks			\Default Work Unit\Play_Soundtracks	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2721494480	Game_States			\Default Work Unit\Game_States	
+
+State	ID	Name	State Group			Notes
+	221232711	Lost	Game_States			
+	514064485	Fight	Game_States			
+	748895195	None	Game_States			
+	1080430619	Won	Game_States			
+	1705842598	Start_Screen	Game_States			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	593465054	Vision_Resonare-Losing_EndBearbeitung	E:\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Vision_Resonare-Losing_EndBearbeitung_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Soundtracks\Fight_Lost\Soundtrack-Fight_Losing\Vision_Resonare-Losing_EndBearbeitung		3043092
+	635747131	Vision_Resonare-Winning_EndBearbeitung	E:\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Vision_Resonare-Winning_EndBearbeitung_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Soundtracks\Fight_Won\Soundtrack-Fight_Winning\Vision_Resonare-Winning_EndBearbeitung		3175344
+	674193047	Vision_Resonare-Fight_EndBearbeitung	E:\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Vision_Resonare-Fight_EndBearbeitung_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Soundtracks\Fight_Level0\Soundtrack-Fight\Vision_Resonare-Fight_EndBearbeitung		10319832
+	812505198	Beginning	E:\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Vision_Resonare-Start_Screen_EndBearbeitung_D79FB2B7.wem		\Interactive Music Hierarchy\Music\Soundtracks\Start Screen\Soundtrack-Start_Screen\Beginning		13641744
+
