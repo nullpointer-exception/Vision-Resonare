@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>E:\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>E:\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>E:\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>E:\Uni\GitHub_VR\Vision-Resonare\VisionResonare\VisionResonare_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
+		<SoundBank Id="1290008368" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Level_0</ObjectPath>
+			<ShortName>Level_0</ShortName>
+			<Path>Level_0.bnk</Path>
+		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
-		</SoundBank>
-		<SoundBank Id="2410569202" Language="SFX">
-			<ObjectPath>\SoundBanks\Default Work Unit\Main_SB</ObjectPath>
-			<ShortName>Main_SB</ShortName>
-			<Path>Main_SB.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

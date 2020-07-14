@@ -1,54 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{BA6BE6E1-95AF-4AA5-95E6-381296C068EF}" SchemaVersion="97">
+<WwiseDocument Type="WorkUnit" ID="{76D915DD-6CB2-4A39-93AD-36A500F3C414}" SchemaVersion="97">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{BA6BE6E1-95AF-4AA5-95E6-381296C068EF}" PersistMode="Standalone">
+		<WorkUnit Name="Default Work Unit" ID="{76D915DD-6CB2-4A39-93AD-36A500F3C414}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="Main_SB" ID="{76771355-7ED6-456B-95AC-15EB78A76A91}">
-					<PropertyList>
-						<Property Name="Maximum" Type="int32">
-							<ValueList>
-								<Value>20000000</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ObjectInclusionList/>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
-				<SoundBank Name="Level_0" ID="{2CEAA065-51BC-4A78-B7E7-76370FBF8D2B}">
-					<PropertyList>
-						<Property Name="Maximum" Type="int32">
-							<ValueList>
-								<Value>20000000</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ObjectInclusionList>
-						<ObjectRef Name="Play_Fireplace" ID="{0B382BFB-2927-406B-A987-C581AC5A7C41}" WorkUnitID="{5542C13C-2874-454B-B48C-FEEEF3D85A4F}" Origin="Manual" Filter="7"/>
-					</ObjectInclusionList>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
-				<SoundBank Name="Level_1" ID="{E0322D4D-0619-4627-BA07-175561117668}">
-					<PropertyList>
-						<Property Name="Maximum" Type="int32">
-							<ValueList>
-								<Value>20000000</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ObjectInclusionList/>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
-				<SoundBank Name="Level_Start_Screen" ID="{1CED3C2B-2F4E-4DE3-B5EB-C61D63EB1925}">
-					<PropertyList>
-						<Property Name="Maximum" Type="int32">
-							<ValueList>
-								<Value>20000000</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
+				<SoundBank Name="Level_0" ID="{2C89BECC-609F-4A41-B6D1-F8A7EF751192}">
 					<ObjectInclusionList/>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
