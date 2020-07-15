@@ -8,7 +8,7 @@
 						<Action Name="" ID="{131DB38E-76D6-41D3-ABA8-1ABB2C7AB626}" ShortID="199867019">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="AtmoStage2Wind" ID="{23490343-A9BD-4980-8313-AFF74E69B1E0}" WorkUnitID="{D00AE282-E2C0-4E72-8353-011E3437EA43}"/>
+									<ObjectRef Name="WindAtmo" ID="{23490343-A9BD-4980-8313-AFF74E69B1E0}" WorkUnitID="{D00AE282-E2C0-4E72-8353-011E3437EA43}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -74,7 +74,18 @@
 						<Action Name="" ID="{E285F675-B576-443F-BEF9-15755B4DCFBB}" ShortID="972796694">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="1_Ep Facepla" ID="{67074AD2-856D-4CCE-8FA5-1F5AC0DA06D6}" WorkUnitID="{D00AE282-E2C0-4E72-8353-011E3437EA43}"/>
+									<ObjectRef Name="Signalsound" ID="{67074AD2-856D-4CCE-8FA5-1F5AC0DA06D6}" WorkUnitID="{D00AE282-E2C0-4E72-8353-011E3437EA43}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Level0_Low_Ticking" ID="{1D9D7469-1F9A-4058-A2B0-7B88F949CE39}">
+					<ChildrenList>
+						<Action Name="" ID="{8872DE42-1571-4E74-8843-BCF63BAD5F20}" ShortID="963298388">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Low_Ticking" ID="{294DB863-5031-45A0-95DA-2BC824EFAB4A}" WorkUnitID="{D00AE282-E2C0-4E72-8353-011E3437EA43}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

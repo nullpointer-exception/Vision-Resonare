@@ -3,7 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{D00AE282-E2C0-4E72-8353-011E3437EA43}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="AtmoStage2Wind" ID="{23490343-A9BD-4980-8313-AFF74E69B1E0}" ShortID="1072788229">
+				<SwitchContainer Name="GrandClock" ID="{D94EBD91-8EE6-4A91-8F49-481B18603148}" ShortID="465733951">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
@@ -13,78 +13,43 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="AtmoStage2Wind" ID="{533E6C01-23B7-43DF-9DCB-190D827A692B}">
-							<Language>SFX</Language>
-							<AudioFile>AtmoStage2Wind.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="78897012"/>
-							</MediaIDList>
-						</AudioFileSource>
+						<Sound Name="Low_Ticking" ID="{294DB863-5031-45A0-95DA-2BC824EFAB4A}" ShortID="549410296">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Low_Ticking" ID="{318D2CDE-9B69-4FE2-9158-74356B23C868}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0493026434318019"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.219396763271518"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Low_Ticking.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="526661350"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Low_Ticking" ID="{318D2CDE-9B69-4FE2-9158-74356B23C868}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="AtmoStage2Wind" ID="{533E6C01-23B7-43DF-9DCB-190D827A692B}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="1_Ep Facepla" ID="{67074AD2-856D-4CCE-8FA5-1F5AC0DA06D6}" ShortID="523285452">
-					<PropertyList>
-						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-						<Property Name="Pitch" Type="int32">
-							<RTPCList>
-								<RTPC Name="" ID="{C86EC7BA-9E6A-4D4A-B5CC-DE61A0AB4D05}" ShortID="1058649864">
-									<ReferenceList>
-										<Reference Name="ControlInput">
-											<ObjectRef Name="Warnsignale" ID="{746AEDF7-2FA5-41FD-98B5-F83AF265CDA9}" WorkUnitID="{9F73E1BF-D833-49E7-A51A-A4A7B3142017}"/>
-										</Reference>
-									</ReferenceList>
-									<Curve Name="" ID="{684AB570-8B85-4420-963C-58817547C28B}">
-										<PropertyList>
-											<Property Name="Flags" Type="int32" Value="65537"/>
-										</PropertyList>
-										<PointList>
-											<Point>
-												<XPos>0</XPos>
-												<YPos>-1185</YPos>
-												<Flags>5</Flags>
-											</Point>
-											<Point>
-												<XPos>100</XPos>
-												<YPos>890</YPos>
-												<Flags>37</Flags>
-											</Point>
-										</PointList>
-									</Curve>
-								</RTPC>
-							</RTPCList>
-						</Property>
-						<Property Name="Volume" Type="Real64">
-							<RTPCList>
-								<RTPC Name="" ID="{A7A76498-EA6E-4AA2-B632-05C4A4A15403}" ShortID="311482809">
-									<ReferenceList>
-										<Reference Name="ControlInput">
-											<ObjectRef Name="Warnsignale" ID="{746AEDF7-2FA5-41FD-98B5-F83AF265CDA9}" WorkUnitID="{9F73E1BF-D833-49E7-A51A-A4A7B3142017}"/>
-										</Reference>
-									</ReferenceList>
-									<Curve Name="" ID="{A7377E0A-4211-40CA-9294-DFBBCA37D259}">
-										<PropertyList>
-											<Property Name="Flags" Type="int32" Value="3"/>
-										</PropertyList>
-										<PointList>
-											<Point>
-												<XPos>0</XPos>
-												<YPos>-200</YPos>
-												<Flags>5</Flags>
-											</Point>
-											<Point>
-												<XPos>100</XPos>
-												<YPos>1.51952</YPos>
-												<Flags>37</Flags>
-											</Point>
-										</PointList>
-									</Curve>
-								</RTPC>
-							</RTPCList>
-						</Property>
-					</PropertyList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Low_Ticking" ID="{294DB863-5031-45A0-95DA-2BC824EFAB4A}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<SwitchContainer Name="Signalsound" ID="{6F4FFB75-0459-41F4-AE63-38B89C43E10C}" ShortID="251657904">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
@@ -94,18 +59,182 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="1_Ep Facepla" ID="{3F95556C-163E-48B1-AC98-4FA8DA8A0F63}">
-							<Language>SFX</Language>
-							<AudioFile>1.Ep Facepla.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="1020228712"/>
-							</MediaIDList>
-						</AudioFileSource>
+						<Sound Name="Signalsound" ID="{67074AD2-856D-4CCE-8FA5-1F5AC0DA06D6}" ShortID="523285452">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{C86EC7BA-9E6A-4D4A-B5CC-DE61A0AB4D05}" ShortID="1058649864">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Warnsignale" ID="{746AEDF7-2FA5-41FD-98B5-F83AF265CDA9}" WorkUnitID="{9F73E1BF-D833-49E7-A51A-A4A7B3142017}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{684AB570-8B85-4420-963C-58817547C28B}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-1185</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>890</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{A7A76498-EA6E-4AA2-B632-05C4A4A15403}" ShortID="311482809">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Warnsignale" ID="{746AEDF7-2FA5-41FD-98B5-F83AF265CDA9}" WorkUnitID="{9F73E1BF-D833-49E7-A51A-A4A7B3142017}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{A7377E0A-4211-40CA-9294-DFBBCA37D259}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>1.51952</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="1_Ep Facepla" ID="{3F95556C-163E-48B1-AC98-4FA8DA8A0F63}">
+									<Language>SFX</Language>
+									<AudioFile>1.Ep Facepla.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1020228712"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="1_Ep Facepla" ID="{3F95556C-163E-48B1-AC98-4FA8DA8A0F63}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="1_Ep Facepla" ID="{3F95556C-163E-48B1-AC98-4FA8DA8A0F63}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Signalsound" ID="{67074AD2-856D-4CCE-8FA5-1F5AC0DA06D6}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<SwitchContainer Name="Wind" ID="{83705301-2AEC-4EDB-8699-806BE819D734}" ShortID="273858609">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="WindAtmo" ID="{23490343-A9BD-4980-8313-AFF74E69B1E0}" ShortID="1072788229">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AtmoStage2Wind" ID="{533E6C01-23B7-43DF-9DCB-190D827A692B}">
+									<Language>SFX</Language>
+									<AudioFile>AtmoStage2Wind.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="78897012"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AtmoStage2Wind" ID="{533E6C01-23B7-43DF-9DCB-190D827A692B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="WindAtmo" ID="{23490343-A9BD-4980-8313-AFF74E69B1E0}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<SwitchContainer Name="Window" ID="{F3D9F0AA-4E15-416B-8A7F-CDD238835854}" ShortID="913720259">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Window_Opening" ID="{2483763F-2CFC-4EA7-892C-EEB08185BEBD}" ShortID="882606434">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Window_Opening" ID="{BEFF1CD0-63AA-4C1A-8490-E1FFB2897D00}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.1502100456621"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Window_Opening.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="726360766"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Window_Opening" ID="{BEFF1CD0-63AA-4C1A-8490-E1FFB2897D00}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Window_Opening" ID="{2483763F-2CFC-4EA7-892C-EEB08185BEBD}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+					</GroupingInfo>
+				</SwitchContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
