@@ -3,7 +3,10 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{BB44FD93-D398-49E2-8C19-4136D48D81B6}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="D:\Francis Steffens\Sound Orrdner für VR\Atmo\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="D:\Francis Steffens\Sound Orrdner für VR\"/>
+				<Property Name="Event Action List\{415C2D69-286A-46C3-ACDB-DEBA05A952A3}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{4D9FE4CC-1529-47FE-92A6-6851CD9ABAE7}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{5429C719-DED2-4F54-BDB3-B583742FDABD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{55B55431-4EA3-4D9A-9B45-177780AFF3D4}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
@@ -21,9 +24,9 @@
 				<Property Name="Game Profiler\Voice Monitor\LastBus" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
 				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
-				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value=""/>
-				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value=""/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="zL6JLJ9gQUq20fin73URkg=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="/x3iE86ESU2lfP4CD/UU4w=="/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="zL6JLJ9gQUq20fin73URkoC3VKQ+aQlIq6Z5HbyjslE="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>

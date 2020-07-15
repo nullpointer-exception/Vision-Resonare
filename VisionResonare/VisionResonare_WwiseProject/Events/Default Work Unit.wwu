@@ -69,6 +69,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Warnsignal" ID="{5429C719-DED2-4F54-BDB3-B583742FDABD}">
+					<ChildrenList>
+						<Action Name="" ID="{E285F675-B576-443F-BEF9-15755B4DCFBB}" ShortID="972796694">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="1_Ep Facepla" ID="{67074AD2-856D-4CCE-8FA5-1F5AC0DA06D6}" WorkUnitID="{D00AE282-E2C0-4E72-8353-011E3437EA43}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
