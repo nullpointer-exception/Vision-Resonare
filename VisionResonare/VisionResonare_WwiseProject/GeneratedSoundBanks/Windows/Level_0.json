@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Florian Kardos\\Vision Resonare Master - Kopie\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Florian Kardos\\Vision Resonare Master - Kopie\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Florian Kardos\\Vision Resonare Master - Kopie\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Florian Kardos\\Vision Resonare Master - Kopie\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1290008368",
+    "GUID": "{2C89BECC-609F-4A41-B6D1-F8A7EF751192}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Level_0",
+    "ShortName": "Level_0",
+    "Path": "Level_0.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3083130986",
+      "Name": "Atmo",
+      "ObjectPath": "\\Events\\Default Work Unit\\Atmo",
+      "GUID": "{55B55431-4EA3-4D9A-9B45-177780AFF3D4}",
+      "DurationType": "OneShot",
+      "DurationMin": "324.795013",
+      "DurationMax": "324.795013",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "78897012",
+        "Language": "SFX",
+        "ShortName": "AtmoStage2Wind.wav",
+        "Path": "SFX\\AtmoStage2Wind_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3083130986	Atmo			\Default Work Unit\Atmo	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	78897012	AtmoStage2Wind	D:\Florian Kardos\Vision Resonare Master - Kopie\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\AtmoStage2Wind_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AtmoStage2Wind		62360704
+

@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D00AE282-E2C0-4E72-8353-011E3437EA43}" SchemaVersion="97">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{D00AE282-E2C0-4E72-8353-011E3437EA43}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D00AE282-E2C0-4E72-8353-011E3437EA43}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="AtmoStage2Wind" ID="{23490343-A9BD-4980-8313-AFF74E69B1E0}" ShortID="1072788229">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AtmoStage2Wind" ID="{533E6C01-23B7-43DF-9DCB-190D827A692B}">
+							<Language>SFX</Language>
+							<AudioFile>AtmoStage2Wind.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="78897012"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="AtmoStage2Wind" ID="{533E6C01-23B7-43DF-9DCB-190D827A692B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

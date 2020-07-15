@@ -4,7 +4,9 @@
 		<WorkUnit Name="Default Work Unit" ID="{76D915DD-6CB2-4A39-93AD-36A500F3C414}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="Level_0" ID="{2C89BECC-609F-4A41-B6D1-F8A7EF751192}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Atmo" ID="{55B55431-4EA3-4D9A-9B45-177780AFF3D4}" WorkUnitID="{BA89D8AC-4EFB-42E5-B32A-D38A569BF7B6}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
