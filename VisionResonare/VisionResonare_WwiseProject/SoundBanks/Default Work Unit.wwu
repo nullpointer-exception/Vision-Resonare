@@ -5,7 +5,18 @@
 			<ChildrenList>
 				<SoundBank Name="Level_0" ID="{2C89BECC-609F-4A41-B6D1-F8A7EF751192}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Atmo" ID="{55B55431-4EA3-4D9A-9B45-177780AFF3D4}" WorkUnitID="{BA89D8AC-4EFB-42E5-B32A-D38A569BF7B6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Atmo" ID="{55B55431-4EA3-4D9A-9B45-177780AFF3D4}" WorkUnitID="{BA89D8AC-4EFB-42E5-B32A-D38A569BF7B6}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music_Level0" ID="{A454B780-693E-4809-ABA6-791DBCA3B251}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Level0_FightLost" ID="{8E2387E4-BE53-4089-B31B-89254A9B482D}" WorkUnitID="{BA89D8AC-4EFB-42E5-B32A-D38A569BF7B6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Level0_FightWon" ID="{4E564034-48E9-441B-9DB1-786A6FD125F9}" WorkUnitID="{BA89D8AC-4EFB-42E5-B32A-D38A569BF7B6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Soundtracks" ID="{415C2D69-286A-46C3-ACDB-DEBA05A952A3}" WorkUnitID="{BA89D8AC-4EFB-42E5-B32A-D38A569BF7B6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_StartScreen" ID="{4D9FE4CC-1529-47FE-92A6-6851CD9ABAE7}" WorkUnitID="{BA89D8AC-4EFB-42E5-B32A-D38A569BF7B6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Level0_Fight" ID="{26E761CE-2910-4E9B-BDCF-99BBC508DA87}" WorkUnitID="{BA89D8AC-4EFB-42E5-B32A-D38A569BF7B6}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

@@ -1,0 +1,201 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Users\\defaultuser0\\Documents\\GitHub\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\",
+   "SourceFilesRoot": "C:\\Users\\defaultuser0\\Documents\\GitHub\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "C:\\Users\\defaultuser0\\Documents\\GitHub\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Users\\defaultuser0\\Documents\\GitHub\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2209143527",
+    "GUID": "{A454B780-693E-4809-ABA6-791DBCA3B251}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music_Level0",
+    "ShortName": "Music_Level0",
+    "Path": "Music_Level0.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "385703887",
+      "Name": "Play_Level0_Fight",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Level0_Fight",
+      "GUID": "{26E761CE-2910-4E9B-BDCF-99BBC508DA87}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "857117339",
+        "Language": "SFX",
+        "ShortName": "Vision_Resonare-Fight_EndBearbeitung.wav",
+        "Path": "SFX\\Vision_Resonare-Fight_EndBearbeitung_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2193254273",
+      "Name": "Play_Level0_FightLost",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Level0_FightLost",
+      "GUID": "{8E2387E4-BE53-4089-B31B-89254A9B482D}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "266205510",
+        "Language": "SFX",
+        "ShortName": "Vision_Resonare-Losing_EndBearbeitung.wav",
+        "Path": "SFX\\Vision_Resonare-Losing_EndBearbeitung_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3702844941",
+      "Name": "Play_Level0_FightWon",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Level0_FightWon",
+      "GUID": "{4E564034-48E9-441B-9DB1-786A6FD125F9}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "776137561",
+        "Language": "SFX",
+        "ShortName": "Vision_Resonare-Winning_EndBearbeitung.wav",
+        "Path": "SFX\\Vision_Resonare-Winning_EndBearbeitung_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "771707439",
+      "Name": "Play_Soundtracks",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Soundtracks",
+      "GUID": "{415C2D69-286A-46C3-ACDB-DEBA05A952A3}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "3721966",
+        "Language": "SFX",
+        "ShortName": "Vision_Resonare-Start_Screen_EndBearbeitung.wav",
+        "Path": "SFX\\Vision_Resonare-Start_Screen_EndBearbeitung_D79FB2B7.wem"
+       },
+       {
+        "Id": "266205510",
+        "Language": "SFX",
+        "ShortName": "Vision_Resonare-Losing_EndBearbeitung.wav",
+        "Path": "SFX\\Vision_Resonare-Losing_EndBearbeitung_D79FB2B7.wem"
+       },
+       {
+        "Id": "776137561",
+        "Language": "SFX",
+        "ShortName": "Vision_Resonare-Winning_EndBearbeitung.wav",
+        "Path": "SFX\\Vision_Resonare-Winning_EndBearbeitung_D79FB2B7.wem"
+       },
+       {
+        "Id": "857117339",
+        "Language": "SFX",
+        "ShortName": "Vision_Resonare-Fight_EndBearbeitung.wav",
+        "Path": "SFX\\Vision_Resonare-Fight_EndBearbeitung_D79FB2B7.wem"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{FDEE9429-3CFD-440C-9CAD-82370B6636F3}",
+        "Media": [
+         {
+          "Id": "3721966"
+         },
+         {
+          "Id": "3721966"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{7A3A1A3B-241C-4336-8CF4-9A6FA9F7F477}",
+        "Media": [
+         {
+          "Id": "857117339"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{ABA8726D-5D19-49B2-A215-B9E5FCE55E26}",
+        "Media": [
+         {
+          "Id": "266205510"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{E13A63F8-2720-4BAE-81E0-C34DE7138719}",
+        "Media": [
+         {
+          "Id": "776137561"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "1603954302",
+      "Name": "Play_StartScreen",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_StartScreen",
+      "GUID": "{4D9FE4CC-1529-47FE-92A6-6851CD9ABAE7}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "3721966",
+        "Language": "SFX",
+        "ShortName": "Vision_Resonare-Start_Screen_EndBearbeitung.wav",
+        "Path": "SFX\\Vision_Resonare-Start_Screen_EndBearbeitung_D79FB2B7.wem"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "2721494480",
+      "Name": "Game_States",
+      "ObjectPath": "\\States\\Default Work Unit\\Game_States",
+      "GUID": "{454FADD6-5F3C-4E9B-B308-25C0E5DD5BA7}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Game_States\\None",
+        "GUID": "{493D0563-A8B7-4553-ABB5-5F2A79689554}"
+       },
+       {
+        "Id": "3592026427",
+        "Name": "StartScreen",
+        "ObjectPath": "\\States\\Default Work Unit\\Game_States\\StartScreen",
+        "GUID": "{FDEE9429-3CFD-440C-9CAD-82370B6636F3}"
+       },
+       {
+        "Id": "514064485",
+        "Name": "Fight",
+        "ObjectPath": "\\States\\Default Work Unit\\Game_States\\Fight",
+        "GUID": "{7A3A1A3B-241C-4336-8CF4-9A6FA9F7F477}"
+       },
+       {
+        "Id": "1080430619",
+        "Name": "Won",
+        "ObjectPath": "\\States\\Default Work Unit\\Game_States\\Won",
+        "GUID": "{E13A63F8-2720-4BAE-81E0-C34DE7138719}"
+       },
+       {
+        "Id": "221232711",
+        "Name": "Lost",
+        "ObjectPath": "\\States\\Default Work Unit\\Game_States\\Lost",
+        "GUID": "{ABA8726D-5D19-49B2-A215-B9E5FCE55E26}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

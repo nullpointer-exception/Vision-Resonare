@@ -3,12 +3,67 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{BA89D8AC-4EFB-42E5-B32A-D38A569BF7B6}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Atmo" ID="{55B55431-4EA3-4D9A-9B45-177780AFF3D4}">
+				<Event Name="Play_Atmo" ID="{55B55431-4EA3-4D9A-9B45-177780AFF3D4}">
 					<ChildrenList>
 						<Action Name="" ID="{131DB38E-76D6-41D3-ABA8-1ABB2C7AB626}" ShortID="199867019">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="AtmoStage2Wind" ID="{23490343-A9BD-4980-8313-AFF74E69B1E0}" WorkUnitID="{D00AE282-E2C0-4E72-8353-011E3437EA43}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_StartScreen" ID="{4D9FE4CC-1529-47FE-92A6-6851CD9ABAE7}">
+					<ChildrenList>
+						<Action Name="" ID="{9BB54BE4-4ACB-401E-8A37-C15D85AFA0BC}" ShortID="724055040">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="StartScreen" ID="{A33A693B-566E-4352-A1FC-3FFD33578F35}" WorkUnitID="{79610808-9D3D-45CC-BC04-EF59426757C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Soundtracks" ID="{415C2D69-286A-46C3-ACDB-DEBA05A952A3}">
+					<ChildrenList>
+						<Action Name="" ID="{D1AB9531-20EA-4052-B934-B5479137AB6A}" ShortID="62910554">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Soundtracks" ID="{51EE96E5-FFC4-4187-A99C-C14EB63C56B3}" WorkUnitID="{79610808-9D3D-45CC-BC04-EF59426757C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Level0_Fight" ID="{26E761CE-2910-4E9B-BDCF-99BBC508DA87}">
+					<ChildrenList>
+						<Action Name="" ID="{4B5DB39D-4859-4212-BC39-38ABC39F0026}" ShortID="388543234">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Level0_Fight" ID="{B9B2EE62-76E3-4DC1-94ED-9879027007DF}" WorkUnitID="{79610808-9D3D-45CC-BC04-EF59426757C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Level0_FightLost" ID="{8E2387E4-BE53-4089-B31B-89254A9B482D}">
+					<ChildrenList>
+						<Action Name="" ID="{7F7DBE2F-B367-47F9-81F8-496E32E01F43}" ShortID="589435538">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Level0_FightLost" ID="{1620E8F6-38DE-43FE-A690-9D69FD813101}" WorkUnitID="{79610808-9D3D-45CC-BC04-EF59426757C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Level0_FightWon" ID="{4E564034-48E9-441B-9DB1-786A6FD125F9}">
+					<ChildrenList>
+						<Action Name="" ID="{6AE0821D-E75B-4181-A5F0-4A8318AF17E3}" ShortID="923113331">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Level0_FightWon" ID="{7BA338A1-8132-46F9-B1BE-BB10DE4002E9}" WorkUnitID="{79610808-9D3D-45CC-BC04-EF59426757C5}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
