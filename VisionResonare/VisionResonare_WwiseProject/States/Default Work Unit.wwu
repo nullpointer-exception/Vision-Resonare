@@ -3,13 +3,13 @@
 	<States>
 		<WorkUnit Name="Default Work Unit" ID="{DEBD57CF-E5E7-407B-A681-6FCC9FF14335}" PersistMode="Standalone">
 			<ChildrenList>
-				<StateGroup Name="Game_States" ID="{5106B4D4-3FF1-45DF-9825-8BAB27E1FDE8}">
+				<StateGroup Name="Game_States" ID="{454FADD6-5F3C-4E9B-B308-25C0E5DD5BA7}">
 					<ChildrenList>
-						<State Name="None" ID="{AE405609-76A4-42E0-AA30-A475BF2FB480}"/>
-						<State Name="Start_Screen" ID="{326C7ED1-F5FA-4E53-A203-0CB93316E1B2}"/>
-						<State Name="Fight" ID="{A5073407-0266-4E97-A09A-8DB7694DD590}"/>
-						<State Name="Won" ID="{F00A63EB-7EE0-417E-9F2A-71C128815E9F}"/>
-						<State Name="Lost" ID="{41FDD8AA-3620-4562-9F4A-A94B93925C95}"/>
+						<State Name="None" ID="{493D0563-A8B7-4553-ABB5-5F2A79689554}"/>
+						<State Name="StartScreen" ID="{FDEE9429-3CFD-440C-9CAD-82370B6636F3}"/>
+						<State Name="Fight" ID="{7A3A1A3B-241C-4336-8CF4-9A6FA9F7F477}"/>
+						<State Name="Won" ID="{E13A63F8-2720-4BAE-81E0-C34DE7138719}"/>
+						<State Name="Lost" ID="{ABA8726D-5D19-49B2-A215-B9E5FCE55E26}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

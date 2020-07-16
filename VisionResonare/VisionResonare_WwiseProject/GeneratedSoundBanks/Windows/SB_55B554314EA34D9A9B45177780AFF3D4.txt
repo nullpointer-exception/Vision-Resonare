@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3083130986	Atmo			\Default Work Unit\Atmo	
+

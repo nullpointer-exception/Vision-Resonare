@@ -1,6 +1,1959 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D00AE282-E2C0-4E72-8353-011E3437EA43}" SchemaVersion="97">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{D00AE282-E2C0-4E72-8353-011E3437EA43}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D00AE282-E2C0-4E72-8353-011E3437EA43}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchContainer Name="GrandClock" ID="{D94EBD91-8EE6-4A91-8F49-481B18603148}" ShortID="465733951">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="LowTicking" ID="{294DB863-5031-45A0-95DA-2BC824EFAB4A}" ShortID="549410296">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom>
+										<Attenuation Name="Attenuation (Custom)" ID="{678E27FD-E9ED-40F9-8D68-B12628C6C9D9}" ShortID="818661187">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="3000"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{273E3CAA-8BB3-4BB2-B5DE-4259F4DE3859}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>1509.40439</XPos>
+																	<YPos>-11.65033</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>3000</XPos>
+																	<YPos>-16.94955</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Low_Ticking" ID="{318D2CDE-9B69-4FE2-9158-74356B23C868}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00570249099788046"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0199587184925816"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.058806795094936"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.201338875111563"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>-14</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Low_Ticking.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="526661350"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Low_Ticking" ID="{318D2CDE-9B69-4FE2-9158-74356B23C868}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="LowTicking" ID="{294DB863-5031-45A0-95DA-2BC824EFAB4A}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<SwitchContainer Name="Signalsound" ID="{6F4FFB75-0459-41F4-AE63-38B89C43E10C}" ShortID="251657904">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Signalsound" ID="{67074AD2-856D-4CCE-8FA5-1F5AC0DA06D6}" ShortID="523285452">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{C86EC7BA-9E6A-4D4A-B5CC-DE61A0AB4D05}" ShortID="1058649864">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Warnsignale" ID="{746AEDF7-2FA5-41FD-98B5-F83AF265CDA9}" WorkUnitID="{9F73E1BF-D833-49E7-A51A-A4A7B3142017}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{684AB570-8B85-4420-963C-58817547C28B}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-1185</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>890</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{A7A76498-EA6E-4AA2-B632-05C4A4A15403}" ShortID="311482809">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Warnsignale" ID="{746AEDF7-2FA5-41FD-98B5-F83AF265CDA9}" WorkUnitID="{9F73E1BF-D833-49E7-A51A-A4A7B3142017}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{A7377E0A-4211-40CA-9294-DFBBCA37D259}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>1.51952</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="1_Ep Facepla" ID="{3F95556C-163E-48B1-AC98-4FA8DA8A0F63}">
+									<Language>SFX</Language>
+									<AudioFile>1.Ep Facepla.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1020228712"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="1_Ep Facepla" ID="{3F95556C-163E-48B1-AC98-4FA8DA8A0F63}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Signalsound" ID="{67074AD2-856D-4CCE-8FA5-1F5AC0DA06D6}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<SwitchContainer Name="Wind" ID="{83705301-2AEC-4EDB-8699-806BE819D734}" ShortID="273858609">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="WindAtmo" ID="{23490343-A9BD-4980-8313-AFF74E69B1E0}" ShortID="1072788229">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AtmoStage2Wind" ID="{533E6C01-23B7-43DF-9DCB-190D827A692B}">
+									<Language>SFX</Language>
+									<AudioFile>AtmoStage2Wind.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="78897012"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AtmoStage2Wind" ID="{533E6C01-23B7-43DF-9DCB-190D827A692B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="WindAtmo" ID="{23490343-A9BD-4980-8313-AFF74E69B1E0}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<SwitchContainer Name="Window" ID="{F3D9F0AA-4E15-416B-8A7F-CDD238835854}" ShortID="913720259">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="WindowOpening" ID="{2483763F-2CFC-4EA7-892C-EEB08185BEBD}" ShortID="882606434">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Window_Opening" ID="{BEFF1CD0-63AA-4C1A-8490-E1FFB2897D00}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.1502100456621"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Window_Opening.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="726360766"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Window_Opening" ID="{BEFF1CD0-63AA-4C1A-8490-E1FFB2897D00}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="WindowOpening" ID="{2483763F-2CFC-4EA7-892C-EEB08185BEBD}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<SwitchContainer Name="Portcullis" ID="{374EC924-D84C-4BCD-BFBB-7EA50F908093}" ShortID="353436586">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Open" ID="{66235E91-5456-4E41-A678-FFB0373D5A55}" ShortID="65083891">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Open" ID="{528354DC-4882-409D-AFFC-45344F69C648}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.364639269406393"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="1.09391780821918"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.429753424657534"/>
+										<Property Name="TrimEnd" Type="Real64" Value="3.19059360730594"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Open.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1009025973"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Open" ID="{528354DC-4882-409D-AFFC-45344F69C648}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Open" ID="{66235E91-5456-4E41-A678-FFB0373D5A55}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<SwitchContainer Name="Werwolf" ID="{8F3F1248-B87E-4F8E-B480-30A8D5EC4D28}" ShortID="138985861">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="WerwolfSteps" ID="{BDABC46E-D7BD-4DA0-99B2-A6D7879A4799}" ShortID="761896059">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Toe" ID="{D677E643-0DB6-43E0-BAAF-8EC49E5D8B80}" ShortID="183956905">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>0.1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Werwolves_Step5" ID="{9AC95A4E-BDDB-41D6-BD27-E66AECF24A5A}" ShortID="441578354">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-600</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Werwolves_Step5" ID="{966046CE-7410-40C5-BCC9-F47AF3125C23}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0317077625570776"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0368219178082192"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.167744292237443"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.45413698630137"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Werwolves_Step5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="571780884"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Werwolves_Step5" ID="{966046CE-7410-40C5-BCC9-F47AF3125C23}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Werwolves_Step7" ID="{877692A3-20BD-40D2-8E8E-C21982EF6AA5}" ShortID="826012174">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-600</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Werwolves_Step7" ID="{9DD16136-17E1-43BC-8117-998E9FC029B0}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0121689497716895"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0290182648401827"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.201255707762557"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.503607305936073"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Werwolves_Step7.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="627328947"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Werwolves_Step7" ID="{9DD16136-17E1-43BC-8117-998E9FC029B0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Werwolves_Step3" ID="{3EBB9047-33D9-49E4-8A29-6D76A1362138}" ShortID="953961203">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-600</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Werwolves_Step3" ID="{D9273BF5-86A8-4E5E-A6AB-2D86F4A652F2}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0367559931506849"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0612599885844749"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.162338969748858"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.502331906392694"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Werwolves_Step3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="355965113"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Werwolves_Step3" ID="{D9273BF5-86A8-4E5E-A6AB-2D86F4A652F2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Werwolves_Step2" ID="{C9BBC6E7-09CA-4B6B-B952-ECC10464CCE4}" ShortID="899233235">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-600</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Werwolves_Step2" ID="{AC7FF59B-00D8-40C1-962B-B77A0A9FCD24}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0382874928652968"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0398189925799087"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.150086972031963"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.47476491152968"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Werwolves_Step2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="198732961"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Werwolves_Step2" ID="{AC7FF59B-00D8-40C1-962B-B77A0A9FCD24}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Werwolves_Step6" ID="{054CE4BE-4B01-477B-9D66-3EDBDAAE6E9B}" ShortID="784498453">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-600</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Werwolves_Step6" ID="{AA3D9BB6-FE6F-4152-9E5C-B8A386E00111}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0224657534246575"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0964155251141552"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.172237442922374"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.506415525114155"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Werwolves_Step6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="228188701"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Werwolves_Step6" ID="{AA3D9BB6-FE6F-4152-9E5C-B8A386E00111}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Werwolves_Step4" ID="{23DBA6CD-05A7-4293-944A-E3524E87CBBA}" ShortID="633221621">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-600</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Werwolves_Step4" ID="{969A6353-07E3-46EB-9FEF-0D7B30ED38E1}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0409132420091324"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0388675799086758"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.167744292237443"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.430611872146119"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Werwolves_Step4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="571223948"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Werwolves_Step4" ID="{969A6353-07E3-46EB-9FEF-0D7B30ED38E1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Heel 1" ID="{80390103-5394-4D6D-A606-47C8DBB92615}" ShortID="218965107">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Werwolves_Step7" ID="{7E03946E-9646-4234-8D17-C51FD66F2952}" ShortID="669653345">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>600</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Werwolves_Step7" ID="{2D5D2AE6-1ADA-4933-9250-7BF7E76429CF}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0702054794520548"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0542922374429224"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.202191780821918"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.510159817351598"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Werwolves_Step7.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="552733161"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Werwolves_Step7" ID="{2D5D2AE6-1ADA-4933-9250-7BF7E76429CF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Werwolves_Step3" ID="{E7D144B5-C782-441B-8BDB-A35E108A81A3}" ShortID="173143021">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>600</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Werwolves_Step3" ID="{629B1DF0-64B7-44BE-8E2B-0B5A61976165}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0444134917237443"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0444134917237443"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.157744470605023"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.476296411244293"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Werwolves_Step3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1047330557"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Werwolves_Step3" ID="{629B1DF0-64B7-44BE-8E2B-0B5A61976165}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Werwolves_Step6" ID="{0CEBFE82-4D33-4A88-8281-885262F08B13}" ShortID="599638652">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>600</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Werwolves_Step6" ID="{BF525930-086B-4466-A0B2-C2AD7C33B30B}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0664611872146119"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.107648401826484"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.175045662100456"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.467100456621004"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Werwolves_Step6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1050334831"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Werwolves_Step6" ID="{BF525930-086B-4466-A0B2-C2AD7C33B30B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Werwolves_Step2" ID="{8303619B-75CD-42EA-8B53-8367E0C06D00}" ShortID="28158734">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>600</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Werwolves_Step2" ID="{89087CEC-0083-44EF-99E5-4663D1F9FC95}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0505394905821918"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0520709902968037"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.156212970890411"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.520709902968037"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Werwolves_Step2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="953304088"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Werwolves_Step2" ID="{89087CEC-0083-44EF-99E5-4663D1F9FC95}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Werwolves_Step1" ID="{120A210C-7F1F-4136-9EF8-5A1CC0720019}" ShortID="598288431">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>600</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Werwolves_Step1" ID="{BF6769FD-5E1F-4B1D-86D0-0F5FB011494B}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0581969891552511"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.182248466038813"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.173059467751141"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.525304402111873"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Werwolves_Step1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="838834988"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Werwolves_Step1" ID="{BF6769FD-5E1F-4B1D-86D0-0F5FB011494B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Werwolves_Step5" ID="{9F754790-92E7-41E3-83A2-A794CEEC48D0}" ShortID="804308912">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>600</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Werwolves_Step5" ID="{FB7BC14E-8DA1-4D6A-8638-A43D5C294A3F}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0951232876712329"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0337534246575343"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.172858447488585"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.417315068493151"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Werwolves_Step5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="643307592"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Werwolves_Step5" ID="{FB7BC14E-8DA1-4D6A-8638-A43D5C294A3F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</BlendContainer>
+						<RandomSequenceContainer Name="Death" ID="{89A0F45E-D475-454D-ACBA-618D5EDA7C12}" ShortID="533606979">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Werwolf_Death_4" ID="{DC38DBBB-5893-4920-8961-9ED47F304CDE}" ShortID="423370621">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-300</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ANIMAL-DOG-WHINE_6EXT8-10138" ID="{EC862398-8917-4DF8-9F88-060030C1F17F}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.428955017301038"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.346463667820069"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.973397923875431"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.07692733564014"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ANIMAL-DOG-WHINE_6EXT8-10138.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="904438303"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ANIMAL-DOG-WHINE_6EXT8-10138" ID="{EC862398-8917-4DF8-9F88-060030C1F17F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Werwolf_Death_1" ID="{92772BD2-9784-470A-B925-786B0A341251}" ShortID="184994821">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-300</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ANIMAL-DOG-WHIMPER_6EXT8-10134" ID="{27DEAE07-D501-457D-B088-0F13B9D196FE}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.255114186851211"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.15117877739331"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.496055363321799"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.05036216839677"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ANIMAL-DOG-WHIMPER_6EXT8-10134.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="986819643"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ANIMAL-DOG-WHIMPER_6EXT8-10134" ID="{27DEAE07-D501-457D-B088-0F13B9D196FE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Werwolf_Death_2" ID="{B52C1B0A-C0FE-4A19-9CAB-219F8D7E4686}" ShortID="326564389">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ANIMAL-DOG-WHINE_6EXT8-10136" ID="{C622782C-A80F-45F4-86C9-D5113237DA36}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.170980392156863"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.241384083044982"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.29314878892734"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.13370242214532"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ANIMAL-DOG-WHINE_6EXT8-10136.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="54876915"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ANIMAL-DOG-WHINE_6EXT8-10136" ID="{C622782C-A80F-45F4-86C9-D5113237DA36}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Attack" ID="{0EAD66B6-7674-4BDA-BEAF-24F1787CD704}" ShortID="855206930">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Werwolf_Attack_1" ID="{A0542EA7-5B68-4DCE-BC99-BA392AF476B7}" ShortID="93970610">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-600</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ANIMAL-DOG-SNARL-GROWL_6EXT8-10125" ID="{E4C3367B-5F42-404F-A665-86479CAE4C66}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.434048442906574"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.434048442906574"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.909434832756633"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.48027681660899"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ANIMAL-DOG-SNARL-GROWL_6EXT8-10125.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="383297390"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ANIMAL-DOG-SNARL-GROWL_6EXT8-10125" ID="{E4C3367B-5F42-404F-A665-86479CAE4C66}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Werwolf_Attack_2" ID="{B879DD36-E4FB-4095-9BFE-7926BC64E015}" ShortID="638936810">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-600</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ANIMAL-DOG-SNARL_6EXT8-10117" ID="{BBF488CC-C77F-4994-9D42-3E293042BEF0}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.169411764705882"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.169411764705882"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.609882352941177"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.91435294117647"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ANIMAL-DOG-SNARL_6EXT8-10117.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="802902689"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ANIMAL-DOG-SNARL_6EXT8-10117" ID="{BBF488CC-C77F-4994-9D42-3E293042BEF0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Werwolf_Attack_3" ID="{0D2F1A60-DCFA-444D-B98D-886B3C00CB9C}" ShortID="654621423">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-600</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ANIMAL-DOG-SNARL_6EXT8-10120" ID="{A10530E7-6754-447B-A778-43CEC496D688}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.123607843137255"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.24721568627451"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.843441753171857"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ANIMAL-DOG-SNARL_6EXT8-10120.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="408943304"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ANIMAL-DOG-SNARL_6EXT8-10120" ID="{A10530E7-6754-447B-A778-43CEC496D688}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Werwolf_Attack_4" ID="{3EEA0302-3BE5-4166-AA5A-303F050DD583}" ShortID="262812893">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-600</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ANIMAL-DOG-SNARL_6EXT8-10121" ID="{C3B80025-C5ED-4216-A670-F50CC2DB5879}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.193550173010381"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.239833910034602"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.24404152249135"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.35905882352941"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ANIMAL-DOG-SNARL_6EXT8-10121.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="817479040"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ANIMAL-DOG-SNARL_6EXT8-10121" ID="{C3B80025-C5ED-4216-A670-F50CC2DB5879}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Werwolf_Attack_5" ID="{412916B5-5418-4EA9-9F32-C44A4EA2F4E2}" ShortID="718925479">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-600</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ANIMAL-DOG-SNARL_6EXT8-10122" ID="{8671F2BA-B02E-4800-8D4D-3D0288B557A1}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.201153402537486"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.28161476355248"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.402306805074971"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.91095732410612"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>ANIMAL-DOG-SNARL_6EXT8-10122.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="372220926"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ANIMAL-DOG-SNARL_6EXT8-10122" ID="{8671F2BA-B02E-4800-8D4D-3D0288B557A1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<BlendContainer Name="Hit" ID="{DB4C23A1-2C98-46A9-90AF-200E7F0F6122}" ShortID="509242702">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Hits" ID="{64E3F50C-A365-4BF5-B69C-4AA6C94BA36A}" ShortID="935272546">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="WerwolfHit_Sword_1" ID="{4505A567-3631-494C-B3FB-F8875976D5FC}" ShortID="691754411">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Treffer(lufs Fehlt)" ID="{E207FB70-346C-401F-BEB6-1F75057F7DFF}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.182315532125421"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.602564915606654"/>
+														<Property Name="FadeOutShape" Type="int16" Value="7"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.115919306506849"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.718484222113503"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Treffer(lufs Fehlt).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="179415985"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Treffer(lufs Fehlt)" ID="{E207FB70-346C-401F-BEB6-1F75057F7DFF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WerwolfHit_4" ID="{17C30C5F-794C-460F-A6FA-E85F995A2C8D}" ShortID="79242750">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-1200</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hit 4 Mittel" ID="{7CDA8906-0281-45B6-BDE6-38CBF5C039F1}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0412551870888643"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0656892123287671"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0646944922547332"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.282662671232877"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Hit 4 Mittel.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="879740625"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Hit 4 Mittel" ID="{7CDA8906-0281-45B6-BDE6-38CBF5C039F1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WerwolfHit_3" ID="{1C813EA5-AD73-4268-AA67-F95030C01D87}" ShortID="357640803">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-1200</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hit 3 Leicht" ID="{E77C70E1-AD62-4EF7-8704-9B505C94E018}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0146404109589041"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0323630136986301"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0693493150684932"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.306678082191781"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Hit 3 Leicht.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="895187866"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Hit 3 Leicht" ID="{E77C70E1-AD62-4EF7-8704-9B505C94E018}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WerwolfHit_2" ID="{10373B00-7CE2-463C-A76C-B1D187C512B9}" ShortID="470745678">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-600</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hit 3 Leicht" ID="{07637D17-3A6B-439B-8C1E-517AED3B8653}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0146404109589041"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0323630136986301"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0693493150684932"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.306678082191781"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Hit 3 Leicht.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="895187866"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Hit 3 Leicht" ID="{07637D17-3A6B-439B-8C1E-517AED3B8653}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WerwolfHit_1" ID="{F0107CF1-8F00-4E44-BC87-D7108D793BDE}" ShortID="943634564">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-600</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hit 4 Mittel" ID="{EB048877-C221-4AA8-BF35-DE975C5284FB}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0412551870888643"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0656892123287671"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.0646944922547332"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.282662671232877"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Hit 4 Mittel.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="879740625"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Hit 4 Mittel" ID="{EB048877-C221-4AA8-BF35-DE975C5284FB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="WerwolfHit_Sword_2" ID="{36677030-C600-42A2-B63E-569DF7196226}" ShortID="794907794">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>600</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Treffer(lufs Fehlt)" ID="{641A6B70-3D8B-41D4-9F15-38EF357DF25A}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.188562071917808"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.443866530088063"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.115919306506849"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.760430650684932"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Treffer(lufs Fehlt).wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1029986798"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Treffer(lufs Fehlt)" ID="{641A6B70-3D8B-41D4-9F15-38EF357DF25A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Moan" ID="{048B9459-EA36-4790-8E9C-A83F8805E7B5}" ShortID="360443979">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Werwolf_Moan_1" ID="{1B041485-9889-4201-B502-E666E201BDEF}" ShortID="932789439">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-300</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ANIMAL-DOG-WHINE_6EXT8-10137" ID="{95C1F507-B22B-48B4-8805-457A537F3C11}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.148170703575548"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0812549019607844"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.25228143021915"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.09828835063437"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>ANIMAL-DOG-WHINE_6EXT8-10137.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="627884651"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ANIMAL-DOG-WHINE_6EXT8-10137" ID="{95C1F507-B22B-48B4-8805-457A537F3C11}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Werwolf_Moan_2" ID="{69D07BED-3BD6-4F50-AF9B-1AD34EB68F00}" ShortID="308032512">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-300</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ANIMAL-DOG-WHINE_6EXT8-10137" ID="{53B0E227-9CE2-4FC2-AFB1-EFBB29C20463}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.148170703575548"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0812549019607844"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.224645905420993"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.13278892733564"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>ANIMAL-DOG-WHINE_6EXT8-10137.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="113947826"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ANIMAL-DOG-WHINE_6EXT8-10137" ID="{53B0E227-9CE2-4FC2-AFB1-EFBB29C20463}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Werwolf_Moan_3" ID="{E5BD1681-7EF6-434F-B045-636BB8B02C57}" ShortID="328253188">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ANIMAL-DOG-WHINE_6EXT8-10137" ID="{B10491A3-B352-4C30-9D1A-7DEB211A53C4}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.148170703575548"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0812549019607844"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.25228143021915"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.09828835063437"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>ANIMAL-DOG-WHINE_6EXT8-10137.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="627884651"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ANIMAL-DOG-WHINE_6EXT8-10137" ID="{B10491A3-B352-4C30-9D1A-7DEB211A53C4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Werwolf_Moan_4" ID="{8EFD3D28-42A7-4DBE-99AB-8020B5F789EE}" ShortID="834374483">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ANIMAL-DOG-WHINE_6EXT8-10137" ID="{FEE30177-900B-4C41-886A-309CA01A4AFC}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.148170703575548"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0812549019607844"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.224645905420993"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.13278892733564"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>ANIMAL-DOG-WHINE_6EXT8-10137.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="113947826"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ANIMAL-DOG-WHINE_6EXT8-10137" ID="{FEE30177-900B-4C41-886A-309CA01A4AFC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</BlendContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Death" ID="{89A0F45E-D475-454D-ACBA-618D5EDA7C12}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="WerwolfSteps" ID="{BDABC46E-D7BD-4DA0-99B2-A6D7879A4799}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Hit" ID="{DB4C23A1-2C98-46A9-90AF-200E7F0F6122}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Attack" ID="{0EAD66B6-7674-4BDA-BEAF-24F1787CD704}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<SwitchContainer Name="VoiceVedere" ID="{8501AE3D-3C33-4C2F-82C0-893CFBB3518F}" ShortID="172442751">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Follow" ID="{161EACD3-FA28-4114-8317-8FE5C7A11259}" ShortID="628676671">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom>
+										<Attenuation Name="Attenuation (Custom)" ID="{623D53B0-389A-435F-B2AB-9123E7001156}" ShortID="376329497">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="3000"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{58DF1498-DF0D-4571-B300-67FA5B5B38BB}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>3000</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="Spread" ID="{B00E97F4-8C5C-4C3A-AD24-9CCFABB3CEF3}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="1"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>100</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>50</XPos>
+																	<YPos>100</YPos>
+																	<Flags>0</Flags>
+																	<SegmentShape>Log1</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>250</XPos>
+																	<YPos>0</YPos>
+																	<Flags>0</Flags>
+																</Point>
+																<Point>
+																	<XPos>3000</XPos>
+																	<YPos>0</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Vanto_MK20" ID="{A2B7AE05-4262-4788-A049-F51C6102642C}" ShortID="694565346">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Vanto_MK20" ID="{99860822-952F-4899-A7B6-AADB96E08335}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0369769825738515"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0582387475538161"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.045296803652968"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.52045102972696"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Vanto_MK20.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="950022028"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Vanto_MK20" ID="{99860822-952F-4899-A7B6-AADB96E08335}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Vanto_MK21" ID="{832F5325-5A9C-402F-BC3D-CC7E7159FD5D}" ShortID="745023271">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Vanto_MK21" ID="{33BB9E38-12D8-4A76-B9AB-8AF648709CA7}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0148504333240145"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0561016370018327"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.925677010530239"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Vanto_MK21.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="473425573"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Vanto_MK21" ID="{33BB9E38-12D8-4A76-B9AB-8AF648709CA7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Vanto_MK22" ID="{0E0129BF-432C-463B-8D16-60C7CA432BDE}" ShortID="797635959">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Vanto_MK22" ID="{67DA8F1E-4A1E-49AF-972D-712F9604023A}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.198721461187215"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.130532724505327"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Vanto_MK22.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="688035500"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Vanto_MK22" ID="{67DA8F1E-4A1E-49AF-972D-712F9604023A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Follow" ID="{161EACD3-FA28-4114-8317-8FE5C7A11259}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<SwitchContainer Name="Sword" ID="{DFF2770F-28F3-4521-9B3A-FFA7545459BB}" ShortID="73601477">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Schwingen" ID="{48751B91-7045-4916-91BC-6A596F66C4BC}" ShortID="646771256">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Schwingen" ID="{28B451EE-1EC4-4AE4-957F-2A46D1E53366}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0619446867114597"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0983827377182003"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="10.2430640073333"/>
+										<Property Name="TrimEnd" Type="Real64" Value="10.6190864639878"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Schwingen.WAV</AudioFile>
+									<MediaIDList>
+										<MediaID ID="579804763"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Schwingen" ID="{28B451EE-1EC4-4AE4-957F-2A46D1E53366}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Schwingen" ID="{48751B91-7045-4916-91BC-6A596F66C4BC}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

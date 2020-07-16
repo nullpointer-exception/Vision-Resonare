@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "E:\\GitHub\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\",
-   "SourceFilesRoot": "E:\\GitHub\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\.cache\\Mac\\",
-   "SoundBanksRoot": "E:\\GitHub\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ProjectRoot": "D:\\Florian Kardos\\Vision Resonare Master\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Florian Kardos\\Vision Resonare Master\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\Florian Kardos\\Vision Resonare Master\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Mac\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "E:\\GitHub\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Mac"
+   "ExternalSourcesOutputRoot": "D:\\Florian Kardos\\Vision Resonare Master\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Mac"
   },
   "SoundBanks": [
    {
@@ -18,7 +18,241 @@
     "Language": "SFX",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Level_0",
     "ShortName": "Level_0",
-    "Path": "Level_0.bnk"
+    "Path": "Level_0.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3133186549",
+      "Name": "Play_Atmo",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Atmo",
+      "GUID": "{55B55431-4EA3-4D9A-9B45-177780AFF3D4}",
+      "DurationType": "OneShot",
+      "DurationMin": "324.795013",
+      "DurationMax": "324.795013",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "78897012",
+        "Language": "SFX",
+        "ShortName": "AtmoStage2Wind.wav",
+        "Path": "SFX\\AtmoStage2Wind_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3955137068",
+      "Name": "Play_Level0_Follow",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Level0_Follow",
+      "GUID": "{7FC63F5F-C226-4592-87DA-BA7C5069375B}",
+      "MaxAttenuation": "3000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.475154",
+      "DurationMax": "1.137778",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "473425573",
+        "Language": "SFX",
+        "ShortName": "Vanto_MK21.wav",
+        "Path": "SFX\\Vanto_MK21_243CFDA1.wem"
+       },
+       {
+        "Id": "688035500",
+        "Language": "SFX",
+        "ShortName": "Vanto_MK22.wav",
+        "Path": "SFX\\Vanto_MK22_0A4933C8.wem"
+       },
+       {
+        "Id": "950022028",
+        "Language": "SFX",
+        "ShortName": "Vanto_MK20.wav",
+        "Path": "SFX\\Vanto_MK20_63C853E5.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1649599835",
+      "Name": "Play_Level0_GrandClock",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Level0_GrandClock",
+      "GUID": "{8C60EB82-ACD2-462C-8007-B6D633B8565F}",
+      "MaxAttenuation": "3000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.142532",
+      "DurationMax": "0.142532",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "526661350",
+        "Language": "SFX",
+        "ShortName": "Low_Ticking.wav",
+        "Path": "SFX\\Low_Ticking_9B19758E.wem"
+       }
+      ]
+     },
+     {
+      "Id": "538854294",
+      "Name": "Play_Level0_OpenPortcullis",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Level0_OpenPortcullis",
+      "GUID": "{35BB8B6A-A6E1-4989-B58B-3D4EF3C146A9}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.760840",
+      "DurationMax": "2.760840",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1009025973",
+        "Language": "SFX",
+        "ShortName": "Open.wav",
+        "Path": "SFX\\Open_1B0C123A.wem"
+       }
+      ]
+     },
+     {
+      "Id": "906299113",
+      "Name": "Play_Level0_WindowOpening",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Level0_WindowOpening",
+      "GUID": "{6C317D30-7A6A-4244-97A9-263E7C0798F9}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.591123",
+      "DurationMax": "2.591123",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "726360766",
+        "Language": "SFX",
+        "ShortName": "Window_Opening.wav",
+        "Path": "SFX\\Window_Opening_15F7AFC4.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1191497377",
+      "Name": "Play_Sword",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Sword",
+      "GUID": "{74DCBAD5-A337-48EB-9D7B-3113285716B2}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.376022",
+      "DurationMax": "0.376022",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "579804763",
+        "Language": "SFX",
+        "ShortName": "Schwingen.WAV",
+        "Path": "SFX\\Schwingen_F3CBB4E9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "4248323386",
+      "Name": "Play_Warnsignal",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Warnsignal",
+      "GUID": "{5429C719-DED2-4F54-BDB3-B583742FDABD}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1020228712",
+        "Language": "SFX",
+        "ShortName": "1.Ep Facepla.wav",
+        "Path": "SFX\\1.Ep Facepla_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2123940801",
+      "Name": "Play_WerwolfSteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_WerwolfSteps",
+      "GUID": "{151E1EBB-9A24-46A4-967A-413223A12809}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.471751",
+      "DurationMax": "0.580823",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "198732961",
+        "Language": "SFX",
+        "ShortName": "Werwolves_Step2.wav",
+        "Path": "SFX\\Werwolves_Step2_0F829329.wem"
+       },
+       {
+        "Id": "228188701",
+        "Language": "SFX",
+        "ShortName": "Werwolves_Step6.wav",
+        "Path": "SFX\\Werwolves_Step6_0A678623.wem"
+       },
+       {
+        "Id": "355965113",
+        "Language": "SFX",
+        "ShortName": "Werwolves_Step3.wav",
+        "Path": "SFX\\Werwolves_Step3_25897E92.wem"
+       },
+       {
+        "Id": "552733161",
+        "Language": "SFX",
+        "ShortName": "Werwolves_Step7.wav",
+        "Path": "SFX\\Werwolves_Step7_F371A50E.wem"
+       },
+       {
+        "Id": "571223948",
+        "Language": "SFX",
+        "ShortName": "Werwolves_Step4.wav",
+        "Path": "SFX\\Werwolves_Step4_083667F2.wem"
+       },
+       {
+        "Id": "571780884",
+        "Language": "SFX",
+        "ShortName": "Werwolves_Step5.wav",
+        "Path": "SFX\\Werwolves_Step5_CF7254B3.wem"
+       },
+       {
+        "Id": "627328947",
+        "Language": "SFX",
+        "ShortName": "Werwolves_Step7.wav",
+        "Path": "SFX\\Werwolves_Step7_AB01ACEB.wem"
+       },
+       {
+        "Id": "643307592",
+        "Language": "SFX",
+        "ShortName": "Werwolves_Step5.wav",
+        "Path": "SFX\\Werwolves_Step5_369AEE95.wem"
+       },
+       {
+        "Id": "838834988",
+        "Language": "SFX",
+        "ShortName": "Werwolves_Step1.wav",
+        "Path": "SFX\\Werwolves_Step1_F47D1C8B.wem"
+       },
+       {
+        "Id": "953304088",
+        "Language": "SFX",
+        "ShortName": "Werwolves_Step2.wav",
+        "Path": "SFX\\Werwolves_Step2_F50C443A.wem"
+       },
+       {
+        "Id": "1047330557",
+        "Language": "SFX",
+        "ShortName": "Werwolves_Step3.wav",
+        "Path": "SFX\\Werwolves_Step3_D9662B6D.wem"
+       },
+       {
+        "Id": "1050334831",
+        "Language": "SFX",
+        "ShortName": "Werwolves_Step6.wav",
+        "Path": "SFX\\Werwolves_Step6_4175DCF8.wem"
+       }
+      ]
+     },
+     {
+      "Id": "4226774299",
+      "Name": "Stop_Sword",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Sword",
+      "GUID": "{D9325515-6D8D-40F0-A104-D28836AB48D9}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "2114958130",
+      "Name": "Warnsignale",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Warnsignale",
+      "GUID": "{746AEDF7-2FA5-41FD-98B5-F83AF265CDA9}"
+     }
+    ]
    }
   ]
  }
