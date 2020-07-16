@@ -1,6 +1,51 @@
 Event	ID	Name			Wwise Object Path	Notes
+	164893274	Play_CastleDoorOpen			\Default Work Unit\Play_CastleDoorOpen	
+	538854294	Play_Level0_OpenPortcullis			\Default Work Unit\Play_Level0_OpenPortcullis	
+	778672262	Play_WerwolfDeath			\Default Work Unit\Play_WerwolfDeath	
+	877462102	Play_WerwolfHits			\Default Work Unit\Play_WerwolfHits	
+	906299113	Play_Level0_WindowOpening			\Default Work Unit\Play_Level0_WindowOpening	
+	1014596926	Play_CastleDoorClose			\Default Work Unit\Play_CastleDoorClose	
+	2123940801	Play_WerwolfSteps			\Default Work Unit\Play_WerwolfSteps	
+	3066638244	Play_WerwolfAttack			\Default Work Unit\Play_WerwolfAttack	
 	3133186549	Play_Atmo			\Default Work Unit\Play_Atmo	
+	3969620364	Play_Level0_LowTicking			\Default Work Unit\Play_Level0_LowTicking	
+	4248323386	Play_Warnsignal			\Default Work Unit\Play_Warnsignal	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2114958130	Warnsignale			\Default Work Unit\Warnsignale	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	78897012	AtmoStage2Wind	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\AtmoStage2Wind_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\AtmoStage2Wind		62360704
+	43301264	CastleDoorClose_2	C:\Users\defaultuser0\Documents\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\DoorCastle 6018_27_2_244B2286.wem		\Actor-Mixer Hierarchy\Default Work Unit\CastleDoors\Close\CastleDoorClose_2		1114948
+	54876915	Werwolf_Death_2	C:\Users\defaultuser0\Documents\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\ANIMAL-DOG-WHINE_6EXT8-10136_77DD0799.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Death\Werwolf_Death_2		353452
+	78897012	WindAtmo	C:\Users\defaultuser0\Documents\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\AtmoStage2Wind_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wind\WindAtmo		62360704
+	179415985	WerwolfHit_Sword_1	C:\Users\defaultuser0\Documents\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\Treffer(lufs Fehlt)_87EE5442.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Hit\Hits\WerwolfHit_Sword_1		57910
+	198732961	Werwolves_Step2	C:\Users\defaultuser0\Documents\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\Werwolves_Step2_F4BE13CE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Toe\Werwolves_Step2		62404
+	228188701	Werwolves_Step6	C:\Users\defaultuser0\Documents\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\Werwolves_Step6_063C7554.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Toe\Werwolves_Step6		64228
+	246393041	CastleDoorClose_1	C:\Users\defaultuser0\Documents\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\DoorCastle 6018_27_1_D0E31001.wem		\Actor-Mixer Hierarchy\Default Work Unit\CastleDoors\Close\CastleDoorClose_1		964672
+	355965113	Werwolves_Step3	C:\Users\defaultuser0\Documents\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\Werwolves_Step3_518FD14D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Toe\Werwolves_Step3		65344
+	372220926	Werwolf_Attack_5	C:\Users\defaultuser0\Documents\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\ANIMAL-DOG-SNARL_6EXT8-10122_04BDF3D7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Attack\Werwolf_Attack_5		289724
+	383297390	Werwolf_Attack_1	C:\Users\defaultuser0\Documents\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\ANIMAL-DOG-SNARL-GROWL_6EXT8-10125_BD173C29.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Attack\Werwolf_Attack_1		301664
+	408943304	Werwolf_Attack_3	C:\Users\defaultuser0\Documents\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\ANIMAL-DOG-SNARL_6EXT8-10120_A9612EDB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Attack\Werwolf_Attack_3		241580
+	421510429	CastleDoorOpen_1	C:\Users\defaultuser0\Documents\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\DoorCastle 6018_27_1_900566DD.wem		\Actor-Mixer Hierarchy\Default Work Unit\CastleDoors\Open\CastleDoorOpen_1		555072
+	526661350	LowTicking	C:\Users\defaultuser0\Documents\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\Low_Ticking_6CBB600B.wem		\Actor-Mixer Hierarchy\Default Work Unit\GrandClock\LowTicking		25208
+	552733161	Werwolves_Step7	C:\Users\defaultuser0\Documents\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\Werwolves_Step7_7946E172.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Heel 1\Werwolves_Step7		59196
+	571223948	Werwolves_Step4	C:\Users\defaultuser0\Documents\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\Werwolves_Step4_EC0F91AC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Toe\Werwolves_Step4		50532
+	571780884	Werwolves_Step5	C:\Users\defaultuser0\Documents\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\Werwolves_Step5_1AB45388.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Toe\Werwolves_Step5		55052
+	627328947	Werwolves_Step7	C:\Users\defaultuser0\Documents\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\Werwolves_Step7_DB9E5911.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Toe\Werwolves_Step7		58116
+	643307592	Werwolves_Step5	C:\Users\defaultuser0\Documents\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\Werwolves_Step5_B66BA05E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Heel 1\Werwolves_Step5		47000
+	726360766	WindowOpening	C:\Users\defaultuser0\Documents\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\Window_Opening_15F7AFC4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Window\WindowOpening		497560
+	802902689	Werwolf_Attack_2	C:\Users\defaultuser0\Documents\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\ANIMAL-DOG-SNARL_6EXT8-10117_38A995F7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Attack\Werwolf_Attack_2		250524
+	817479040	Werwolf_Attack_4	C:\Users\defaultuser0\Documents\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\ANIMAL-DOG-SNARL_6EXT8-10121_F9CEEAE8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Attack\Werwolf_Attack_4		214148
+	838834988	Werwolves_Step1	C:\Users\defaultuser0\Documents\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\Werwolves_Step1_4F7AC1AF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Heel 1\Werwolves_Step1		67696
+	879740625	WerwolfHit_4	C:\Users\defaultuser0\Documents\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\Hit 4 Mittel_B1C94F54.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Hit\Hits\WerwolfHit_4		41916
+	895187866	WerwolfHit_3	C:\Users\defaultuser0\Documents\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\Hit 3 Leicht_F5776052.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Hit\Hits\WerwolfHit_3		45632
+	904438303	Werwolf_Death_4	C:\Users\defaultuser0\Documents\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\ANIMAL-DOG-WHINE_6EXT8-10138_352B7933.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Death\Werwolf_Death_4		403944
+	953304088	Werwolves_Step2	C:\Users\defaultuser0\Documents\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\Werwolves_Step2_A1DCE963.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Heel 1\Werwolves_Step2		70048
+	986819643	Werwolf_Death_1	C:\Users\defaultuser0\Documents\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\ANIMAL-DOG-WHIMPER_6EXT8-10134_053E5564.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Death\Werwolf_Death_1		298488
+	992120185	CastleDoorOpen_2	C:\Users\defaultuser0\Documents\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\DoorCastle 6018_27_2_F9F42877.wem		\Actor-Mixer Hierarchy\Default Work Unit\CastleDoors\Open\CastleDoorOpen_2		763016
+	1009025973	Open	C:\Users\defaultuser0\Documents\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\Open_94F97BC1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Portcullis\Open		530144
+	1020228712	Signalsound	C:\Users\defaultuser0\Documents\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\1.Ep Facepla_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signalsound\Signalsound		292512
+	1029986798	WerwolfHit_Sword_2	C:\Users\defaultuser0\Documents\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\Treffer(lufs Fehlt)_777880FC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Hit\Hits\WerwolfHit_Sword_2		61938
+	1047330557	Werwolves_Step3	C:\Users\defaultuser0\Documents\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\Werwolves_Step3_768F5557.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Heel 1\Werwolves_Step3		61224
+	1050334831	Werwolves_Step6	C:\Users\defaultuser0\Documents\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Mac\SFX\Werwolves_Step6_F5B032DB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Heel 1\Werwolves_Step6		56140
 

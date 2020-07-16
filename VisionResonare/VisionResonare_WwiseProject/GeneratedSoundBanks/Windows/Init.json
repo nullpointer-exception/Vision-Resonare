@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "D:\\Florian Kardos\\Vision Resonare Master\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\",
-   "SourceFilesRoot": "D:\\Florian Kardos\\Vision Resonare Master\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\.cache\\Windows\\",
-   "SoundBanksRoot": "D:\\Florian Kardos\\Vision Resonare Master\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Users\\defaultuser0\\Documents\\GitHub\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\",
+   "SourceFilesRoot": "C:\\Users\\defaultuser0\\Documents\\GitHub\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\defaultuser0\\Documents\\GitHub\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "D:\\Florian Kardos\\Vision Resonare Master\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Users\\defaultuser0\\Documents\\GitHub\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {

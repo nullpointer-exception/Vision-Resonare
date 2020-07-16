@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "D:\\Florian Kardos\\Vision Resonare Master\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\",
-   "SourceFilesRoot": "D:\\Florian Kardos\\Vision Resonare Master\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\.cache\\Mac\\",
-   "SoundBanksRoot": "D:\\Florian Kardos\\Vision Resonare Master\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ProjectRoot": "C:\\Users\\defaultuser0\\Documents\\GitHub\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\",
+   "SourceFilesRoot": "C:\\Users\\defaultuser0\\Documents\\GitHub\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "C:\\Users\\defaultuser0\\Documents\\GitHub\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Mac\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "D:\\Florian Kardos\\Vision Resonare Master\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Mac"
+   "ExternalSourcesOutputRoot": "C:\\Users\\defaultuser0\\Documents\\GitHub\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Mac"
   },
   "SoundBanks": [
    {
@@ -36,6 +36,314 @@
         "Path": "SFX\\AtmoStage2Wind_10C4C929.wem"
        }
       ]
+     },
+     {
+      "Id": "1014596926",
+      "Name": "Play_CastleDoorClose",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_CastleDoorClose",
+      "GUID": "{CF6AF2F8-2B94-4E5E-BD98-491123EA6001}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.806690",
+      "DurationMax": "5.974576",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "43301264",
+        "Language": "SFX",
+        "ShortName": "DoorCastle 6018_27_2.wav",
+        "Path": "SFX\\DoorCastle 6018_27_2_244B2286.wem"
+       },
+       {
+        "Id": "246393041",
+        "Language": "SFX",
+        "ShortName": "DoorCastle 6018_27_1.wav",
+        "Path": "SFX\\DoorCastle 6018_27_1_D0E31001.wem"
+       }
+      ]
+     },
+     {
+      "Id": "164893274",
+      "Name": "Play_CastleDoorOpen",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_CastleDoorOpen",
+      "GUID": "{1781127C-3AE5-4F08-85AA-7029B90A4089}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.437601",
+      "DurationMax": "4.725555",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "421510429",
+        "Language": "SFX",
+        "ShortName": "DoorCastle 6018_27_1.wav",
+        "Path": "SFX\\DoorCastle 6018_27_1_900566DD.wem"
+       },
+       {
+        "Id": "992120185",
+        "Language": "SFX",
+        "ShortName": "DoorCastle 6018_27_2.wav",
+        "Path": "SFX\\DoorCastle 6018_27_2_F9F42877.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3969620364",
+      "Name": "Play_Level0_LowTicking",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Level0_LowTicking",
+      "GUID": "{F656C387-0907-4BE4-9037-1F482B5688DF}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.142532",
+      "DurationMax": "0.142532",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "526661350",
+        "Language": "SFX",
+        "ShortName": "Low_Ticking.wav",
+        "Path": "SFX\\Low_Ticking_6CBB600B.wem"
+       }
+      ]
+     },
+     {
+      "Id": "538854294",
+      "Name": "Play_Level0_OpenPortcullis",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Level0_OpenPortcullis",
+      "GUID": "{35BB8B6A-A6E1-4989-B58B-3D4EF3C146A9}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.760840",
+      "DurationMax": "2.760840",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1009025973",
+        "Language": "SFX",
+        "ShortName": "Open.wav",
+        "Path": "SFX\\Open_94F97BC1.wem"
+       }
+      ]
+     },
+     {
+      "Id": "906299113",
+      "Name": "Play_Level0_WindowOpening",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Level0_WindowOpening",
+      "GUID": "{6C317D30-7A6A-4244-97A9-263E7C0798F9}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.591123",
+      "DurationMax": "2.591123",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "726360766",
+        "Language": "SFX",
+        "ShortName": "Window_Opening.wav",
+        "Path": "SFX\\Window_Opening_15F7AFC4.wem"
+       }
+      ]
+     },
+     {
+      "Id": "4248323386",
+      "Name": "Play_Warnsignal",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Warnsignal",
+      "GUID": "{5429C719-DED2-4F54-BDB3-B583742FDABD}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1020228712",
+        "Language": "SFX",
+        "ShortName": "1.Ep Facepla.wav",
+        "Path": "SFX\\1.Ep Facepla_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3066638244",
+      "Name": "Play_WerwolfAttack",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_WerwolfAttack",
+      "GUID": "{475FF804-AC15-48FA-830B-72D367AEB8AD}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.576873",
+      "DurationMax": "2.221506",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "372220926",
+        "Language": "SFX",
+        "ShortName": "ANIMAL-DOG-SNARL_6EXT8-10122.wav",
+        "Path": "SFX\\ANIMAL-DOG-SNARL_6EXT8-10122_04BDF3D7.wem"
+       },
+       {
+        "Id": "383297390",
+        "Language": "SFX",
+        "ShortName": "ANIMAL-DOG-SNARL-GROWL_6EXT8-10125.wav",
+        "Path": "SFX\\ANIMAL-DOG-SNARL-GROWL_6EXT8-10125_BD173C29.wem"
+       },
+       {
+        "Id": "408943304",
+        "Language": "SFX",
+        "ShortName": "ANIMAL-DOG-SNARL_6EXT8-10120.wav",
+        "Path": "SFX\\ANIMAL-DOG-SNARL_6EXT8-10120_A9612EDB.wem"
+       },
+       {
+        "Id": "802902689",
+        "Language": "SFX",
+        "ShortName": "ANIMAL-DOG-SNARL_6EXT8-10117.wav",
+        "Path": "SFX\\ANIMAL-DOG-SNARL_6EXT8-10117_38A995F7.wem"
+       },
+       {
+        "Id": "817479040",
+        "Language": "SFX",
+        "ShortName": "ANIMAL-DOG-SNARL_6EXT8-10121.wav",
+        "Path": "SFX\\ANIMAL-DOG-SNARL_6EXT8-10121_F9CEEAE8.wem"
+       }
+      ]
+     },
+     {
+      "Id": "778672262",
+      "Name": "Play_WerwolfDeath",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_WerwolfDeath",
+      "GUID": "{D6BCA832-3833-4B1B-B825-08FC19B39BB0}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.840554",
+      "DurationMax": "2.501532",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "54876915",
+        "Language": "SFX",
+        "ShortName": "ANIMAL-DOG-WHINE_6EXT8-10136.wav",
+        "Path": "SFX\\ANIMAL-DOG-WHINE_6EXT8-10136_77DD0799.wem"
+       },
+       {
+        "Id": "904438303",
+        "Language": "SFX",
+        "ShortName": "ANIMAL-DOG-WHINE_6EXT8-10138.wav",
+        "Path": "SFX\\ANIMAL-DOG-WHINE_6EXT8-10138_352B7933.wem"
+       },
+       {
+        "Id": "986819643",
+        "Language": "SFX",
+        "ShortName": "ANIMAL-DOG-WHIMPER_6EXT8-10134.wav",
+        "Path": "SFX\\ANIMAL-DOG-WHIMPER_6EXT8-10134_053E5564.wem"
+       }
+      ]
+     },
+     {
+      "Id": "877462102",
+      "Name": "Play_WerwolfHits",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_WerwolfHits",
+      "GUID": "{2AC6DABD-81C2-4C85-A18D-F1E956AE19A3}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.308254",
+      "DurationMax": "0.602565",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "179415985",
+        "Language": "SFX",
+        "ShortName": "Treffer(lufs Fehlt).wav",
+        "Path": "SFX\\Treffer(lufs Fehlt)_87EE5442.wem"
+       },
+       {
+        "Id": "879740625",
+        "Language": "SFX",
+        "ShortName": "Hit 4 Mittel.wav",
+        "Path": "SFX\\Hit 4 Mittel_B1C94F54.wem"
+       },
+       {
+        "Id": "895187866",
+        "Language": "SFX",
+        "ShortName": "Hit 3 Leicht.wav",
+        "Path": "SFX\\Hit 3 Leicht_F5776052.wem"
+       },
+       {
+        "Id": "1029986798",
+        "Language": "SFX",
+        "ShortName": "Treffer(lufs Fehlt).wav",
+        "Path": "SFX\\Treffer(lufs Fehlt)_777880FC.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2123940801",
+      "Name": "Play_WerwolfSteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_WerwolfSteps",
+      "GUID": "{151E1EBB-9A24-46A4-967A-413223A12809}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.471751",
+      "DurationMax": "0.580823",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "198732961",
+        "Language": "SFX",
+        "ShortName": "Werwolves_Step2.wav",
+        "Path": "SFX\\Werwolves_Step2_F4BE13CE.wem"
+       },
+       {
+        "Id": "228188701",
+        "Language": "SFX",
+        "ShortName": "Werwolves_Step6.wav",
+        "Path": "SFX\\Werwolves_Step6_063C7554.wem"
+       },
+       {
+        "Id": "355965113",
+        "Language": "SFX",
+        "ShortName": "Werwolves_Step3.wav",
+        "Path": "SFX\\Werwolves_Step3_518FD14D.wem"
+       },
+       {
+        "Id": "552733161",
+        "Language": "SFX",
+        "ShortName": "Werwolves_Step7.wav",
+        "Path": "SFX\\Werwolves_Step7_7946E172.wem"
+       },
+       {
+        "Id": "571223948",
+        "Language": "SFX",
+        "ShortName": "Werwolves_Step4.wav",
+        "Path": "SFX\\Werwolves_Step4_EC0F91AC.wem"
+       },
+       {
+        "Id": "571780884",
+        "Language": "SFX",
+        "ShortName": "Werwolves_Step5.wav",
+        "Path": "SFX\\Werwolves_Step5_1AB45388.wem"
+       },
+       {
+        "Id": "627328947",
+        "Language": "SFX",
+        "ShortName": "Werwolves_Step7.wav",
+        "Path": "SFX\\Werwolves_Step7_DB9E5911.wem"
+       },
+       {
+        "Id": "643307592",
+        "Language": "SFX",
+        "ShortName": "Werwolves_Step5.wav",
+        "Path": "SFX\\Werwolves_Step5_B66BA05E.wem"
+       },
+       {
+        "Id": "838834988",
+        "Language": "SFX",
+        "ShortName": "Werwolves_Step1.wav",
+        "Path": "SFX\\Werwolves_Step1_4F7AC1AF.wem"
+       },
+       {
+        "Id": "953304088",
+        "Language": "SFX",
+        "ShortName": "Werwolves_Step2.wav",
+        "Path": "SFX\\Werwolves_Step2_A1DCE963.wem"
+       },
+       {
+        "Id": "1047330557",
+        "Language": "SFX",
+        "ShortName": "Werwolves_Step3.wav",
+        "Path": "SFX\\Werwolves_Step3_768F5557.wem"
+       },
+       {
+        "Id": "1050334831",
+        "Language": "SFX",
+        "ShortName": "Werwolves_Step6.wav",
+        "Path": "SFX\\Werwolves_Step6_F5B032DB.wem"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "2114958130",
+      "Name": "Warnsignale",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Warnsignale",
+      "GUID": "{746AEDF7-2FA5-41FD-98B5-F83AF265CDA9}"
      }
     ]
    }

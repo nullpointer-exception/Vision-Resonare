@@ -85,7 +85,73 @@
 						<Action Name="" ID="{8872DE42-1571-4E74-8843-BCF63BAD5F20}" ShortID="963298388">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Low_Ticking" ID="{294DB863-5031-45A0-95DA-2BC824EFAB4A}" WorkUnitID="{D00AE282-E2C0-4E72-8353-011E3437EA43}"/>
+									<ObjectRef Name="LowTicking" ID="{294DB863-5031-45A0-95DA-2BC824EFAB4A}" WorkUnitID="{D00AE282-E2C0-4E72-8353-011E3437EA43}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Level0_LowTicking" ID="{F656C387-0907-4BE4-9037-1F482B5688DF}">
+					<ChildrenList>
+						<Action Name="" ID="{7B9C8176-33AD-4046-9EEF-61A46D8E96A3}" ShortID="242856964">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LowTicking" ID="{294DB863-5031-45A0-95DA-2BC824EFAB4A}" WorkUnitID="{D00AE282-E2C0-4E72-8353-011E3437EA43}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Level0_WindowOpening" ID="{6C317D30-7A6A-4244-97A9-263E7C0798F9}">
+					<ChildrenList>
+						<Action Name="" ID="{64428CA5-ED0B-43E1-A41D-F6878304A9EB}" ShortID="800816247">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WindowOpening" ID="{2483763F-2CFC-4EA7-892C-EEB08185BEBD}" WorkUnitID="{D00AE282-E2C0-4E72-8353-011E3437EA43}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Level0_OpenPortcullis" ID="{35BB8B6A-A6E1-4989-B58B-3D4EF3C146A9}">
+					<ChildrenList>
+						<Action Name="" ID="{F2FEAA22-E872-4DDA-822E-54C56AAB43B5}" ShortID="532443521">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Open" ID="{66235E91-5456-4E41-A678-FFB0373D5A55}" WorkUnitID="{D00AE282-E2C0-4E72-8353-011E3437EA43}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_WerwolfSteps" ID="{151E1EBB-9A24-46A4-967A-413223A12809}">
+					<ChildrenList>
+						<Action Name="" ID="{966DFE07-4AFE-4730-A911-D1A47815D620}" ShortID="722641309">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WerwolfSteps" ID="{BDABC46E-D7BD-4DA0-99B2-A6D7879A4799}" WorkUnitID="{D00AE282-E2C0-4E72-8353-011E3437EA43}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_WerwolfHits" ID="{2AC6DABD-81C2-4C85-A18D-F1E956AE19A3}">
+					<ChildrenList>
+						<Action Name="" ID="{09A3B69A-2C69-4DEA-A425-ACB78375DAB8}" ShortID="689039361">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hits" ID="{64E3F50C-A365-4BF5-B69C-4AA6C94BA36A}" WorkUnitID="{D00AE282-E2C0-4E72-8353-011E3437EA43}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_WerwolfAttack" ID="{475FF804-AC15-48FA-830B-72D367AEB8AD}">
+					<ChildrenList>
+						<Action Name="" ID="{A9F14E5F-B32A-4BE8-93E4-38DF29CD8DC7}" ShortID="233048490">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Attack" ID="{0EAD66B6-7674-4BDA-BEAF-24F1787CD704}" WorkUnitID="{D00AE282-E2C0-4E72-8353-011E3437EA43}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

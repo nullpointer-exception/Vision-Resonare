@@ -3,13 +3,19 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{B3F63DED-D503-4228-B3ED-9E40590A56E2}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="E:\Uni\Vision Reasonare\End Bearbeitung\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="E:\Uni\Vision Reasonare\Sounds\Fertige Sounds\Werwolfe\Steps\"/>
+				<Property Name="Event Action List\{151E1EBB-9A24-46A4-967A-413223A12809}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{26E761CE-2910-4E9B-BDCF-99BBC508DA87}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{2AC6DABD-81C2-4C85-A18D-F1E956AE19A3}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{35BB8B6A-A6E1-4989-B58B-3D4EF3C146A9}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{415C2D69-286A-46C3-ACDB-DEBA05A952A3}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{475FF804-AC15-48FA-830B-72D367AEB8AD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{4D9FE4CC-1529-47FE-92A6-6851CD9ABAE7}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{4E564034-48E9-441B-9DB1-786A6FD125F9}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{55B55431-4EA3-4D9A-9B45-177780AFF3D4}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{6C317D30-7A6A-4244-97A9-263E7C0798F9}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{8E2387E4-BE53-4089-B31B-89254A9B482D}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{F656C387-0907-4BE4-9037-1F482B5688DF}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
