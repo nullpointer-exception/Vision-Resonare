@@ -6,9 +6,10 @@
 				<SoundBank Name="Level_0" ID="{2C89BECC-609F-4A41-B6D1-F8A7EF751192}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Level0_WindowOpening" ID="{6C317D30-7A6A-4244-97A9-263E7C0798F9}" WorkUnitID="{BA89D8AC-4EFB-42E5-B32A-D38A569BF7B6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Level0_Follow" ID="{7FC63F5F-C226-4592-87DA-BA7C5069375B}" WorkUnitID="{BA89D8AC-4EFB-42E5-B32A-D38A569BF7B6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Level0_GrandClock" ID="{8C60EB82-ACD2-462C-8007-B6D633B8565F}" WorkUnitID="{BA89D8AC-4EFB-42E5-B32A-D38A569BF7B6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_WerwolfSteps" ID="{151E1EBB-9A24-46A4-967A-413223A12809}" WorkUnitID="{BA89D8AC-4EFB-42E5-B32A-D38A569BF7B6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Level0_OpenPortcullis" ID="{35BB8B6A-A6E1-4989-B58B-3D4EF3C146A9}" WorkUnitID="{BA89D8AC-4EFB-42E5-B32A-D38A569BF7B6}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Level0_LowTicking" ID="{F656C387-0907-4BE4-9037-1F482B5688DF}" WorkUnitID="{BA89D8AC-4EFB-42E5-B32A-D38A569BF7B6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Atmo" ID="{55B55431-4EA3-4D9A-9B45-177780AFF3D4}" WorkUnitID="{BA89D8AC-4EFB-42E5-B32A-D38A569BF7B6}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Warnsignal" ID="{5429C719-DED2-4F54-BDB3-B583742FDABD}" WorkUnitID="{BA89D8AC-4EFB-42E5-B32A-D38A569BF7B6}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

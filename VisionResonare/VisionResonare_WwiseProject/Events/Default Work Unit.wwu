@@ -80,28 +80,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Level0_Low_Ticking" ID="{1D9D7469-1F9A-4058-A2B0-7B88F949CE39}">
-					<ChildrenList>
-						<Action Name="" ID="{8872DE42-1571-4E74-8843-BCF63BAD5F20}" ShortID="963298388">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="LowTicking" ID="{294DB863-5031-45A0-95DA-2BC824EFAB4A}" WorkUnitID="{D00AE282-E2C0-4E72-8353-011E3437EA43}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Level0_LowTicking" ID="{F656C387-0907-4BE4-9037-1F482B5688DF}">
-					<ChildrenList>
-						<Action Name="" ID="{7B9C8176-33AD-4046-9EEF-61A46D8E96A3}" ShortID="242856964">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="LowTicking" ID="{294DB863-5031-45A0-95DA-2BC824EFAB4A}" WorkUnitID="{D00AE282-E2C0-4E72-8353-011E3437EA43}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Level0_WindowOpening" ID="{6C317D30-7A6A-4244-97A9-263E7C0798F9}">
 					<ChildrenList>
 						<Action Name="" ID="{64428CA5-ED0B-43E1-A41D-F6878304A9EB}" ShortID="800816247">
@@ -152,6 +130,28 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Attack" ID="{0EAD66B6-7674-4BDA-BEAF-24F1787CD704}" WorkUnitID="{D00AE282-E2C0-4E72-8353-011E3437EA43}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Level0_Follow" ID="{7FC63F5F-C226-4592-87DA-BA7C5069375B}">
+					<ChildrenList>
+						<Action Name="" ID="{1D4F3BD0-CA59-4538-89D5-5207C9A74D37}" ShortID="113212308">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Follow" ID="{161EACD3-FA28-4114-8317-8FE5C7A11259}" WorkUnitID="{D00AE282-E2C0-4E72-8353-011E3437EA43}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Level0_GrandClock" ID="{8C60EB82-ACD2-462C-8007-B6D633B8565F}">
+					<ChildrenList>
+						<Action Name="" ID="{968FE3D0-DB50-4089-84C3-2FCC34B172B8}" ShortID="173667205">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LowTicking" ID="{294DB863-5031-45A0-95DA-2BC824EFAB4A}" WorkUnitID="{D00AE282-E2C0-4E72-8353-011E3437EA43}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
