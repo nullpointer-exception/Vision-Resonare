@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "D:\\Lea Schmidt\\GitHub\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\",
-   "SourceFilesRoot": "D:\\Lea Schmidt\\GitHub\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\.cache\\Windows\\",
-   "SoundBanksRoot": "D:\\Lea Schmidt\\GitHub\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "D:\\Florian Kardos\\Vision Resonare Master\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Florian Kardos\\Vision Resonare Master\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Florian Kardos\\Vision Resonare Master\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "D:\\Lea Schmidt\\GitHub\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "D:\\Florian Kardos\\Vision Resonare Master\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
@@ -51,19 +51,19 @@
         "Id": "473425573",
         "Language": "SFX",
         "ShortName": "Vanto_MK21.wav",
-        "Path": "SFX\\Vanto_MK21_20A820BF.wem"
+        "Path": "SFX\\Vanto_MK21_243CFDA1.wem"
        },
        {
         "Id": "688035500",
         "Language": "SFX",
         "ShortName": "Vanto_MK22.wav",
-        "Path": "SFX\\Vanto_MK22_7B3998A4.wem"
+        "Path": "SFX\\Vanto_MK22_0A4933C8.wem"
        },
        {
         "Id": "950022028",
         "Language": "SFX",
         "ShortName": "Vanto_MK20.wav",
-        "Path": "SFX\\Vanto_MK20_2ABAD3CE.wem"
+        "Path": "SFX\\Vanto_MK20_63C853E5.wem"
        }
       ]
      },
@@ -116,6 +116,23 @@
         "Language": "SFX",
         "ShortName": "Window_Opening.wav",
         "Path": "SFX\\Window_Opening_15F7AFC4.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1191497377",
+      "Name": "Play_Sword",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Sword",
+      "GUID": "{74DCBAD5-A337-48EB-9D7B-3113285716B2}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.376022",
+      "DurationMax": "0.376022",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "579804763",
+        "Language": "SFX",
+        "ShortName": "Schwingen.WAV",
+        "Path": "SFX\\Schwingen_F3CBB4E9.wem"
        }
       ]
      },
@@ -216,6 +233,16 @@
         "Path": "SFX\\Werwolves_Step6_4175DCF8.wem"
        }
       ]
+     },
+     {
+      "Id": "4226774299",
+      "Name": "Stop_Sword",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Sword",
+      "GUID": "{D9325515-6D8D-40F0-A104-D28836AB48D9}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
      }
     ],
     "GameParameters": [

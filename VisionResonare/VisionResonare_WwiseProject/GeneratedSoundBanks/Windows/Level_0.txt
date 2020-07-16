@@ -1,34 +1,37 @@
 Event	ID	Name			Wwise Object Path	Notes
 	538854294	Play_Level0_OpenPortcullis			\Default Work Unit\Play_Level0_OpenPortcullis	
 	906299113	Play_Level0_WindowOpening			\Default Work Unit\Play_Level0_WindowOpening	
+	1191497377	Play_Sword			\Default Work Unit\Play_Sword	
 	1649599835	Play_Level0_GrandClock			\Default Work Unit\Play_Level0_GrandClock	
 	2123940801	Play_WerwolfSteps			\Default Work Unit\Play_WerwolfSteps	
 	3133186549	Play_Atmo			\Default Work Unit\Play_Atmo	
 	3955137068	Play_Level0_Follow			\Default Work Unit\Play_Level0_Follow	
+	4226774299	Stop_Sword			\Default Work Unit\Stop_Sword	
 	4248323386	Play_Warnsignal			\Default Work Unit\Play_Warnsignal	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	2114958130	Warnsignale			\Default Work Unit\Warnsignale	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	78897012	WindAtmo	D:\Lea Schmidt\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\AtmoStage2Wind_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wind\WindAtmo		62360704
-	198732961	Werwolves_Step2	D:\Lea Schmidt\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Werwolves_Step2_0F829329.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Toe\Werwolves_Step2		62404
-	228188701	Werwolves_Step6	D:\Lea Schmidt\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Werwolves_Step6_0A678623.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Toe\Werwolves_Step6		64228
-	355965113	Werwolves_Step3	D:\Lea Schmidt\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Werwolves_Step3_25897E92.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Toe\Werwolves_Step3		65344
-	473425573	Vanto_MK21	D:\Lea Schmidt\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Vanto_MK21_20A820BF.wem		\Actor-Mixer Hierarchy\Default Work Unit\VoiceVedere\Follow\Vanto_MK21		81708
-	526661350	LowTicking	D:\Lea Schmidt\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Low_Ticking_9B19758E.wem		\Actor-Mixer Hierarchy\Default Work Unit\GrandClock\LowTicking		25208
-	552733161	Werwolves_Step7	D:\Lea Schmidt\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Werwolves_Step7_F371A50E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Heel 1\Werwolves_Step7		59196
-	571223948	Werwolves_Step4	D:\Lea Schmidt\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Werwolves_Step4_083667F2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Toe\Werwolves_Step4		50532
-	571780884	Werwolves_Step5	D:\Lea Schmidt\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Werwolves_Step5_CF7254B3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Toe\Werwolves_Step5		55052
-	627328947	Werwolves_Step7	D:\Lea Schmidt\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Werwolves_Step7_AB01ACEB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Toe\Werwolves_Step7		58116
-	643307592	Werwolves_Step5	D:\Lea Schmidt\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Werwolves_Step5_369AEE95.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Heel 1\Werwolves_Step5		47000
-	688035500	Vanto_MK22	D:\Lea Schmidt\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Vanto_MK22_7B3998A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\VoiceVedere\Follow\Vanto_MK22		100416
-	726360766	WindowOpening	D:\Lea Schmidt\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Window_Opening_15F7AFC4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Window\WindowOpening		497560
-	838834988	Werwolves_Step1	D:\Lea Schmidt\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Werwolves_Step1_F47D1C8B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Heel 1\Werwolves_Step1		67696
-	950022028	Vanto_MK20	D:\Lea Schmidt\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Vanto_MK20_2ABAD3CE.wem		\Actor-Mixer Hierarchy\Default Work Unit\VoiceVedere\Follow\Vanto_MK20		41972
-	953304088	Werwolves_Step2	D:\Lea Schmidt\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Werwolves_Step2_F50C443A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Heel 1\Werwolves_Step2		70048
-	1009025973	Open	D:\Lea Schmidt\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Open_1B0C123A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Portcullis\Open		530144
-	1020228712	Signalsound	D:\Lea Schmidt\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\1.Ep Facepla_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signalsound\Signalsound		292512
-	1047330557	Werwolves_Step3	D:\Lea Schmidt\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Werwolves_Step3_D9662B6D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Heel 1\Werwolves_Step3		61224
-	1050334831	Werwolves_Step6	D:\Lea Schmidt\GitHub\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Werwolves_Step6_4175DCF8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Heel 1\Werwolves_Step6		56140
+	78897012	WindAtmo	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\AtmoStage2Wind_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wind\WindAtmo		62360704
+	198732961	Werwolves_Step2	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Werwolves_Step2_0F829329.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Toe\Werwolves_Step2		62404
+	228188701	Werwolves_Step6	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Werwolves_Step6_0A678623.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Toe\Werwolves_Step6		64228
+	355965113	Werwolves_Step3	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Werwolves_Step3_25897E92.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Toe\Werwolves_Step3		65344
+	473425573	Vanto_MK21	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Vanto_MK21_243CFDA1.wem		\Actor-Mixer Hierarchy\Default Work Unit\VoiceVedere\Follow\Vanto_MK21		81708
+	526661350	LowTicking	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Low_Ticking_9B19758E.wem		\Actor-Mixer Hierarchy\Default Work Unit\GrandClock\LowTicking		25208
+	552733161	Werwolves_Step7	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Werwolves_Step7_F371A50E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Heel 1\Werwolves_Step7		59196
+	571223948	Werwolves_Step4	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Werwolves_Step4_083667F2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Toe\Werwolves_Step4		50532
+	571780884	Werwolves_Step5	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Werwolves_Step5_CF7254B3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Toe\Werwolves_Step5		55052
+	579804763	Schwingen	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Schwingen_F3CBB4E9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Sword\Schwingen		72260
+	627328947	Werwolves_Step7	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Werwolves_Step7_AB01ACEB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Toe\Werwolves_Step7		58116
+	643307592	Werwolves_Step5	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Werwolves_Step5_369AEE95.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Heel 1\Werwolves_Step5		47000
+	688035500	Vanto_MK22	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Vanto_MK22_0A4933C8.wem		\Actor-Mixer Hierarchy\Default Work Unit\VoiceVedere\Follow\Vanto_MK22		100416
+	726360766	WindowOpening	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Window_Opening_15F7AFC4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Window\WindowOpening		497560
+	838834988	Werwolves_Step1	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Werwolves_Step1_F47D1C8B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Heel 1\Werwolves_Step1		67696
+	950022028	Vanto_MK20	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Vanto_MK20_63C853E5.wem		\Actor-Mixer Hierarchy\Default Work Unit\VoiceVedere\Follow\Vanto_MK20		41972
+	953304088	Werwolves_Step2	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Werwolves_Step2_F50C443A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Heel 1\Werwolves_Step2		70048
+	1009025973	Open	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Open_1B0C123A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Portcullis\Open		530144
+	1020228712	Signalsound	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\1.Ep Facepla_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Signalsound\Signalsound		292512
+	1047330557	Werwolves_Step3	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Werwolves_Step3_D9662B6D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Heel 1\Werwolves_Step3		61224
+	1050334831	Werwolves_Step6	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Werwolves_Step6_4175DCF8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Heel 1\Werwolves_Step6		56140
 

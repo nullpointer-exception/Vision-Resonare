@@ -1766,7 +1766,7 @@
 																</Point>
 																<Point>
 																	<XPos>250</XPos>
-																	<YPos>-0</YPos>
+																	<YPos>0</YPos>
 																	<Flags>0</Flags>
 																</Point>
 																<Point>
@@ -1884,6 +1884,66 @@
 						<GroupingBehaviorList>
 							<GroupingBehavior>
 								<ItemRef Name="Follow" ID="{161EACD3-FA28-4114-8317-8FE5C7A11259}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<SwitchContainer Name="Sword" ID="{DFF2770F-28F3-4521-9B3A-FFA7545459BB}" ShortID="73601477">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Schwingen" ID="{48751B91-7045-4916-91BC-6A596F66C4BC}" ShortID="646771256">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Schwingen" ID="{28B451EE-1EC4-4AE4-957F-2A46D1E53366}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0619446867114597"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0983827377182003"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="10.2430640073333"/>
+										<Property Name="TrimEnd" Type="Real64" Value="10.6190864639878"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Schwingen.WAV</AudioFile>
+									<MediaIDList>
+										<MediaID ID="579804763"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Schwingen" ID="{28B451EE-1EC4-4AE4-957F-2A46D1E53366}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Schwingen" ID="{48751B91-7045-4916-91BC-6A596F66C4BC}"/>
 							</GroupingBehavior>
 						</GroupingBehaviorList>
 					</GroupingInfo>

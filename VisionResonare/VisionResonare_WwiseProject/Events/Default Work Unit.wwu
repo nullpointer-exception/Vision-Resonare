@@ -157,6 +157,31 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Sword" ID="{74DCBAD5-A337-48EB-9D7B-3113285716B2}">
+					<ChildrenList>
+						<Action Name="" ID="{3EFF4401-04AB-4320-ADAE-8C7D7DEB1DB3}" ShortID="891392037">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Schwingen" ID="{48751B91-7045-4916-91BC-6A596F66C4BC}" WorkUnitID="{D00AE282-E2C0-4E72-8353-011E3437EA43}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Sword" ID="{D9325515-6D8D-40F0-A104-D28836AB48D9}">
+					<ChildrenList>
+						<Action Name="" ID="{6AC9E1E3-B4D7-46D4-84B2-F68FB91C5B31}" ShortID="1015962893">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Schwingen" ID="{48751B91-7045-4916-91BC-6A596F66C4BC}" WorkUnitID="{D00AE282-E2C0-4E72-8353-011E3437EA43}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
