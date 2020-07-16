@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "D:\\Florian Kardos\\Vision Resonare Master\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\",
-   "SourceFilesRoot": "D:\\Florian Kardos\\Vision Resonare Master\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\.cache\\Mac\\",
-   "SoundBanksRoot": "D:\\Florian Kardos\\Vision Resonare Master\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ProjectRoot": "C:\\Users\\defaultuser0\\Documents\\GitHub\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\",
+   "SourceFilesRoot": "C:\\Users\\defaultuser0\\Documents\\GitHub\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "C:\\Users\\defaultuser0\\Documents\\GitHub\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Mac\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "D:\\Florian Kardos\\Vision Resonare Master\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Mac"
+   "ExternalSourcesOutputRoot": "C:\\Users\\defaultuser0\\Documents\\GitHub\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Mac"
   },
   "SoundBanks": [
    {
@@ -34,6 +34,30 @@
         "Language": "SFX",
         "ShortName": "AtmoStage2Wind.wav",
         "Path": "SFX\\AtmoStage2Wind_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1863859349",
+      "Name": "Play_Level0_DoorClosedClick",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Level0_DoorClosedClick",
+      "GUID": "{A0B3A744-E4D0-4BF7-83E6-B4D308D34B93}",
+      "MaxAttenuation": "3000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.788284",
+      "DurationMax": "0.788284",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "486738880",
+        "Language": "SFX",
+        "ShortName": "DoorCupboard 6018_10_3.wav",
+        "Path": "SFX\\DoorCupboard 6018_10_3_702F2590.wem"
+       },
+       {
+        "Id": "689420249",
+        "Language": "SFX",
+        "ShortName": "DoorCupboard 6018_10_3.wav",
+        "Path": "SFX\\DoorCupboard 6018_10_3_9E1D6EE6.wem"
        }
       ]
      },
@@ -107,6 +131,7 @@
       "Name": "Play_Level0_WindowOpening",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Level0_WindowOpening",
       "GUID": "{6C317D30-7A6A-4244-97A9-263E7C0798F9}",
+      "MaxAttenuation": "3000.000000",
       "DurationType": "OneShot",
       "DurationMin": "2.591123",
       "DurationMax": "2.591123",
@@ -132,7 +157,7 @@
         "Id": "579804763",
         "Language": "SFX",
         "ShortName": "Schwingen.WAV",
-        "Path": "SFX\\Schwingen_F3CBB4E9.wem"
+        "Path": "SFX\\Schwingen_592D31EF.wem"
        }
       ]
      },
