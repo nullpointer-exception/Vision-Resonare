@@ -204,6 +204,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Quit" ID="{7AEBE074-AC9F-42C7-A3A9-7E026CF7B030}">
+					<ChildrenList>
+						<Action Name="" ID="{2186EF26-52C9-4E94-9CD1-4B619671BEE2}" ShortID="829514789">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Quit" ID="{CF5C67F0-F51C-4142-893A-BD4C2EB390D7}" WorkUnitID="{D00AE282-E2C0-4E72-8353-011E3437EA43}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Resume" ID="{3E135153-098B-47C8-BA1E-46671005512C}">
+					<ChildrenList>
+						<Action Name="" ID="{35B10987-5E22-4659-9537-5A3EBE23B6DB}" ShortID="485498931">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Resume" ID="{CDF2BA9C-84C5-4929-B8AE-9FF89DC95485}" WorkUnitID="{D00AE282-E2C0-4E72-8353-011E3437EA43}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

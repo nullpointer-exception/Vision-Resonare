@@ -145,6 +145,40 @@
       ]
      },
      {
+      "Id": "3846231759",
+      "Name": "Play_Quit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Quit",
+      "GUID": "{7AEBE074-AC9F-42C7-A3A9-7E026CF7B030}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.413656",
+      "DurationMax": "0.413656",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "66673196",
+        "Language": "SFX",
+        "ShortName": "WhatsApp Audio 2020-07-17 at 09.58.09.wav",
+        "Path": "SFX\\WhatsApp Audio 2020-07-17 at 09.58.09_DAFD5685.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2149395099",
+      "Name": "Play_Resume",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Resume",
+      "GUID": "{3E135153-098B-47C8-BA1E-46671005512C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.765798",
+      "DurationMax": "0.765798",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "945341282",
+        "Language": "SFX",
+        "ShortName": "WhatsApp Audio 2020-07-17 at 09.59.08.wav",
+        "Path": "SFX\\WhatsApp Audio 2020-07-17 at 09.59.08_94BACFA0.wem"
+       }
+      ]
+     },
+     {
       "Id": "1191497377",
       "Name": "Play_Sword",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Sword",

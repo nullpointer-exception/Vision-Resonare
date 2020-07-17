@@ -2253,6 +2253,98 @@
 						</GroupingBehaviorList>
 					</GroupingInfo>
 				</SwitchContainer>
+				<SwitchContainer Name="ButtonVoice" ID="{006B8B41-7B03-424D-AB0B-43BC4D935FFE}" ShortID="433697388">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-150</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Quit" ID="{CF5C67F0-F51C-4142-893A-BD4C2EB390D7}" ShortID="573118009">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WhatsApp Audio 2020-07-17 at 09_58_09" ID="{C23D4357-6975-46BC-B705-0C18FE296211}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0385753424657533"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.199305936073059"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.704"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.08332420091324"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>WhatsApp Audio 2020-07-17 at 09.58.09.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="66673196"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WhatsApp Audio 2020-07-17 at 09_58_09" ID="{C23D4357-6975-46BC-B705-0C18FE296211}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Resume" ID="{CDF2BA9C-84C5-4929-B8AE-9FF89DC95485}" ShortID="17007610">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{44937191-BDA5-400B-812B-F6A361BD3F3B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{FBBB7F91-5747-47D8-84D9-2327693EDC02}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="WhatsApp Audio 2020-07-17 at 09_59_08" ID="{159FC08E-7C2D-4B27-9615-1E895F68632D}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0646232876712328"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.090472602739726"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.947808219178082"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.65004794520548"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>WhatsApp Audio 2020-07-17 at 09.59.08.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="945341282"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="WhatsApp Audio 2020-07-17 at 09_59_08" ID="{159FC08E-7C2D-4B27-9615-1E895F68632D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Resume" ID="{CDF2BA9C-84C5-4929-B8AE-9FF89DC95485}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Quit" ID="{CF5C67F0-F51C-4142-893A-BD4C2EB390D7}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+					</GroupingInfo>
+				</SwitchContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

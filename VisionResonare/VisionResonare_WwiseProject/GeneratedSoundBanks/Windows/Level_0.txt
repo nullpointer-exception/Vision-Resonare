@@ -6,7 +6,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	1649599835	Play_Level0_GrandClock			\Default Work Unit\Play_Level0_GrandClock	
 	1863859349	Play_Level0_DoorClosedClick			\Default Work Unit\Play_Level0_DoorClosedClick	
 	2123940801	Play_WerwolfSteps			\Default Work Unit\Play_WerwolfSteps	
+	2149395099	Play_Resume			\Default Work Unit\Play_Resume	
 	3133186549	Play_Atmo			\Default Work Unit\Play_Atmo	
+	3846231759	Play_Quit			\Default Work Unit\Play_Quit	
 	3955137068	Play_Level0_Follow			\Default Work Unit\Play_Level0_Follow	
 	4226774299	Stop_Sword			\Default Work Unit\Stop_Sword	
 	4248323386	Play_Warnsignal			\Default Work Unit\Play_Warnsignal	
@@ -16,6 +18,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	54876915	Werwolf_Death_2	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\ANIMAL-DOG-WHINE_6EXT8-10136_CD54DA30.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Death\Werwolf_Death_2		353452
+	66673196	Quit	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\WhatsApp Audio 2020-07-17 at 09.58.09_DAFD5685.wem		\Actor-Mixer Hierarchy\Default Work Unit\ButtonVoice\Quit		72896
 	78897012	WindAtmo	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\AtmoStage2Wind_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wind\WindAtmo		62360704
 	198732961	Werwolves_Step2	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Werwolves_Step2_0F829329.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Toe\Werwolves_Step2		62404
 	228188701	Werwolves_Step6	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Werwolves_Step6_0A678623.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Toe\Werwolves_Step6		64228
@@ -34,6 +37,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	726360766	WindowOpening	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Window_Opening_15F7AFC4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Window\WindowOpening		497560
 	838834988	Werwolves_Step1	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Werwolves_Step1_F47D1C8B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Heel 1\Werwolves_Step1		67696
 	904438303	Werwolf_Death_4	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\ANIMAL-DOG-WHINE_6EXT8-10138_54DE6C5C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Death\Werwolf_Death_4		403944
+	945341282	Resume	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\WhatsApp Audio 2020-07-17 at 09.59.08_94BACFA0.wem		\Actor-Mixer Hierarchy\Default Work Unit\ButtonVoice\Resume		134892
 	950022028	Vanto_MK20	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Vanto_MK20_63C853E5.wem		\Actor-Mixer Hierarchy\Default Work Unit\VoiceVedere\Follow\Vanto_MK20		41972
 	953304088	Werwolves_Step2	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\Werwolves_Step2_F50C443A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\WerwolfSteps\Heel 1\Werwolves_Step2		70048
 	986819643	Werwolf_Death_1	D:\Florian Kardos\Vision Resonare Master\VisionResonare\VisionResonare\VisionResonare_WwiseProject\.cache\Windows\SFX\ANIMAL-DOG-WHIMPER_6EXT8-10134_2D64C6F8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Werwolf\Death\Werwolf_Death_1		298488
