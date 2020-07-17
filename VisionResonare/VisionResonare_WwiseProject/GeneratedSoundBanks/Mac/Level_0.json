@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\defaultuser0\\Documents\\GitHub\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\",
-   "SourceFilesRoot": "C:\\Users\\defaultuser0\\Documents\\GitHub\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\.cache\\Mac\\",
-   "SoundBanksRoot": "C:\\Users\\defaultuser0\\Documents\\GitHub\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ProjectRoot": "D:\\Florian Kardos\\Vision Resonare Master\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\",
+   "SourceFilesRoot": "D:\\Florian Kardos\\Vision Resonare Master\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "D:\\Florian Kardos\\Vision Resonare Master\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Mac\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\defaultuser0\\Documents\\GitHub\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Mac"
+   "ExternalSourcesOutputRoot": "D:\\Florian Kardos\\Vision Resonare Master\\VisionResonare\\VisionResonare\\VisionResonare_WwiseProject\\GeneratedSoundBanks\\Mac"
   },
   "SoundBanks": [
    {
@@ -51,13 +51,13 @@
         "Id": "486738880",
         "Language": "SFX",
         "ShortName": "DoorCupboard 6018_10_3.wav",
-        "Path": "SFX\\DoorCupboard 6018_10_3_702F2590.wem"
+        "Path": "SFX\\DoorCupboard 6018_10_3_7DFEA266.wem"
        },
        {
         "Id": "689420249",
         "Language": "SFX",
         "ShortName": "DoorCupboard 6018_10_3.wav",
-        "Path": "SFX\\DoorCupboard 6018_10_3_9E1D6EE6.wem"
+        "Path": "SFX\\DoorCupboard 6018_10_3_4428AD1F.wem"
        }
       ]
      },
@@ -173,6 +173,35 @@
         "Language": "SFX",
         "ShortName": "1.Ep Facepla.wav",
         "Path": "SFX\\1.Ep Facepla_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "778672262",
+      "Name": "Play_WerwolfDeath",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_WerwolfDeath",
+      "GUID": "{325B6B6F-2460-4825-A3F6-64EFC5940DCF}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.840554",
+      "DurationMax": "2.501532",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "54876915",
+        "Language": "SFX",
+        "ShortName": "ANIMAL-DOG-WHINE_6EXT8-10136.wav",
+        "Path": "SFX\\ANIMAL-DOG-WHINE_6EXT8-10136_CD54DA30.wem"
+       },
+       {
+        "Id": "904438303",
+        "Language": "SFX",
+        "ShortName": "ANIMAL-DOG-WHINE_6EXT8-10138.wav",
+        "Path": "SFX\\ANIMAL-DOG-WHINE_6EXT8-10138_54DE6C5C.wem"
+       },
+       {
+        "Id": "986819643",
+        "Language": "SFX",
+        "ShortName": "ANIMAL-DOG-WHIMPER_6EXT8-10134.wav",
+        "Path": "SFX\\ANIMAL-DOG-WHIMPER_6EXT8-10134_2D64C6F8.wem"
        }
       ]
      },

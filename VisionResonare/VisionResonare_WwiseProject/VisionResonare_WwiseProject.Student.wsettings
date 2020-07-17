@@ -5,6 +5,7 @@
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="D:\Francis Steffens\Sound Orrdner für VR\Schwert\"/>
 				<Property Name="Event Action List\{1D9D7469-1F9A-4058-A2B0-7B88F949CE39}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{325B6B6F-2460-4825-A3F6-64EFC5940DCF}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{35BB8B6A-A6E1-4989-B58B-3D4EF3C146A9}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{415C2D69-286A-46C3-ACDB-DEBA05A952A3}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{4D9FE4CC-1529-47FE-92A6-6851CD9ABAE7}\x64_Expand States" Type="string" Value=""/>
@@ -65,7 +66,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="kb1O2eaOkUqPSUgbGGAxSILiCtDA4nJOg1MBHjQ36kM="/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="XvSgiXXUTUWsumGNXtp8EpG9TtnmjpFKj0lIGxhgMUiC4grQwOJyToNTAR40N+pDSBI/j364jk+0gDCo1exNKA=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="rNiJuvtO5UKzKtOKVpv3tg=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>

@@ -193,6 +193,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_WerwolfDeath" ID="{325B6B6F-2460-4825-A3F6-64EFC5940DCF}">
+					<ChildrenList>
+						<Action Name="" ID="{55A0086F-0CD9-41EF-9F64-31F6E6EBD94D}" ShortID="637982512">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Death" ID="{89A0F45E-D475-454D-ACBA-618D5EDA7C12}" WorkUnitID="{D00AE282-E2C0-4E72-8353-011E3437EA43}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
