@@ -182,6 +182,50 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Level0_DoorClosedClick" ID="{A0B3A744-E4D0-4BF7-83E6-B4D308D34B93}">
+					<ChildrenList>
+						<Action Name="" ID="{A623347C-EA89-456A-95C1-017E99F291FF}" ShortID="361092028">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ClosedClick" ID="{87D8E35D-DA1A-4BE3-979C-C0C42F72E371}" WorkUnitID="{D00AE282-E2C0-4E72-8353-011E3437EA43}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_WerwolfDeath" ID="{325B6B6F-2460-4825-A3F6-64EFC5940DCF}">
+					<ChildrenList>
+						<Action Name="" ID="{55A0086F-0CD9-41EF-9F64-31F6E6EBD94D}" ShortID="637982512">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Death" ID="{89A0F45E-D475-454D-ACBA-618D5EDA7C12}" WorkUnitID="{D00AE282-E2C0-4E72-8353-011E3437EA43}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Quit" ID="{7AEBE074-AC9F-42C7-A3A9-7E026CF7B030}">
+					<ChildrenList>
+						<Action Name="" ID="{2186EF26-52C9-4E94-9CD1-4B619671BEE2}" ShortID="829514789">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Quit" ID="{CF5C67F0-F51C-4142-893A-BD4C2EB390D7}" WorkUnitID="{D00AE282-E2C0-4E72-8353-011E3437EA43}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Resume" ID="{3E135153-098B-47C8-BA1E-46671005512C}">
+					<ChildrenList>
+						<Action Name="" ID="{35B10987-5E22-4659-9537-5A3EBE23B6DB}" ShortID="485498931">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Resume" ID="{CDF2BA9C-84C5-4929-B8AE-9FF89DC95485}" WorkUnitID="{D00AE282-E2C0-4E72-8353-011E3437EA43}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

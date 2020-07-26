@@ -38,6 +38,30 @@
       ]
      },
      {
+      "Id": "1863859349",
+      "Name": "Play_Level0_DoorClosedClick",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Level0_DoorClosedClick",
+      "GUID": "{A0B3A744-E4D0-4BF7-83E6-B4D308D34B93}",
+      "MaxAttenuation": "3000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.788284",
+      "DurationMax": "0.788284",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "486738880",
+        "Language": "SFX",
+        "ShortName": "DoorCupboard 6018_10_3.wav",
+        "Path": "SFX\\DoorCupboard 6018_10_3_7DFEA266.wem"
+       },
+       {
+        "Id": "689420249",
+        "Language": "SFX",
+        "ShortName": "DoorCupboard 6018_10_3.wav",
+        "Path": "SFX\\DoorCupboard 6018_10_3_4428AD1F.wem"
+       }
+      ]
+     },
+     {
       "Id": "3955137068",
       "Name": "Play_Level0_Follow",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Level0_Follow",
@@ -107,6 +131,7 @@
       "Name": "Play_Level0_WindowOpening",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Level0_WindowOpening",
       "GUID": "{6C317D30-7A6A-4244-97A9-263E7C0798F9}",
+      "MaxAttenuation": "3000.000000",
       "DurationType": "OneShot",
       "DurationMin": "2.591123",
       "DurationMax": "2.591123",
@@ -116,6 +141,40 @@
         "Language": "SFX",
         "ShortName": "Window_Opening.wav",
         "Path": "SFX\\Window_Opening_15F7AFC4.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3846231759",
+      "Name": "Play_Quit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Quit",
+      "GUID": "{7AEBE074-AC9F-42C7-A3A9-7E026CF7B030}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.413656",
+      "DurationMax": "0.413656",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "66673196",
+        "Language": "SFX",
+        "ShortName": "WhatsApp Audio 2020-07-17 at 09.58.09.wav",
+        "Path": "SFX\\WhatsApp Audio 2020-07-17 at 09.58.09_DAFD5685.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2149395099",
+      "Name": "Play_Resume",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Resume",
+      "GUID": "{3E135153-098B-47C8-BA1E-46671005512C}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.765798",
+      "DurationMax": "0.765798",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "945341282",
+        "Language": "SFX",
+        "ShortName": "WhatsApp Audio 2020-07-17 at 09.59.08.wav",
+        "Path": "SFX\\WhatsApp Audio 2020-07-17 at 09.59.08_94BACFA0.wem"
        }
       ]
      },
@@ -132,7 +191,7 @@
         "Id": "579804763",
         "Language": "SFX",
         "ShortName": "Schwingen.WAV",
-        "Path": "SFX\\Schwingen_F3CBB4E9.wem"
+        "Path": "SFX\\Schwingen_592D31EF.wem"
        }
       ]
      },
@@ -148,6 +207,35 @@
         "Language": "SFX",
         "ShortName": "1.Ep Facepla.wav",
         "Path": "SFX\\1.Ep Facepla_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "778672262",
+      "Name": "Play_WerwolfDeath",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_WerwolfDeath",
+      "GUID": "{325B6B6F-2460-4825-A3F6-64EFC5940DCF}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.840554",
+      "DurationMax": "2.501532",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "54876915",
+        "Language": "SFX",
+        "ShortName": "ANIMAL-DOG-WHINE_6EXT8-10136.wav",
+        "Path": "SFX\\ANIMAL-DOG-WHINE_6EXT8-10136_CD54DA30.wem"
+       },
+       {
+        "Id": "904438303",
+        "Language": "SFX",
+        "ShortName": "ANIMAL-DOG-WHINE_6EXT8-10138.wav",
+        "Path": "SFX\\ANIMAL-DOG-WHINE_6EXT8-10138_54DE6C5C.wem"
+       },
+       {
+        "Id": "986819643",
+        "Language": "SFX",
+        "ShortName": "ANIMAL-DOG-WHIMPER_6EXT8-10134.wav",
+        "Path": "SFX\\ANIMAL-DOG-WHIMPER_6EXT8-10134_2D64C6F8.wem"
        }
       ]
      },
