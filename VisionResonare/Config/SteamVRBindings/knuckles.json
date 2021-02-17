@@ -8,7 +8,7 @@
 		{
 			"sources": [
 				{
-					"mode": "button",
+					"mode": "trigger",
 					"path": "/user/hand/left/input/grip",
 					"inputs":
 					{
@@ -19,7 +19,7 @@
 					}
 				},
 				{
-					"mode": "button",
+					"mode": "trigger",
 					"path": "/user/hand/right/input/grip",
 					"inputs":
 					{
@@ -30,7 +30,7 @@
 					}
 				},
 				{
-					"mode": "button",
+					"mode": "trigger",
 					"path": "/user/hand/left/input/trigger",
 					"inputs":
 					{
@@ -41,7 +41,7 @@
 					}
 				},
 				{
-					"mode": "button",
+					"mode": "trigger",
 					"path": "/user/hand/right/input/trigger",
 					"inputs":
 					{
@@ -107,5 +107,5 @@
 			]
 		}
 	},
-	"description": "VisionResonare-11100242"
+	"description": "VisionResonare-11590370"
 }
