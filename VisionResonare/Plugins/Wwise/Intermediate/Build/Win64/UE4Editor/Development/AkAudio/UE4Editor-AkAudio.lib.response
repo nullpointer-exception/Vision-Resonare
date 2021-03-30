@@ -1,0 +1,20 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-AkAudio.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Intermediate\Build\Win64\VisionResonareEditor\Development\UnrealEd\SharedPCH.UnrealEd.h.obj"
+"D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Development\AkAudio\Module.AkAudio.1_of_3.cpp.obj"
+"D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Development\AkAudio\Module.AkAudio.2_of_3.cpp.obj"
+"D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Development\AkAudio\Module.AkAudio.3_of_3.cpp.obj"
+"D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Development\AkAudio\Module.AkAudio.gen.1_of_5.cpp.obj"
+"D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Development\AkAudio\Module.AkAudio.gen.2_of_5.cpp.obj"
+"D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Development\AkAudio\Module.AkAudio.gen.3_of_5.cpp.obj"
+"D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Development\AkAudio\Module.AkAudio.gen.4_of_5.cpp.obj"
+"D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Development\AkAudio\Module.AkAudio.gen.5_of_5.cpp.obj"
+"D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Development\AkAudio\Default.rc2.res"
+/OUT:"D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Development\AkAudio\UE4Editor-AkAudio.lib"
+/INCLUDE:IMPLEMENT_MODULE_AkAudio

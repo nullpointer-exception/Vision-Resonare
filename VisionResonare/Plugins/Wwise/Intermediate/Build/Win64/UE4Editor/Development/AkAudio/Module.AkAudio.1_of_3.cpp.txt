@@ -1,0 +1,676 @@
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Development\AkAudio\Definitions.AkAudio.h
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkAcousticPortal.cpp
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Source\AkAudio\Classes\AkAcousticPortal.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Volume.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Volume.generated.h
+d:\default\bat ideas\visionresonare\project\visionresonare\visionresonare\plugins\wwise\source\akaudio\classes\OcclusionObstructionService/AkPortalOcclusionObstructionService.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Source\AkAudio\Public\AkInclude.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Windows/AllowWindowsPlatformTypes.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Windows/WindowsHWrapper.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Windows/PreWindowsApi.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Windows/MinWindows.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\Windows.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\sdkddkver.h
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\excpt.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\windef.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\minwindef.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnt.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\kernelspecs.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\basetsd.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\guiddef.h
+c:\program files (x86)\windows kits\10\include\10.0.19041.0\shared\pshpack4.h
+c:\program files (x86)\windows kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+c:\program files (x86)\windows kits\10\include\10.0.19041.0\shared\pshpack4.h
+c:\program files (x86)\windows kits\10\include\10.0.19041.0\shared\pshpack2.h
+c:\program files (x86)\windows kits\10\include\10.0.19041.0\shared\poppack.h
+c:\program files (x86)\windows kits\10\include\10.0.19041.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+c:\program files (x86)\windows kits\10\include\10.0.19041.0\shared\poppack.h
+c:\program files (x86)\windows kits\10\include\10.0.19041.0\shared\pshpack8.h
+c:\program files (x86)\windows kits\10\include\10.0.19041.0\shared\poppack.h
+c:\program files (x86)\windows kits\10\include\10.0.19041.0\shared\pshpack1.h
+c:\program files (x86)\windows kits\10\include\10.0.19041.0\shared\poppack.h
+c:\program files (x86)\windows kits\10\include\10.0.19041.0\shared\pshpack1.h
+c:\program files (x86)\windows kits\10\include\10.0.19041.0\shared\poppack.h
+c:\program files (x86)\windows kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\apiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\ktmtypes.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winbase.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\apisetcconv.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\minwinbase.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\apiquery2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\processenv.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\fileapifromapp.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\fileapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\debugapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\utilapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\handleapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\errhandlingapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\fibersapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\namedpipeapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\profileapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\heapapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\ioapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\synchapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\interlockedapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\processthreadsapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\sysinfoapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\memoryapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\enclaveapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\threadpoollegacyapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\threadpoolapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\jobapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\jobapi2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\wow64apiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\libloaderapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\securitybaseapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\namespaceapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\systemtopologyapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\processtopologyapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\securityappcontainer.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\realtimeapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\winerror.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\timezoneapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\wingdi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack1.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack4.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winuser.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\pshpack2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\poppack.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\tvout.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnls.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\datetimeapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\stringapiset.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnls.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\wincon.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\wincontypes.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\consoleapi.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\consoleapi2.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\consoleapi3.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winver.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\verrsrc.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winreg.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\reason.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\winnetwk.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\wnnc.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared\stralign.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\imm.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um\ime_cmodes.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Windows/PostWindowsApi.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Windows/AllowWindowsPlatformAtomics.h
+d:\default\bat ideas\visionresonare\project\visionresonare\visionresonare\plugins\wwise\source\akaudio\classes\AkUEFeatures.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/AkWwiseSDKVersion.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/AkSoundEngine.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/AkSoundEngineExport.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/AkPlatforms.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Platforms/Windows/AkTypes.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/AkTypes.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/IAkPlugin.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/AkCommonDefs.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/AkSpeakerConfig.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/AkSpeakerVolumes.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Platforms/Generic/AkSpeakerVolumes.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/Tools/Common/AkPlatformFuncs.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/AkAtomic.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Platforms/Windows/AkAtomic.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/Tools/Win32/AkPlatformFuncs.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/Tools/Common/AkAssert.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\math.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/IAkRTPCSubscriber.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/IAkPluginMemAlloc.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/AkMemoryMgr.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/AkFPUtilities.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/Tools/Common/AkLock.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/Tools/Win32/AkLock.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/Tools/Common/AkMonitorError.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/IAkProcessorFeatures.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/IAkPlatformContext.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/AkMidiTypes.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/AkCallback.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\math.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Platforms/Windows/AkWinSoundEngine.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Platforms/Windows/AkPlatformContext.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/SpatialAudio/Common/AkSpatialAudio.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/SpatialAudio/Common/AkSpatialAudioTypes.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/Tools/Common/AkKeyArray.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/Tools/Common/AkArray.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/Tools/Common/AkObject.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/Tools/Common/AkKeyDef.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/Tools/Common/AkSet.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/Tools/Common/AkString.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/Tools/Common/AkFNVHash.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/Tools/Common/AkHashList.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/Plugin/AkReflectGameData.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/IBytes.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/AkModule.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/IAkStreamMgr.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/AkStreamMgrModule.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/MusicEngine/Common/AkMusicEngine.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/Comm/AkCommunication.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/SoundEngine/Common/AkQueryParameters.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Windows/HideWindowsPlatformTypes.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Windows/HideWindowsPlatformAtomics.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Source\AkAudio\Public\AkAudioDevice.h
+d:\default\bat ideas\visionresonare\project\visionresonare\visionresonare\plugins\wwise\source\akaudio\classes\AkBankManager.h
+d:\default\bat ideas\visionresonare\project\visionresonare\visionresonare\plugins\wwise\source\akaudio\classes\AkGameplayTypes.h
+d:\default\bat ideas\visionresonare\project\visionresonare\visionresonare\plugins\wwise\source\akaudio\classes\Platforms/AkUEPlatform.h
+d:\default\bat ideas\visionresonare\project\visionresonare\visionresonare\plugins\wwise\source\akaudio\classes\platforms\AkPlatform_Windows/AkWindowsPlatform.h
+d:\default\bat ideas\visionresonare\project\visionresonare\visionresonare\plugins\wwise\source\akaudio\classes\Platforms/AkPlatformBase.h
+d:\default\bat ideas\visionresonare\project\visionresonare\visionresonare\plugins\wwise\source\akaudio\classes\platforms\akplatform_windows\AkWindowsInitializationSettings.h
+d:\default\bat ideas\visionresonare\project\visionresonare\visionresonare\plugins\wwise\source\akaudio\classes\InitializationSettings/AkInitializationSettings.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkInitializationSettings.generated.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkWindowsInitializationSettings.generated.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkGameplayTypes.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject/Public/UObject/StrongObjectPtr.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/StreamableManager.h
+d:\default\bat ideas\visionresonare\project\visionresonare\visionresonare\plugins\wwise\source\akaudio\classes\OcclusionObstructionService/AkOcclusionObstructionService.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkAcousticPortal.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/BrushComponent.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BrushComponent.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\EngineUtils.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\ProfilingDebugging/ProfilingHelpers.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/WorldSettings.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/DamageType.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DamageType.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Info.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Info.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Sound/AudioVolume.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AudioVolume.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/ConstructorHelpers.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\WorldSettings.generated.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Source\AkAudio\Classes\AkRoomComponent.h
+d:\default\bat ideas\visionresonare\project\visionresonare\visionresonare\plugins\wwise\source\akaudio\classes\AkGameObject.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkGameObject.generated.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkRoomComponent.generated.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Source\AkAudio\Classes\AkComponent.h
+d:\default\bat ideas\visionresonare\project\visionresonare\visionresonare\plugins\wwise\source\akaudio\classes\OcclusionObstructionService/AkComponentOcclusionObstructionService.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkComponent.generated.h
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkAcousticTexture.cpp
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Source\AkAudio\Classes\AkAcousticTexture.h
+d:\default\bat ideas\visionresonare\project\visionresonare\visionresonare\plugins\wwise\source\akaudio\classes\AkAudioType.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkAudioType.generated.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkAcousticTexture.generated.h
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkAmbientSound.cpp
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Source\AkAudio\Classes\AkAmbientSound.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkAmbientSound.generated.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Source\AkAudio\Classes\AkAudioEvent.h
+d:\default\bat ideas\visionresonare\project\visionresonare\visionresonare\plugins\wwise\source\akaudio\classes\AkAssetBase.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\AssetRegistry/Public/AssetRegistryModule.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\Misc/AssetRegistryInterface.h
+c:\program files\epic games\ue_4.24\engine\source\runtime\assetregistry\public\IAssetRegistry.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry\IAssetRegistry.generated.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkAssetBase.generated.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkAudioEvent.generated.h
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkAssetBase.cpp
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Async/Async.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Runnable.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/RunnableThread.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/PlatformAffinity.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformAffinity.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Source\AkAudio\Classes\AkMediaAsset.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkMediaAsset.generated.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Source\AkAudio\Classes\AkUnrealHelper.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Source\AkAudio\Classes\Platforms/AkPlatformInfo.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/GameEngine.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Slate\Public\Widgets/SViewport.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Input/HittestGrid.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime/MovieSceneCapture/Public/MovieSceneCaptureHandle.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameEngine.generated.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkPlatformInfo.generated.h
+d:\default\bat ideas\visionresonare\project\visionresonare\visionresonare\plugins\wwise\source\akaudio\private\IntegrationBehavior/AkIntegrationBehavior.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Source\AkAudio\Classes\ISoundBankInfoCache.h
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkAudioBank.cpp
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Source\AkAudio\Classes\AkAudioBank.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkAudioBank.generated.h
+d:\default\bat ideas\visionresonare\project\visionresonare\visionresonare\plugins\wwise\source\akaudio\private\AkCustomVersion.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Developer\AssetTools/Public/AssetToolsModule.h
+c:\program files\epic games\ue_4.24\engine\source\developer\assettools\public\IAssetTools.h
+c:\program files\epic games\ue_4.24\engine\source\developer\assettools\public\AssetTypeCategories.h
+c:\program files\epic games\ue_4.24\engine\source\developer\assettools\public\IAssetTypeActions.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Developer/Merge/Public/Merge.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Classes\ThumbnailRendering/ThumbnailManager.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Classes\ThumbnailRendering/ThumbnailRenderer.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\ThumbnailRenderer.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\ThumbnailManager.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Public\AutomatedAssetImportData.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\AutomatedAssetImportData.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetTools\IAssetTools.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd/Public/ObjectTools.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Developer\CollectionManager\Public\CollectionManagerTypes.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Developer\SourceControl\Public\ISourceControlState.h
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkAudioDevice.cpp
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Source\AkAudio\Public\AkAudioModule.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Source\AkAudio\Classes\AkAuxBus.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkAuxBus.generated.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Source\AkAudio\Classes\AkCallbackInfoPool.h
+d:\default\bat ideas\visionresonare\project\visionresonare\visionresonare\plugins\wwise\source\akaudio\private\AkComponentCallbackManager.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Source\AkAudio\Classes\AkInitBank.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkInitBank.generated.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Source\AkAudio\Classes\AkLateReverbComponent.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkLateReverbComponent.generated.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Source\AkAudio\Classes\AkRtpc.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkRtpc.generated.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Source\AkAudio\Classes\AkSettings.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkSettings.generated.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Source\AkAudio\Classes\AkSpotReflector.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkSpotReflector.generated.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Source\AkAudio\Classes\AkStateValue.h
+d:\default\bat ideas\visionresonare\project\visionresonare\visionresonare\plugins\wwise\source\akaudio\classes\AkGroupValue.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkGroupValue.generated.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkStateValue.generated.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Source\AkAudio\Classes\AkSwitchValue.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkSwitchValue.generated.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Source\AkAudio\Classes\AkTrigger.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkTrigger.generated.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Source\AkAudio\Public\AkWaapiClient.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Json\Public\Serialization/JsonWriter.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Json\Public\Serialization/JsonTypes.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Json\Public\Serialization/JsonSerializer.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Json\Public\Serialization/JsonReader.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Json\Public\Dom/JsonValue.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Json\Public\Dom/JsonObject.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Json\Public\JsonGlobals.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/WwiseAuthoringAPI/waapi.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Source\AkAudio\Classes\AkWaapiUtils.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Async/ParallelFor.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Camera/PlayerCameraManager.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Camera/CameraShake.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraShake.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PlayerCameraManager.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\EditorSupportDelegates.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/OnlineReplStructs.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/CoreOnline.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Hash/CityHash.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\OnlineReplStructs.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerMuteList.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PlayerMuteList.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/InputComponent.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\InputComponent.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/ForceFeedbackEffect.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ForceFeedbackEffect.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform/IInputInterface.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PlayerController.generated.h
+d:\default\bat ideas\visionresonare\project\visionresonare\visionresonare\plugins\wwise\source\akaudio\private\IAkUnrealIOHook.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Projects\Public\Interfaces/IPluginManager.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Projects\Public\PluginDescriptor.h
+c:\program files\epic games\ue_4.24\engine\source\runtime\projects\public\ModuleDescriptor.h
+c:\program files\epic games\ue_4.24\engine\source\runtime\projects\public\CustomBuildSteps.h
+c:\program files\epic games\ue_4.24\engine\source\runtime\projects\public\LocalizationDescriptor.h
+c:\program files\epic games\ue_4.24\engine\source\runtime\projects\public\PluginReferenceDescriptor.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Internationalization/Culture.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Developer\Settings\Public\ISettingsModule.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Public\LevelEditorViewport.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\LevelEditor\Public\LevelEditor.h
+c:\program files\epic games\ue_4.24\engine\source\editor\leveleditor\public\ILevelEditor.h
+c:\program files\epic games\ue_4.24\engine\source\editor\leveleditor\public\ViewportTypeDefinition.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Public\CameraController.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/Plugin/AkVorbisDecoderFactory.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/Plugin/AkMeterFXFactory.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/Plugin/AkOpusDecoderFactory.h
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkAudioEvent.cpp
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkAudioInputComponent.cpp
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Source\AkAudio\Classes\AkAudioInputComponent.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkAudioInputComponent.generated.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Source\AkAudio\Classes\AkAudioInputManager.h
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkAudioInputManager.cpp
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/Plugin/AkAudioInputSourceFactory.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\ThirdParty\include\AK/Plugin/AkAudioInputPlugin.h
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkAudioModule.cpp
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Source\AkAudio\Classes\AkAudioStyle.h
+d:\default\bat ideas\visionresonare\project\visionresonare\visionresonare\plugins\wwise\source\akaudio\classes\WaapiPicker/WwiseTreeItem.h
+d:\default\bat ideas\visionresonare\project\visionresonare\visionresonare\plugins\wwise\source\akaudio\classes\WwiseItemType.h
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkAudioStyle.cpp
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Styling/SlateStyle.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateBorderBrush.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateBoxBrush.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateColorBrush.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateImageBrush.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Styling/SlateStyleRegistry.h
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkAudioType.cpp
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkAuxBus.cpp
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkBankManager.cpp
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkCallbackInfoPool.cpp
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkComponent.cpp
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/BillboardComponent.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BillboardComponent.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkComponentCallbackManager.cpp
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkCustomVersion.cpp
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkGameObject.cpp
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkGameplayStatics.cpp
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Source\AkAudio\Classes\AkGameplayStatics.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkGameplayStatics.generated.h
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkGameplayTypes.cpp
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkGeometryComponent.cpp
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Source\AkAudio\Classes\AkGeometryComponent.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkGeometryComponent.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/Polys.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Polys.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\PhysXPublic.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\PhysicsCore\Public\PhysXPublicCore.h
+c:\program files\epic games\ue_4.24\engine\source\runtime\physicscore\public\PhysXIncludes.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation\Px.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation/PxSimpleTypes.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation/PxPreprocessor.h
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\ciso646
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE\iso646.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\PxPhysicsAPI.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation/PxAllocatorCallback.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation/PxAssert.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation/PxBitAndData.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation/PxBounds3.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation/PxTransform.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation/PxQuat.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation/PxVec3.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation/PxMath.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\math.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation/PxIntrinsics.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation/windows/PxWindowsIntrinsics.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt\math.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation/PxPlane.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation/PxMat33.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation/PxErrorCallback.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation/PxErrors.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation/PxFlags.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation/PxFoundation.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation/PxFoundationVersion.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation/PxIO.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation/PxMat44.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation/PxVec4.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation/PxMathUtils.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation/PxStrideIterator.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation/PxUnionCast.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation/PxVec2.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\common/PxCoreUtilityTypes.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation/PxMemory.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\common/PxPhysXCommonConfig.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\common/PxRenderBuffer.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\common/PxBase.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\common\PxSerialFramework.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\common\PxCollection.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\common/PxTypeInfo.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\common/PxTolerancesScale.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\common/PxStringTable.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\common/PxSerializer.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\common/PxMetaData.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\common\PxMetaDataFlags.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\common/PxPhysicsInsertionCallback.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\task/PxTask.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\task/PxTaskDefine.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\task/PxTaskManager.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\task/PxCpuDispatcher.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\task/PxGpuDispatcher.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\task/PxTask.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\gpu/PxGpu.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxPhysXConfig.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager/PxCudaContextManager.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager/PxCudaMemoryManager.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager/PxGpuCopyDesc.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\geometry/PxBoxGeometry.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\geometry/PxGeometry.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\geometry/PxCapsuleGeometry.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\geometry/PxConvexMesh.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\geometry/PxConvexMeshGeometry.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\geometry/PxMeshScale.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\geometry/PxGeometryHelpers.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\geometry\PxSphereGeometry.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\geometry\PxPlaneGeometry.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\geometry\PxTriangleMeshGeometry.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\geometry\PxHeightFieldGeometry.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\geometry/PxGeometryQuery.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxQueryReport.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\geometry/PxHeightField.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\geometry/PxHeightFieldFlag.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\geometry/PxHeightFieldDesc.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\geometry/PxHeightFieldSample.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\geometry/PxMeshQuery.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\geometry/PxSimpleTriangleMesh.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\geometry/PxTriangle.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\geometry/PxTriangleMesh.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxActor.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxClient.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxAggregate.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxArticulation.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxArticulationJoint.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxArticulationLink.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxRigidBody.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxRigidActor.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxShape.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxForceMode.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxBatchQuery.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxBatchQueryDesc.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxFiltering.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxQueryFiltering.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxConstraint.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxConstraintDesc.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxContact.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxContactModifyCallback.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxDeletionListener.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxLockedData.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxMaterial.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxPhysics.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\cloth/PxClothTypes.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\cloth/PxClothFabric.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxPhysicsVersion.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxRigidDynamic.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxRigidStatic.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxScene.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxVisualizationParameter.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxSceneDesc.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxBroadPhase.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxSimulationStatistics.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\particles/PxParticleSystem.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\particles/PxParticleBase.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\particles/PxParticleBaseFlag.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\particles/PxParticleCreationData.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\particles/PxParticleReadData.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\particles\PxParticleFlag.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\particles/PxParticleFluid.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\particles/PxParticleFluidReadData.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\pvd/PxPvdSceneClient.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxSceneLock.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxSimulationEventCallback.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxSpatialIndex.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxVolumeCache.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\PxPruningStructure.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\characterkinematic/PxBoxController.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\characterkinematic/PxCharacter.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\characterkinematic/PxController.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\characterkinematic/PxExtended.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\characterkinematic/PxControllerObstacles.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\characterkinematic/PxCapsuleController.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\characterkinematic/PxControllerBehavior.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\characterkinematic/PxControllerManager.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\cloth/PxCloth.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\cloth/PxClothCollisionData.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\cloth/PxClothParticleData.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\cooking/Pxc.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\cooking/PxConvexMeshDesc.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\cooking/PxCooking.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\cooking/PxTriangleMeshDesc.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\cooking/PxMidphaseDesc.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\cooking/PxBVH33MidphaseDesc.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\cooking/PxBVH34MidphaseDesc.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\extensions/PxDefaultStreams.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\extensions/PxDistanceJoint.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\extensions/PxJoint.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\extensions/PxExtensionsAPI.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\extensions/PxDefaultAllocator.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\extensions/PxConstraintExt.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\extensions/PxFixedJoint.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\extensions/PxPrismaticJoint.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\extensions/PxJointLimit.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\extensions/PxRevoluteJoint.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\extensions/PxSphericalJoint.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\extensions/PxD6Joint.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\extensions/PxDefaultSimulationFilterShader.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\extensions/PxDefaultErrorCallback.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\extensions/PxRigidActorExt.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\extensions/PxRigidBodyExt.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\extensions/PxMassProperties.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\extensions/PxShapeExt.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\extensions/PxParticleExt.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\extensions/PxTriangleMeshExt.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\extensions/PxSerialization.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\extensions/PxDefaultCpuDispatcher.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\extensions/PxSmoothNormals.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\extensions/PxSimpleFactory.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\extensions/PxStringTableExt.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\extensions/PxClothFabricCooker.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\extensions\PxClothMeshDesc.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\extensions/PxBroadPhaseExt.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\extensions/PxClothMeshQuadifier.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\extensions/PxSceneQueryExt.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\extensions/PxConvexMeshExt.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\extensions/PxBinaryConverter.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\extensions/PxRepXSerializer.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\extensions/PxRepXSimpleType.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\vehicle/PxVehicleComponents.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\vehicle\PxVehicleSDK.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\vehicle/PxVehicleDrive.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\vehicle/PxVehicleWheels.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\vehicle/PxVehicleShaders.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\vehicle/PxVehicleDrive4W.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\vehicle/PxVehicleDriveTank.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\vehicle/PxVehicleTireFriction.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\vehicle/PxVehicleUpdate.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\vehicle/PxVehicleUtilControl.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\vehicle/PxVehicleDriveNW.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\vehicle/PxVehicleUtilSetup.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\vehicle/PxVehicleUtilTelemetry.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\vehicle/PxVehicleNoDrive.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd/PxPvd.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation/PxProfiler.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd/PxPvdTransport.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions\PxCollectionExt.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\PxImmediateMode.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\solver/PxSolverDefs.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\GeomUtils/GuContactPoint.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\collision/PxCollisionDefs.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\physx_3.4\include\GeomUtils/GuContactBuffer.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\Apex.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\ApexUsingNamespace.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\ApexDefs.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3\PhysXSDKVersion.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\ApexDesc.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\ApexInterface.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\RWLockable.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\ApexSDK.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\nvparameterized/NvSerializer.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf/PxFileBuf.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\nvparameterized\NvSerializer.inl
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\nvparameterized\NvParameterized.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\nvparameterized\NvParameterized.inl
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\nvparameterized/NvParameterizedMacroses.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\nvparameterized\NvParameterized_types.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\nvparameterized\NvParameterizedTraits.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\Shape.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\Actor.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\Context.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\ApexNameSpace.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\PhysXObjectDesc.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\RenderDataProvider.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\Renderable.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\AssetPreview.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\Asset.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\AssetPreviewScene.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\RenderContext.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\Scene.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\RenderDebugInterface.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public\RenderDebugTyped.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\shared\general\renderdebug\public\RenderDebug.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\MirrorScene.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\ApexSDKCachedData.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\IProgressListener.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\Module.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\IosAsset.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\RenderDataFormat.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\RenderBufferData.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\UserRenderResourceManager.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\UserRenderVertexBufferDesc.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\UserRenderInstanceBufferDesc.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\UserRenderSpriteBufferDesc.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\UserRenderIndexBufferDesc.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\UserRenderBoneBufferDesc.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\UserRenderResourceDesc.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\UserRenderSurfaceBufferDesc.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\UserRenderSurfaceBuffer.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\UserRenderResource.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\UserRenderVertexBuffer.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\UserRenderInstanceBuffer.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\UserRenderSpriteBuffer.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\UserRenderIndexBuffer.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\UserRenderBoneBuffer.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\UserRenderer.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\VertexFormat.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\RenderMesh.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\RenderMeshActorDesc.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\RenderMeshActor.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\RenderMeshAsset.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\ResourceCallback.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\ResourceProvider.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\destructible/ModuleDestructible.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\destructible/DestructibleAsset.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\destructible\FractureToolsAPI.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\destructible\ExplicitHierarchicalMesh.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\ConvexHullMethod.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\destructible\FractureToolsStructs.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\destructible/DestructibleActor.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing/ModuleClothing.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing/ClothingAsset.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing/ClothingActor.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing/ClothingCollision.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy\ModuleLegacy.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized\NvParamUtils.h
+c:\program files\epic games\ue_4.24\engine\source\thirdparty\physx3\apex_1.4\include\nvparameterized\NvParamUtils.inl
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkGroupValue.cpp
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkInitBank.cpp
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkLateReverbComponent.cpp
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkMediaAsset.cpp
+d:\default\bat ideas\visionresonare\project\visionresonare\visionresonare\plugins\wwise\source\akaudio\private\AkUnrealIOHook.h
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkReverbVolume.cpp
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Source\AkAudio\Classes\AkReverbVolume.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkReverbVolume.generated.h
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkRoomComponent.cpp
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkRtpc.cpp
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkSettings.cpp
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Source\AkAudio\Classes\AkSettingsPerUser.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkSettingsPerUser.generated.h
+d:\default\bat ideas\visionresonare\project\visionresonare\visionresonare\plugins\wwise\source\akaudio\private\StringMatchAlgos/Array2D.h
+d:\default\bat ideas\visionresonare\project\visionresonare\visionresonare\plugins\wwise\source\akaudio\private\StringMatchAlgos/StringMatching.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/FileHelper.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Classes\Settings/ProjectPackagingSettings.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\ProjectPackagingSettings.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Developer\SettingsEditor/Public/ISettingsEditorModule.h
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkSettingsPerUser.cpp
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkSpatialAudioVolume.cpp
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Source\AkAudio\Classes\AkSpatialAudioVolume.h
+d:\default\bat ideas\visionresonare\project\visionresonare\visionresonare\plugins\wwise\source\akaudio\classes\AkSurfaceReflectorSetComponent.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/TextRenderComponent.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TextRenderComponent.generated.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkSurfaceReflectorSetComponent.generated.h
+D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Inc\AkAudio\AkSpatialAudioVolume.generated.h
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkSpotReflector.cpp
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkStateValue.cpp
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkSurfaceReflectorSetComponent.cpp
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkSwitchValue.cpp
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkTrigger.cpp
+D:/Default/Bat Ideas/VisionResonare/Project/VisionResonare/VisionResonare/Plugins/Wwise/Source/AkAudio/Private/AkUnrealHelper.cpp
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Developer\SharedSettingsWidgets\Public\SSettingsEditorCheckoutNotice.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Developer\SourceControl\Public\ISourceControlModule.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Slate\Public\Widgets/Input/SHyperlink.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Slate\Public\Widgets/Accessibility/SlateAccessibleWidgets.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Widgets/Accessibility/SlateCoreAccessibleWidgets.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SExpandableArea.h

@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-AudiokineticTools.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Intermediate\Build\Win64\VisionResonareEditor\Development\UnrealEd\SharedPCH.UnrealEd.h.obj"
+"D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Development\AudiokineticTools\Module.AudiokineticTools.cpp.obj"
+"D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Development\AudiokineticTools\Module.AudiokineticTools.gen.cpp.obj"
+"D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Development\AudiokineticTools\Default.rc2.res"
+/OUT:"D:\Default\Bat Ideas\VisionResonare\Project\VisionResonare\VisionResonare\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Development\AudiokineticTools\UE4Editor-AudiokineticTools.lib"
+/INCLUDE:IMPLEMENT_MODULE_AudiokineticTools
