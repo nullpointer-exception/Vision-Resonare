@@ -6,6 +6,7 @@
 */DerivedDataCache
 */Intermediate
 */Saved
+!*/Plugins/Wwise/**/*.lib
 
 ######################
 # VS Generated Files #
