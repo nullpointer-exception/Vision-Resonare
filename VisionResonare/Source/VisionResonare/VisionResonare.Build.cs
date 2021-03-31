@@ -12,12 +12,23 @@ public class VisionResonare : ModuleRules
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
-		// Uncomment if you are using Slate UI
-		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
-		
-		// Uncomment if you are using online features
-		// PrivateDependencyModuleNames.Add("OnlineSubsystem");
+        // Uncomment if you are using Slate UI
+        // PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
 
-		// To include OnlineSubsystemSteam, add it to the plugins section in your uproject file with the Enabled attribute set to true
-	}
+        // Uncomment if you are using online features
+        // PrivateDependencyModuleNames.Add("OnlineSubsystem");
+
+        // To include OnlineSubsystemSteam, add it to the plugins section in your uproject file with the Enabled attribute set to true
+
+        //Dirty fix for the strange bug which requires that UELinkerFixups must be destroyed each time
+        //modifications are made sounde wise...
+        string DevelopmentDir = Path.GetFullPath(Path.Combine(ModuleDirectory, "../../Intermediate/Build/Win64/VisionResonareEditor/Development/"));
+        string UELinkerFixupsDir = DevelopmentDir + "UELinkerFixups";
+        try
+        {
+            File.Delete(DevelopmentDir + "Makefile.ubt");
+            Directory.Delete(UELinkerFixupsDir, true);
+        }
+        catch (System.Exception) { }
+    }
 }
